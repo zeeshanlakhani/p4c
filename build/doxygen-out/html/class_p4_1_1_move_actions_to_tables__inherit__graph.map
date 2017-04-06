@@ -1,0 +1,5 @@
+<map id="P4::MoveActionsToTables" name="P4::MoveActionsToTables">
+<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="41,152,144,177"/>
+<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="63,5,121,31"/>
+<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="91,79,171,104"/>
+</map>
