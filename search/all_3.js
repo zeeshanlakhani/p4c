@@ -6,6 +6,7 @@ var searchData=
   ['declaration_5finstance',['Declaration_Instance',['../class_i_r_1_1_declaration___instance.html',1,'IR']]],
   ['declaration_5fmatchkind',['Declaration_MatchKind',['../class_i_r_1_1_declaration___match_kind.html',1,'IR']]],
   ['declaration_5fvariable',['Declaration_Variable',['../class_i_r_1_1_declaration___variable.html',1,'IR']]],
+  ['defaultaction',['DefaultAction',['../namespace_p4_1_1_control_plane_a_p_i.html#struct_p4_1_1_control_plane_a_p_i_1_1_default_action',1,'P4::ControlPlaneAPI']]],
   ['defaultexpression',['DefaultExpression',['../class_i_r_1_1_default_expression.html',1,'IR']]],
   ['definitions',['Definitions',['../struct_p4_1_1_parser_structure_impl_1_1_definitions.html',1,'P4::ParserStructureImpl']]],
   ['definitions',['Definitions',['../class_p4_1_1_definitions.html',1,'P4']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['controlplaneapi',['ControlPlaneAPI',['../namespace_p4_1_1_control_plane_a_p_i.html',1,'P4']]],
   ['p4test_20backend',['P4test Backend',['../md___users_cascaval__barefoot__projects__p4_src_p4c_backends_p4test__r_e_a_d_m_e.html',1,'']]],
   ['p4_20compiler_20intermediate_20representation',['P4 Compiler Intermediate representation',['../md___users_cascaval__barefoot__projects__p4_src_p4c_docs__i_r.html',1,'']]],
   ['p4action',['P4Action',['../class_i_r_1_1_p4_action.html',1,'IR']]],
@@ -9,6 +10,10 @@ var searchData=
   ['p4exception_5fmodel',['P4Exception_Model',['../class_p4_1_1_p4_exception___model.html',1,'P4']]],
   ['p4parser',['P4Parser',['../class_i_r_1_1_p4_parser.html',1,'IR']]],
   ['p4program',['P4Program',['../class_i_r_1_1_p4_program.html',1,'IR']]],
+  ['p4runtimeserializer',['P4RuntimeSerializer',['../class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_serializer.html',1,'P4::ControlPlaneAPI']]],
+  ['p4runtimesymboltable',['P4RuntimeSymbolTable',['../class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_symbol_table.html',1,'P4::ControlPlaneAPI']]],
+  ['p4runtimesymboltype',['P4RuntimeSymbolType',['../namespace_p4_1_1_control_plane_a_p_i.html#a3b04fd588422467193cae4ccaf6df88d',1,'P4::ControlPlaneAPI']]],
+  ['p4symbolsuffixset',['P4SymbolSuffixSet',['../struct_p4_1_1_control_plane_a_p_i_1_1_p4_symbol_suffix_set.html',1,'P4::ControlPlaneAPI']]],
   ['p4table',['P4Table',['../class_i_r_1_1_p4_table.html',1,'IR']]],
   ['p4writecontext',['P4WriteContext',['../class_p4_write_context.html',1,'']]],
   ['packageblock',['PackageBlock',['../class_i_r_1_1_package_block.html',1,'IR']]],

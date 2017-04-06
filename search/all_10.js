@@ -26,5 +26,6 @@ var searchData=
   ['resolvereferences',['ResolveReferences',['../class_p4_1_1_resolve_references.html',1,'P4']]],
   ['returnstatement',['ReturnStatement',['../class_i_r_1_1_return_statement.html',1,'IR']]],
   ['rewriteallparsers',['RewriteAllParsers',['../class_p4_1_1_rewrite_all_parsers.html',1,'P4']]],
-  ['rewritetablekeys',['RewriteTableKeys',['../class_p4_1_1_do_local_copy_propagation_1_1_rewrite_table_keys.html',1,'P4::DoLocalCopyPropagation']]]
+  ['rewritetablekeys',['RewriteTableKeys',['../class_p4_1_1_do_local_copy_propagation_1_1_rewrite_table_keys.html',1,'P4::DoLocalCopyPropagation']]],
+  ['root',['root',['../struct_p4_1_1_control_plane_a_p_i_1_1_header_field_path.html#a72ce36ec7865569572a6a68144b78d1c',1,'P4::ControlPlaneAPI::HeaderFieldPath']]]
 ];

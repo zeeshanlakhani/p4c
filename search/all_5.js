@@ -14,6 +14,8 @@ var searchData=
   ['findsymbols',['FindSymbols',['../class_p4_1_1_find_symbols.html',1,'P4']]],
   ['fixupchecksum',['FixupChecksum',['../class_b_m_v2_1_1_fixup_checksum.html',1,'BMV2']]],
   ['fixupextern',['FixupExtern',['../class_p4_v1_1_1_program_structure_1_1_fixup_extern.html',1,'P4V1::ProgramStructure']]],
+  ['from',['from',['../struct_p4_1_1_control_plane_a_p_i_1_1_header_field_path.html#a4103ad606a3ab5f08663ec1ddcac42bf',1,'P4::ControlPlaneAPI::HeaderFieldPath::from()'],['../struct_p4_1_1_control_plane_a_p_i_1_1_counterlike.html#a15478c8d000fee2516f750fce7db5061',1,'P4::ControlPlaneAPI::Counterlike::from()']]],
+  ['fromdirect',['fromDirect',['../struct_p4_1_1_control_plane_a_p_i_1_1_counterlike.html#acac62e2ec8720a3d6c8f71cffa280e85',1,'P4::ControlPlaneAPI::Counterlike']]],
   ['frontend',['FrontEnd',['../class_p4_1_1_front_end.html',1,'P4']]],
   ['frontendlast',['FrontEndLast',['../class_p4_1_1_front_end_last.html',1,'P4']]],
   ['function',['Function',['../class_i_r_1_1_function.html',1,'IR']]]

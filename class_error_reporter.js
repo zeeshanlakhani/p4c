@@ -1,6 +1,7 @@
 var class_error_reporter =
 [
     [ "bug_message", "class_error_reporter.html#ae31f4c43517c6f1c7938f2c6904900a8", null ],
+    [ "clear", "class_error_reporter.html#af735c89af8fbe072d5915f76e63ee09d", null ],
     [ "error", "class_error_reporter.html#aa1e312179e4c1150ed73f2cd0a53b97e", null ],
     [ "format_message", "class_error_reporter.html#a3c884e8f455ea820f9163f90d9fc4597", null ],
     [ "getErrorCount", "class_error_reporter.html#ae5c42aa70178ad779f3f7abb29c6c25f", null ],

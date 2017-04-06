@@ -5,6 +5,7 @@ var class_util_1_1_program_structure =
       [ "Type", "class_util_1_1_program_structure.html#af0a78f6841209e864c1de6e2801060e6aa1fa27779242b4902f7ae3bdd5c6d508", null ]
     ] ],
     [ "ProgramStructure", "class_util_1_1_program_structure.html#a7e46819abaf64b454cfdf2344753e551", null ],
+    [ "clear", "class_util_1_1_program_structure.html#a6a3eb5a2c52790df01d7e8b8889285bd", null ],
     [ "clearPath", "class_util_1_1_program_structure.html#af92ce4f264ce29de1b8fb00fe254bc8c", null ],
     [ "declareObject", "class_util_1_1_program_structure.html#a8294fdf6c6a95e688d4bf55466021b5d", null ],
     [ "declareType", "class_util_1_1_program_structure.html#abbe59233d786c37f6818a36cc131d387", null ],

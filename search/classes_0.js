@@ -10,6 +10,7 @@ var searchData=
   ['actionlist',['ActionList',['../class_i_r_1_1_action_list.html',1,'IR']]],
   ['actionlistelement',['ActionListElement',['../class_i_r_1_1_action_list_element.html',1,'IR']]],
   ['actionprofile',['ActionProfile',['../class_i_r_1_1_action_profile.html',1,'IR']]],
+  ['actionprofile',['ActionProfile',['../struct_p4_1_1_control_plane_a_p_i_1_1_action_profile.html',1,'P4::ControlPlaneAPI']]],
   ['actionprofile_5fmodel',['ActionProfile_Model',['../struct_p4_v1_1_1_action_profile___model.html',1,'P4V1']]],
   ['actionreplacement',['ActionReplacement',['../class_p4_1_1_action_replacement.html',1,'P4']]],
   ['actionselector',['ActionSelector',['../class_i_r_1_1_action_selector.html',1,'IR']]],

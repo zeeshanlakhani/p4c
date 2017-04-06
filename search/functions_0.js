@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['cache_5fsize',['cache_size',['../classcstring.html#a5247cc3f2485b28d234500aa20573a3d',1,'cstring']]],
-  ['converttableentries',['convertTableEntries',['../class_b_m_v2_1_1_json_converter.html#a532674a8af110765696e232f62d4ffcd',1,'BMV2::JsonConverter']]]
+  ['add',['add',['../class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_symbol_table.html#ad4c65f658d831ca0df4d6c5786836671',1,'P4::ControlPlaneAPI::P4RuntimeSymbolTable']]],
+  ['addsymbol',['addSymbol',['../struct_p4_1_1_control_plane_a_p_i_1_1_p4_symbol_suffix_set.html#a0dea86d37cb14fbef0f3f1527678a406',1,'P4::ControlPlaneAPI::P4SymbolSuffixSet']]],
+  ['append',['append',['../struct_p4_1_1_control_plane_a_p_i_1_1_header_field_path.html#aafba8e44116186105414da1c28060bfd',1,'P4::ControlPlaneAPI::HeaderFieldPath']]]
 ];

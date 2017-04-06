@@ -66,6 +66,7 @@ var annotated_dup =
       [ "Type_Model", "struct_model_1_1_type___model.html", "struct_model_1_1_type___model" ]
     ] ],
     [ "P4", null, [
+      [ "ControlPlaneAPI", "namespace_p4_1_1_control_plane_a_p_i.html", "namespace_p4_1_1_control_plane_a_p_i" ],
       [ "ParserStructureImpl", null, [
         [ "AllDefinitions", "struct_p4_1_1_parser_structure_impl_1_1_all_definitions.html", "struct_p4_1_1_parser_structure_impl_1_1_all_definitions" ],
         [ "Definitions", "struct_p4_1_1_parser_structure_impl_1_1_definitions.html", "struct_p4_1_1_parser_structure_impl_1_1_definitions" ],

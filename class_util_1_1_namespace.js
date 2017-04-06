@@ -1,6 +1,7 @@
 var class_util_1_1_namespace =
 [
     [ "Namespace", "class_util_1_1_namespace.html#af982ba7e381c6d2af49de6986ddb4d4c", null ],
+    [ "clear", "class_util_1_1_namespace.html#abc2e0a8143a54a6409e70c5dc09451a9", null ],
     [ "declare", "class_util_1_1_namespace.html#a0305042eb77d197634a086fcd857a7ec", null ],
     [ "dump", "class_util_1_1_namespace.html#af4a38cb41099d91ef802eb7218501c2d", null ],
     [ "lookup", "class_util_1_1_namespace.html#a4fb003458e20e4a7e2128b2c53393de4", null ],

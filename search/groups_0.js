@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['intermediate_20representation',['Intermediate Representation',['../group__irdefs.html',1,'']]]
+  ['control_20plane_20api_20generation',['Control Plane API Generation',['../group__control__plane.html',1,'']]]
 ];
