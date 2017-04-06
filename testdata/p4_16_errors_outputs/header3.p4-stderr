@@ -1,6 +1,0 @@
-../testdata/p4_16_errors/header3.p4(18): error: Field field1 of header H cannot have type Tuple(2)
-    tuple<bit, bit> field1;
-                    ^^^^^^
-../testdata/p4_16_errors/header3.p4(18)
-    tuple<bit, bit> field1;
-    ^^^^^^^^^^^^^^^

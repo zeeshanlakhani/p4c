@@ -1,4 +1,0 @@
-extern Annotated {
-    Annotated();
-}
-

@@ -1,6 +1,0 @@
-../testdata/p4_16_errors/action-bind.p4(23): error: y: argument does not match declaration in actions list: x
-        default_action = a(y, 0);
-                           ^
-../testdata/p4_16_errors/action-bind.p4(22)
-        actions = { a(x); }
-                      ^

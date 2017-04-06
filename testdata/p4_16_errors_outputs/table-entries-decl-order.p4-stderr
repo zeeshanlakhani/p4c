@@ -1,3 +1,0 @@
-../testdata/p4_16_errors/table-entries-decl-order.p4(64): error: Could not find type for table key Key
-   key = {
-          ^
