@@ -1,5 +1,5 @@
 <map id="P4::UniqueNames" name="P4::UniqueNames">
-<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="19,155,121,181"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="41,5,99,32"/>
-<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="69,80,151,107"/>
+<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="18,152,122,177"/>
+<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="41,5,99,31"/>
+<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="69,79,149,104"/>
 </map>

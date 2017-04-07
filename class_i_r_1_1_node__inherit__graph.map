@@ -1,50 +1,50 @@
 <map id="IR::Node" name="IR::Node">
-<area shape="rect" id="node5" href="$group__irdefs.html#class_i_r_1_1_action_function" title="IR::ActionFunction" alt="" coords="485,5,615,32"/>
-<area shape="rect" id="node6" href="$group__irdefs.html#class_i_r_1_1_action_list_element" title="IR::ActionListElement" alt="" coords="475,56,625,83"/>
-<area shape="rect" id="node7" href="$class_i_r_1_1_annotation.html" title="Most P4 entities can be optionally annotated. " alt="" coords="497,107,603,133"/>
-<area shape="rect" id="node8" href="$class_i_r_1_1_annotations.html" title="IR::Annotations" alt="" coords="493,157,607,184"/>
-<area shape="rect" id="node9" href="$class_i_r_1_1_argument_info.html" title="Never used in the program IR; only used by typechecker. " alt="" coords="489,208,611,235"/>
-<area shape="rect" id="node10" href="$group__irdefs.html#class_i_r_1_1_attached" title="IR::Attached" alt="" coords="502,259,598,285"/>
-<area shape="rect" id="node13" href="$group__irdefs.html#class_i_r_1_1_attrib_locals" title="IR::AttribLocals" alt="" coords="493,309,607,336"/>
-<area shape="rect" id="node14" href="$group__irdefs.html#class_i_r_1_1_block" title="IR::Block" alt="" coords="511,360,589,387"/>
-<area shape="rect" id="node15" href="$group__irdefs.html#class_i_r_1_1_calculated_field" title="IR::CalculatedField" alt="" coords="483,411,617,437"/>
-<area shape="rect" id="node16" href="$group__irdefs.html#class_i_r_1_1_case_entry" title="IR::CaseEntry" alt="" coords="497,461,603,488"/>
-<area shape="rect" id="node17" href="$group__irdefs.html#class_i_r_1_1_declaration___match_kind" title="IR::Declaration_MatchKind" alt="" coords="461,512,639,539"/>
-<area shape="rect" id="node18" href="$group__irdefs.html#class_i_r_1_1_entry" title="Pre&#45;defined entry in a table. " alt="" coords="513,563,587,589"/>
-<area shape="rect" id="node19" href="$class_i_r_1_1_expression.html" title="IR::Expression" alt="" coords="495,613,605,640"/>
-<area shape="rect" id="node20" href="$group__irdefs.html#class_i_r_1_1_field_list" title="IR::FieldList" alt="" coords="503,664,597,691"/>
-<area shape="rect" id="node21" href="$group__irdefs.html#class_i_r_1_1_field_list_calculation" title="IR::FieldListCalculation" alt="" coords="471,715,629,741"/>
-<area shape="rect" id="node22" href="$group__irdefs.html#class_i_r_1_1_header_or_metadata" title="IR::HeaderOrMetadata" alt="" coords="473,765,627,792"/>
-<area shape="rect" id="node23" href="$group__irdefs.html#class_i_r_1_1_key_element" title="IR::KeyElement" alt="" coords="493,816,607,843"/>
-<area shape="rect" id="node24" href="$group__irdefs.html#class_i_r_1_1_name_list" title="IR::NameList" alt="" coords="500,867,600,893"/>
-<area shape="rect" id="node25" href="$class_i_r_1_1_name_map.html" title="IR::NameMap\&lt; T, MAP,\l COMP, ALLOC \&gt;" alt="" coords="467,918,633,959"/>
-<area shape="rect" id="node26" href="$class_i_r_1_1_node_map.html" title="IR::NodeMap\&lt; KEY, VALUE,\l MAP, COMP, ALLOC \&gt;" alt="" coords="453,983,647,1025"/>
-<area shape="rect" id="node27" href="$group__irdefs.html#class_i_r_1_1_p4_program" title="IR::P4Program" alt="" coords="495,1049,605,1076"/>
-<area shape="rect" id="node28" href="$class_i_r_1_1_parameter_list.html" title="IR::ParameterList" alt="" coords="487,1100,613,1127"/>
-<area shape="rect" id="node29" href="$group__irdefs.html#class_i_r_1_1_parser_exception" title="IR::ParserException" alt="" coords="480,1151,620,1177"/>
-<area shape="rect" id="node30" href="$class_i_r_1_1_path.html" title="IR::Path" alt="" coords="515,1201,585,1228"/>
-<area shape="rect" id="node31" href="$group__irdefs.html#class_i_r_1_1_primitive_action" title="IR::PrimitiveAction" alt="" coords="484,1252,616,1279"/>
-<area shape="rect" id="node32" href="$group__irdefs.html#class_i_r_1_1_property_value" title="IR::PropertyValue" alt="" coords="487,1303,613,1329"/>
-<area shape="rect" id="node33" href="$group__irdefs.html#class_i_r_1_1_select_case" title="IR::SelectCase" alt="" coords="494,1353,606,1380"/>
-<area shape="rect" id="node34" href="$class_i_r_1_1_stat_or_decl.html" title="A statement or a declaration. " alt="" coords="495,1404,605,1431"/>
-<area shape="rect" id="node35" href="$group__irdefs.html#class_i_r_1_1_switch_case" title="IR::SwitchCase" alt="" coords="493,1455,607,1481"/>
-<area shape="rect" id="node36" href="$group__irdefs.html#class_i_r_1_1_table_properties" title="IR::TableProperties" alt="" coords="483,1505,617,1532"/>
-<area shape="rect" id="node37" href="$class_i_r_1_1_type.html" title="Base class for P4 types. " alt="" coords="513,1556,587,1583"/>
-<area shape="rect" id="node38" href="$class_i_r_1_1_type_parameters.html" title="IR::TypeParameters" alt="" coords="480,1607,620,1633"/>
-<area shape="rect" id="node39" href="$group__irdefs.html#class_i_r_1_1_v1_control" title="IR::V1Control" alt="" coords="499,1657,601,1684"/>
-<area shape="rect" id="node40" href="$group__irdefs.html#class_i_r_1_1v1_header_type" title="IR::v1HeaderType" alt="" coords="485,1708,615,1735"/>
-<area shape="rect" id="node41" href="$group__irdefs.html#class_i_r_1_1_v1_parser" title="IR::V1Parser" alt="" coords="501,1759,599,1785"/>
-<area shape="rect" id="node42" href="$group__irdefs.html#class_i_r_1_1_v1_program" title="IR::V1Program" alt="" coords="495,1809,605,1836"/>
-<area shape="rect" id="node43" href="$group__irdefs.html#class_i_r_1_1_v1_table" title="IR::V1Table" alt="" coords="504,1860,596,1887"/>
-<area shape="rect" id="node44" href="$class_i_r_1_1_vector_base.html" title="IR::VectorBase" alt="" coords="494,1911,606,1937"/>
-<area shape="rect" id="node45" href="$class_i_r_1_1_name_map.html" title="IR::NameMap\&lt; IR::AttribLocal \&gt;" alt="" coords="444,1961,656,1988"/>
-<area shape="rect" id="node46" href="$class_i_r_1_1_name_map.html" title="IR::NameMap\&lt; IR::Attribute,\l ordered_map \&gt;" alt="" coords="455,2013,645,2054"/>
-<area shape="rect" id="node47" href="$class_i_r_1_1_name_map.html" title="IR::NameMap\&lt; IR::Node,\l std::multimap \&gt;" alt="" coords="463,2078,637,2119"/>
-<area shape="rect" id="node48" href="$class_i_r_1_1_name_map.html" title="IR::NameMap\&lt; IR::Property \&gt;" alt="" coords="451,2144,649,2171"/>
-<area shape="rect" id="node49" href="$class_i_r_1_1_name_map.html" title="IR::NameMap\&lt; IR::Vector\l\&lt; IR::Expression \&gt; \&gt;" alt="" coords="462,2195,638,2237"/>
-<area shape="rect" id="node2" href="$class_i_r_1_1_i_node.html" title="IR::INode" alt="" coords="195,1100,273,1127"/>
-<area shape="rect" id="node3" href="$class_util_1_1_i_has_source_info.html" title="Util::IHasSourceInfo" alt="" coords="5,1075,147,1101"/>
-<area shape="rect" id="node4" href="$class_i_has_db_print.html" title="IHasDbPrint" alt="" coords="29,1125,123,1152"/>
-<area shape="rect" id="node11" href="$group__irdefs.html#class_i_r_1_1_action_profile" title="IR::ActionProfile" alt="" coords="709,233,828,260"/>
-<area shape="rect" id="node12" href="$group__irdefs.html#class_i_r_1_1_action_selector" title="IR::ActionSelector" alt="" coords="704,284,833,311"/>
+<area shape="rect" id="node5" href="$group__irdefs.html#class_i_r_1_1_action_function" title="IR::ActionFunction" alt="" coords="481,5,611,31"/>
+<area shape="rect" id="node6" href="$group__irdefs.html#class_i_r_1_1_action_list_element" title="IR::ActionListElement" alt="" coords="472,55,620,80"/>
+<area shape="rect" id="node7" href="$class_i_r_1_1_annotation.html" title="Most P4 entities can be optionally annotated. " alt="" coords="493,104,599,129"/>
+<area shape="rect" id="node8" href="$class_i_r_1_1_annotations.html" title="IR::Annotations" alt="" coords="490,153,602,179"/>
+<area shape="rect" id="node9" href="$class_i_r_1_1_argument_info.html" title="Never used in the program IR; only used by typechecker. " alt="" coords="485,203,607,228"/>
+<area shape="rect" id="node10" href="$group__irdefs.html#class_i_r_1_1_attached" title="IR::Attached" alt="" coords="499,252,593,277"/>
+<area shape="rect" id="node13" href="$group__irdefs.html#class_i_r_1_1_attrib_locals" title="IR::AttribLocals" alt="" coords="490,301,602,327"/>
+<area shape="rect" id="node14" href="$group__irdefs.html#class_i_r_1_1_block" title="IR::Block" alt="" coords="509,351,583,376"/>
+<area shape="rect" id="node15" href="$group__irdefs.html#class_i_r_1_1_calculated_field" title="IR::CalculatedField" alt="" coords="479,400,613,425"/>
+<area shape="rect" id="node16" href="$group__irdefs.html#class_i_r_1_1_case_entry" title="IR::CaseEntry" alt="" coords="494,449,598,475"/>
+<area shape="rect" id="node17" href="$group__irdefs.html#class_i_r_1_1_declaration___match_kind" title="IR::Declaration_MatchKind" alt="" coords="456,499,636,524"/>
+<area shape="rect" id="node18" href="$group__irdefs.html#class_i_r_1_1_entry" title="Pre&#45;defined entry in a table. " alt="" coords="509,548,583,573"/>
+<area shape="rect" id="node19" href="$class_i_r_1_1_expression.html" title="IR::Expression" alt="" coords="492,597,600,623"/>
+<area shape="rect" id="node20" href="$group__irdefs.html#class_i_r_1_1_field_list" title="IR::FieldList" alt="" coords="500,647,592,672"/>
+<area shape="rect" id="node21" href="$group__irdefs.html#class_i_r_1_1_field_list_calculation" title="IR::FieldListCalculation" alt="" coords="467,696,625,721"/>
+<area shape="rect" id="node22" href="$group__irdefs.html#class_i_r_1_1_header_or_metadata" title="IR::HeaderOrMetadata" alt="" coords="468,745,624,771"/>
+<area shape="rect" id="node23" href="$group__irdefs.html#class_i_r_1_1_key_element" title="IR::KeyElement" alt="" coords="489,795,603,820"/>
+<area shape="rect" id="node24" href="$group__irdefs.html#class_i_r_1_1_name_list" title="IR::NameList" alt="" coords="497,844,595,869"/>
+<area shape="rect" id="node25" href="$class_i_r_1_1_name_map.html" title="IR::NameMap\&lt; T, MAP,\l COMP, ALLOC \&gt;" alt="" coords="466,893,626,932"/>
+<area shape="rect" id="node26" href="$class_i_r_1_1_node_map.html" title="IR::NodeMap\&lt; KEY, VALUE,\l MAP, COMP, ALLOC \&gt;" alt="" coords="451,956,641,995"/>
+<area shape="rect" id="node27" href="$group__irdefs.html#class_i_r_1_1_p4_program" title="IR::P4Program" alt="" coords="491,1019,601,1044"/>
+<area shape="rect" id="node28" href="$class_i_r_1_1_parameter_list.html" title="IR::ParameterList" alt="" coords="483,1068,609,1093"/>
+<area shape="rect" id="node29" href="$group__irdefs.html#class_i_r_1_1_parser_exception" title="IR::ParserException" alt="" coords="476,1117,616,1143"/>
+<area shape="rect" id="node30" href="$class_i_r_1_1_path.html" title="IR::Path" alt="" coords="511,1167,581,1192"/>
+<area shape="rect" id="node31" href="$group__irdefs.html#class_i_r_1_1_primitive_action" title="IR::PrimitiveAction" alt="" coords="481,1216,611,1241"/>
+<area shape="rect" id="node32" href="$group__irdefs.html#class_i_r_1_1_property_value" title="IR::PropertyValue" alt="" coords="483,1265,609,1291"/>
+<area shape="rect" id="node33" href="$group__irdefs.html#class_i_r_1_1_select_case" title="IR::SelectCase" alt="" coords="491,1315,601,1340"/>
+<area shape="rect" id="node34" href="$class_i_r_1_1_stat_or_decl.html" title="A statement or a declaration. " alt="" coords="492,1364,600,1389"/>
+<area shape="rect" id="node35" href="$group__irdefs.html#class_i_r_1_1_switch_case" title="IR::SwitchCase" alt="" coords="490,1413,602,1439"/>
+<area shape="rect" id="node36" href="$group__irdefs.html#class_i_r_1_1_table_properties" title="IR::TableProperties" alt="" coords="479,1463,613,1488"/>
+<area shape="rect" id="node37" href="$class_i_r_1_1_type.html" title="Base class for P4 types. " alt="" coords="510,1512,581,1537"/>
+<area shape="rect" id="node38" href="$class_i_r_1_1_type_parameters.html" title="IR::TypeParameters" alt="" coords="476,1561,616,1587"/>
+<area shape="rect" id="node39" href="$group__irdefs.html#class_i_r_1_1_v1_control" title="IR::V1Control" alt="" coords="495,1611,597,1636"/>
+<area shape="rect" id="node40" href="$group__irdefs.html#class_i_r_1_1v1_header_type" title="IR::v1HeaderType" alt="" coords="482,1660,610,1685"/>
+<area shape="rect" id="node41" href="$group__irdefs.html#class_i_r_1_1_v1_parser" title="IR::V1Parser" alt="" coords="497,1709,595,1735"/>
+<area shape="rect" id="node42" href="$group__irdefs.html#class_i_r_1_1_v1_program" title="IR::V1Program" alt="" coords="491,1759,601,1784"/>
+<area shape="rect" id="node43" href="$group__irdefs.html#class_i_r_1_1_v1_table" title="IR::V1Table" alt="" coords="501,1808,591,1833"/>
+<area shape="rect" id="node44" href="$class_i_r_1_1_vector_base.html" title="IR::VectorBase" alt="" coords="491,1857,601,1883"/>
+<area shape="rect" id="node45" href="$class_i_r_1_1_name_map.html" title="IR::NameMap\&lt; IR::AttribLocal \&gt;" alt="" coords="441,1907,651,1932"/>
+<area shape="rect" id="node46" href="$class_i_r_1_1_name_map.html" title="IR::NameMap\&lt; IR::Attribute,\l ordered_map \&gt;" alt="" coords="451,1956,641,1995"/>
+<area shape="rect" id="node47" href="$class_i_r_1_1_name_map.html" title="IR::NameMap\&lt; IR::Node,\l std::multimap \&gt;" alt="" coords="460,2019,632,2057"/>
+<area shape="rect" id="node48" href="$class_i_r_1_1_name_map.html" title="IR::NameMap\&lt; IR::Property \&gt;" alt="" coords="447,2081,645,2107"/>
+<area shape="rect" id="node49" href="$class_i_r_1_1_name_map.html" title="IR::NameMap\&lt; IR::Vector\l\&lt; IR::Expression \&gt; \&gt;" alt="" coords="459,2131,633,2169"/>
+<area shape="rect" id="node2" href="$class_i_r_1_1_i_node.html" title="IR::INode" alt="" coords="193,1068,271,1093"/>
+<area shape="rect" id="node3" href="$class_util_1_1_i_has_source_info.html" title="Util::IHasSourceInfo" alt="" coords="5,1043,145,1068"/>
+<area shape="rect" id="node4" href="$class_i_has_db_print.html" title="IHasDbPrint" alt="" coords="29,1092,122,1117"/>
+<area shape="rect" id="node11" href="$group__irdefs.html#class_i_r_1_1_action_profile" title="IR::ActionProfile" alt="" coords="705,228,822,253"/>
+<area shape="rect" id="node12" href="$group__irdefs.html#class_i_r_1_1_action_selector" title="IR::ActionSelector" alt="" coords="699,277,827,303"/>
 </map>

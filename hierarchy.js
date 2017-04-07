@@ -71,7 +71,7 @@ var hierarchy =
       [ "Util::AsEnumerator< T, S >", "class_util_1_1_as_enumerator.html", null ],
       [ "Util::MapEnumerator< T, S >", "class_util_1_1_map_enumerator.html", null ]
     ] ],
-    [ "Util::Enumerator< Util::Enumerator< T > * >", "class_util_1_1_enumerator.html", null ],
+    [ "Util::Enumerator< Util::Enumerator< T > *>", "class_util_1_1_enumerator.html", null ],
     [ "ErrorReporter", "class_error_reporter.html", null ],
     [ "hex", "classhex.html", null ],
     [ "hexvec", "classhexvec.html", null ],
@@ -426,10 +426,10 @@ var hierarchy =
       ] ],
       [ "P4::TypeSubstitution< T >", "class_p4_1_1_type_substitution.html", null ],
       [ "P4::ValueMap", "class_p4_1_1_value_map.html", null ],
-      [ "P4::TypeSubstitution< const IR::ITypeVar * >", "class_p4_1_1_type_substitution.html", [
+      [ "P4::TypeSubstitution< const IR::ITypeVar *>", "class_p4_1_1_type_substitution.html", [
         [ "P4::TypeVariableSubstitution", "class_p4_1_1_type_variable_substitution.html", null ]
       ] ],
-      [ "P4::TypeSubstitution< const IR::Type_Name * >", "class_p4_1_1_type_substitution.html", [
+      [ "P4::TypeSubstitution< const IR::Type_Name *>", "class_p4_1_1_type_substitution.html", [
         [ "P4::TypeNameSubstitution", "class_p4_1_1_type_name_substitution.html", null ]
       ] ]
     ] ],
@@ -496,25 +496,25 @@ var hierarchy =
     [ "n4", "classn4.html", null ],
     [ "ordered_map< K, V, COMP, ALLOC >", "classordered__map.html", null ],
     [ "ordered_map< const IR::ConstructorCallExpression *, cstring >", "classordered__map.html", null ],
-    [ "ordered_map< const IR::Declaration_Instance *, P4::CallInfo * >", "classordered__map.html", null ],
-    [ "ordered_map< const IR::Node *, const IR::CompileTimeValue * >", "classordered__map.html", null ],
-    [ "ordered_map< const IR::Node *, const IR::P4Action * >", "classordered__map.html", null ],
-    [ "ordered_map< const IR::Node *, P4::SpecializationInfo * >", "classordered__map.html", null ],
-    [ "ordered_map< const IR::P4Action *, const IR::P4Action * >", "classordered__map.html", null ],
-    [ "ordered_map< const IR::Type *, const IR::Type_Struct * >", "classordered__map.html", null ],
-    [ "ordered_map< cstring, const IR::IDeclaration * >", "classordered__map.html", null ],
-    [ "ordered_map< cstring, IJson * >", "classordered__map.html", [
+    [ "ordered_map< const IR::Declaration_Instance *, P4::CallInfo *>", "classordered__map.html", null ],
+    [ "ordered_map< const IR::Node *, const IR::CompileTimeValue *>", "classordered__map.html", null ],
+    [ "ordered_map< const IR::Node *, const IR::P4Action *>", "classordered__map.html", null ],
+    [ "ordered_map< const IR::Node *, P4::SpecializationInfo *>", "classordered__map.html", null ],
+    [ "ordered_map< const IR::P4Action *, const IR::P4Action *>", "classordered__map.html", null ],
+    [ "ordered_map< const IR::Type *, const IR::Type_Struct *>", "classordered__map.html", null ],
+    [ "ordered_map< cstring, const IR::IDeclaration *>", "classordered__map.html", null ],
+    [ "ordered_map< cstring, IJson *>", "classordered__map.html", [
       [ "Util::JsonObject", "class_util_1_1_json_object.html", null ]
     ] ],
-    [ "ordered_map< cstring, P4::ComplexValues::Component * >", "classordered__map.html", null ],
-    [ "ordered_map< cstring, std::vector< cstring > * >", "classordered__map.html", null ],
-    [ "ordered_map< std::string, JsonData * >", "classordered__map.html", [
+    [ "ordered_map< cstring, P4::ComplexValues::Component *>", "classordered__map.html", null ],
+    [ "ordered_map< cstring, std::vector< cstring > *>", "classordered__map.html", null ],
+    [ "ordered_map< std::string, JsonData *>", "classordered__map.html", [
       [ "JsonObject", "class_json_object.html", null ]
     ] ],
-    [ "ordered_map< T, std::vector< T > * >", "classordered__map.html", null ],
+    [ "ordered_map< T, std::vector< T > *>", "classordered__map.html", null ],
     [ "ordered_set< T, COMP, ALLOC >", "classordered__set.html", null ],
-    [ "ordered_set< BMV2::CFG::BMV2::CFG::Edge * >", "classordered__set.html", null ],
-    [ "ordered_set< BMV2::CFG::Node * >", "classordered__set.html", null ],
+    [ "ordered_set< BMV2::CFG::BMV2::CFG::Edge *>", "classordered__set.html", null ],
+    [ "ordered_set< BMV2::CFG::Node *>", "classordered__set.html", null ],
     [ "ordered_set< cstring >", "classordered__set.html", null ],
     [ "ordered_set< T >", "classordered__set.html", null ],
     [ "P4::ActionCallInfo", "struct_p4_1_1_action_call_info.html", null ],
@@ -663,25 +663,25 @@ var hierarchy =
       [ "JsonVector", "class_json_vector.html", null ],
       [ "Util::JsonArray", "class_util_1_1_json_array.html", null ],
       [ "vector< T, _Alloc >", "classvector.html", null ],
-      [ "vector< const IR::ActionArg * >", "classvector.html", null ],
-      [ "vector< const IR::Annotation * >", "classvector.html", null ],
-      [ "vector< const IR::ArgumentInfo * >", "classvector.html", null ],
-      [ "vector< const IR::CaseEntry * >", "classvector.html", null ],
-      [ "vector< const IR::Declaration * >", "classvector.html", null ],
-      [ "vector< const IR::Entry * >", "classvector.html", null ],
-      [ "vector< const IR::Expression * >", "classvector.html", null ],
-      [ "vector< const IR::KeyElement * >", "classvector.html", null ],
-      [ "vector< const IR::Method * >", "classvector.html", null ],
-      [ "vector< const IR::Primitive * >", "classvector.html", null ],
-      [ "vector< const IR::SelectCase * >", "classvector.html", null ],
-      [ "vector< const IR::SwitchCase * >", "classvector.html", null ],
-      [ "vector< const IR::Type * >", "classvector.html", null ],
-      [ "vector< const T * >", "classvector.html", null ],
+      [ "vector< const IR::ActionArg *>", "classvector.html", null ],
+      [ "vector< const IR::Annotation *>", "classvector.html", null ],
+      [ "vector< const IR::ArgumentInfo *>", "classvector.html", null ],
+      [ "vector< const IR::CaseEntry *>", "classvector.html", null ],
+      [ "vector< const IR::Declaration *>", "classvector.html", null ],
+      [ "vector< const IR::Entry *>", "classvector.html", null ],
+      [ "vector< const IR::Expression *>", "classvector.html", null ],
+      [ "vector< const IR::KeyElement *>", "classvector.html", null ],
+      [ "vector< const IR::Method *>", "classvector.html", null ],
+      [ "vector< const IR::Primitive *>", "classvector.html", null ],
+      [ "vector< const IR::SelectCase *>", "classvector.html", null ],
+      [ "vector< const IR::SwitchCase *>", "classvector.html", null ],
+      [ "vector< const IR::Type *>", "classvector.html", null ],
+      [ "vector< const T *>", "classvector.html", null ],
       [ "vector< DebugHook >", "classvector.html", null ],
       [ "vector< IR::CalculatedField::update_or_verify >", "classvector.html", null ],
       [ "vector< IR::ID >", "classvector.html", null ],
-      [ "vector< std::pair< const IR::Constant *, const IR::Constant * > >", "classvector.html", null ],
-      [ "vector< Visitor * >", "classvector.html", null ]
+      [ "vector< std::pair< const IR::Constant *, const IR::Constant *> >", "classvector.html", null ],
+      [ "vector< Visitor *>", "classvector.html", null ]
     ] ],
     [ "StringRef", "struct_string_ref.html", null ],
     [ "StringRef::Split", "class_string_ref_1_1_split.html", null ],

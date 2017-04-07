@@ -1,6 +1,6 @@
 var class_p4_1_1_remove_unused_declarations =
 [
-    [ "RemoveUnusedDeclarations", "class_p4_1_1_remove_unused_declarations.html#a77f8397fd5dfc7bd209e47b9355717e1", null ],
+    [ "RemoveUnusedDeclarations", "class_p4_1_1_remove_unused_declarations.html#a0dd6bcf4e377578fd49fc6eabce639e1", null ],
     [ "giveWarning", "class_p4_1_1_remove_unused_declarations.html#aaf098956487c2e1631b573f5a68d2ba3", null ],
     [ "init_apply", "class_p4_1_1_remove_unused_declarations.html#a42329a2035e9fd627ab6609d66b6c52e", null ],
     [ "preorder", "class_p4_1_1_remove_unused_declarations.html#a879b75e10b0ac95db0cfa07b4b32f17f", null ],

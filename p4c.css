@@ -8,10 +8,10 @@ img.footer {
 }
 
 li.footer::before {
-    content: "Generated on Fri Apr  7 15:22:15 PDT 2017 for";
+    content: "Generated on Fri Apr  7 16:52:35 PDT 2017 for";
     vertical-align: top;
 }
 
 address.footer::before {
-    content: "<small>Generated on Fri Apr  7 15:22:15 PDT 2017 for &#160;</small>" ;
+    content: "<small>Generated on Fri Apr  7 16:52:35 PDT 2017 for &#160;</small>" ;
 }

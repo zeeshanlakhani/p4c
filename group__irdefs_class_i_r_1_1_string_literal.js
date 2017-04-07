@@ -9,7 +9,7 @@ var group__irdefs_class_i_r_1_1_string_literal =
     [ "dbprint", "group__irdefs.html#ga81520532ce4b528d02a8618c30664108", null ],
     [ "dump_fields", "group__irdefs.html#ga3e148b9f960fdd936227df7520cd69ed", null ],
     [ "node_type_name", "group__irdefs.html#gaaf639538fcf1bf5d09626bfccc80c52e", null ],
-    [ "operator IR::ID", "group__irdefs.html#ga505f99ccba752d6d6ffad32801b04d3a", null ],
+    [ "operator IR::ID", "group__irdefs.html#ga9de96798d27c26392cf31528bbb97b52", null ],
     [ "operator==", "group__irdefs.html#gaac5853ac7866983d4aa8ba7c319a6373", null ],
     [ "operator==", "group__irdefs.html#ga3104506f76b4bd99783d1fc56120a891", null ],
     [ "operator==", "group__irdefs.html#gab6aa48c3d8c701a2b6dc96b4a84c4492", null ],

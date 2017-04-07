@@ -3,7 +3,7 @@ var group__irdefs_class_i_r_1_1_p4_parser =
     [ "P4Parser", "group__irdefs.html#ga218da9da9d98313292c26252e78ac4f0", null ],
     [ "P4Parser", "group__irdefs.html#ga53ae6fbeff18ecdf51581d0119837915", null ],
     [ "P4Parser", "group__irdefs.html#gab3a320b43a54c8c833fee319d90493f6", null ],
-    [ "checkDuplicates", "group__irdefs.html#ga69a08300d9fa596d11c29a480905a58d", null ],
+    [ "checkDuplicates", "group__irdefs.html#ga1a35fe355dca63306bf384fa8fc4d1b9", null ],
     [ "dbprint", "group__irdefs.html#ga433dab9dda53a93258b0f91011328ecb", null ],
     [ "getApplyMethodType", "group__irdefs.html#ga9eaef80f6e9a5a22ec7f2dc5b0beb836", null ],
     [ "getConstructorMethodType", "group__irdefs.html#ga2fa8ba335623d2e4dd994def99423329", null ],

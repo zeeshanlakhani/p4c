@@ -1,5 +1,5 @@
 <map id="P4::EliminateTuples" name="P4::EliminateTuples">
-<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="23,155,126,181"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="45,5,104,32"/>
-<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="74,80,155,107"/>
+<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="23,152,127,177"/>
+<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="46,5,104,31"/>
+<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="74,79,154,104"/>
 </map>

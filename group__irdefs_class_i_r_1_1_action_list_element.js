@@ -6,7 +6,7 @@ var group__irdefs_class_i_r_1_1_action_list_element =
     [ "dbprint", "group__irdefs.html#ga57b31142cf010769f313bf6f2c9be47c", null ],
     [ "getAnnotations", "group__irdefs.html#ga5d6f0e95adbfdaabf18b35f16f92067a", null ],
     [ "getName", "group__irdefs.html#gaf0359e50d72a6d849a2613211403c044", null ],
-    [ "getPath", "group__irdefs.html#ga5a3b0b23688df36c57b1dbc823e0c451", null ],
+    [ "getPath", "group__irdefs.html#gacd5b8826e53630862427e19b5edd91d2", null ],
     [ "node_type_name", "group__irdefs.html#ga3c98a6e3c6edbe5c1be767a8c3d0f578", null ],
     [ "operator==", "group__irdefs.html#ga1f38f1368bba8bbdce2d5d75c8ea07b6", null ],
     [ "operator==", "group__irdefs.html#ga47aad2ecddc959dc4f2a1f6d40142316", null ],

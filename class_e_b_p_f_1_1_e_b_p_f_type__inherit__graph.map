@@ -1,8 +1,8 @@
 <map id="EBPF::EBPFType" name="EBPF::EBPFType">
-<area shape="rect" id="node3" href="$class_e_b_p_f_1_1_e_b_p_f_bool_type.html" title="EBPF::EBPFBoolType" alt="" coords="375,5,530,32"/>
-<area shape="rect" id="node4" href="$class_e_b_p_f_1_1_e_b_p_f_enum_type.html" title="EBPF::EBPFEnumType" alt="" coords="371,56,534,83"/>
-<area shape="rect" id="node5" href="$class_e_b_p_f_1_1_e_b_p_f_scalar_type.html" title="EBPF::EBPFScalarType" alt="" coords="369,107,536,133"/>
-<area shape="rect" id="node6" href="$class_e_b_p_f_1_1_e_b_p_f_struct_type.html" title="EBPF::EBPFStructType" alt="" coords="371,157,535,184"/>
-<area shape="rect" id="node7" href="$class_e_b_p_f_1_1_e_b_p_f_type_name.html" title="EBPF::EBPFTypeName" alt="" coords="371,208,535,235"/>
-<area shape="rect" id="node2" href="$class_e_b_p_f_1_1_e_b_p_f_object.html" title="EBPF::EBPFObject" alt="" coords="5,107,144,133"/>
+<area shape="rect" id="node3" href="$class_e_b_p_f_1_1_e_b_p_f_bool_type.html" title="EBPF::EBPFBoolType" alt="" coords="371,5,525,31"/>
+<area shape="rect" id="node4" href="$class_e_b_p_f_1_1_e_b_p_f_enum_type.html" title="EBPF::EBPFEnumType" alt="" coords="367,55,529,80"/>
+<area shape="rect" id="node5" href="$class_e_b_p_f_1_1_e_b_p_f_scalar_type.html" title="EBPF::EBPFScalarType" alt="" coords="366,104,531,129"/>
+<area shape="rect" id="node6" href="$class_e_b_p_f_1_1_e_b_p_f_struct_type.html" title="EBPF::EBPFStructType" alt="" coords="367,153,529,179"/>
+<area shape="rect" id="node7" href="$class_e_b_p_f_1_1_e_b_p_f_type_name.html" title="EBPF::EBPFTypeName" alt="" coords="367,203,530,228"/>
+<area shape="rect" id="node2" href="$class_e_b_p_f_1_1_e_b_p_f_object.html" title="EBPF::EBPFObject" alt="" coords="5,104,142,129"/>
 </map>

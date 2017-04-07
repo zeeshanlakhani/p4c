@@ -5,5 +5,5 @@ var classvector =
     [ "reference", "classvector.html#a5de368e7e1ad22d90e75daaf89fc5aa1", null ],
     [ "size_type", "classvector.html#a6f61ab0e8e9bfef671eb224955726b3a", null ],
     [ "operator[]", "classvector.html#a474cc397144b38174276d2b425c52bbc", null ],
-    [ "operator[]", "classvector.html#a3e14398e773905f075eddb521550aafe", null ]
+    [ "operator[]", "classvector.html#a4a6a99180ed84f1def3a978b3f189719", null ]
 ];

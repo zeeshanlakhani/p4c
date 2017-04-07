@@ -1,5 +1,5 @@
 <map id="P4::SideEffectOrdering" name="P4::SideEffectOrdering">
-<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="32,155,135,181"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="54,5,113,32"/>
-<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="83,80,164,107"/>
+<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="32,152,136,177"/>
+<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="55,5,113,31"/>
+<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="83,79,163,104"/>
 </map>

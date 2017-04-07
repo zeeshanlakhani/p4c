@@ -1,5 +1,5 @@
 <map id="P4::LocalCopyPropagation" name="P4::LocalCopyPropagation">
-<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="43,155,145,181"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="65,5,123,32"/>
-<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="93,80,175,107"/>
+<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="44,152,147,177"/>
+<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="66,5,124,31"/>
+<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="94,79,174,104"/>
 </map>
