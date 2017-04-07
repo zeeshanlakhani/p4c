@@ -104,14 +104,14 @@ $(document).ready(function(){initNavTree('struct_p4_1_1_extern_instance.html',''
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0ceabef5929cf1e206731d0d086d4cf"><td class="memItemLeft" align="right" valign="top">static boost::optional&lt; <a class="el" href="struct_p4_1_1_extern_instance.html">ExternInstance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_p4_1_1_extern_instance.html#ac0ceabef5929cf1e206731d0d086d4cf">resolve</a> (const <a class="el" href="class_i_r_1_1_expression.html">IR::Expression</a> *expr, <a class="el" href="class_p4_1_1_reference_map.html">ReferenceMap</a> *refMap, <a class="el" href="class_p4_1_1_type_map.html">TypeMap</a> *typeMap, const boost::optional&lt; <a class="el" href="classcstring.html">cstring</a> &gt; &amp;defaultName=boost::none)</td></tr>
 <tr class="separator:ac0ceabef5929cf1e206731d0d086d4cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a381b6b1140a2e997670e9436c3d3f7ea"><td class="memItemLeft" align="right" valign="top">static boost::optional&lt; <a class="el" href="struct_p4_1_1_extern_instance.html">ExternInstance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_p4_1_1_extern_instance.html#a381b6b1140a2e997670e9436c3d3f7ea">resolve</a> (const <a class="el" href="class_i_r_1_1_path_expression.html">IR::PathExpression</a> *path, <a class="el" href="class_p4_1_1_reference_map.html">ReferenceMap</a> *refMap, <a class="el" href="class_p4_1_1_type_map.html">TypeMap</a> *typeMap)</td></tr>
+<tr class="memitem:a381b6b1140a2e997670e9436c3d3f7ea"><td class="memItemLeft" align="right" valign="top">static boost::optional&lt; <a class="el" href="struct_p4_1_1_extern_instance.html">ExternInstance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_p4_1_1_extern_instance.html#a381b6b1140a2e997670e9436c3d3f7ea">resolve</a> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_path_expression">IR::PathExpression</a> *path, <a class="el" href="class_p4_1_1_reference_map.html">ReferenceMap</a> *refMap, <a class="el" href="class_p4_1_1_type_map.html">TypeMap</a> *typeMap)</td></tr>
 <tr class="separator:a381b6b1140a2e997670e9436c3d3f7ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">if it has external information about what the name should be.</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><dl class="section return"><dt>Returns</dt><dd>the extern instance that  resolves to, if any, or boost::none otherwise.</dd></dl>
 <p>Anonymous instances do not have a name, but the caller may provide one via </p>
 </div></td></tr>
 <tr class="memitem:aa06870ed744fcc4c31b7cd1bdfc61f30"><td class="memItemLeft" align="right" valign="top"><a id="aa06870ed744fcc4c31b7cd1bdfc61f30"></a>
-static boost::optional&lt; <a class="el" href="struct_p4_1_1_extern_instance.html">ExternInstance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>resolve</b> (const <a class="el" href="class_i_r_1_1_constructor_call_expression.html">IR::ConstructorCallExpression</a> *constructorCallExpr, <a class="el" href="class_p4_1_1_reference_map.html">ReferenceMap</a> *refMap, <a class="el" href="class_p4_1_1_type_map.html">TypeMap</a> *typeMap, const boost::optional&lt; <a class="el" href="classcstring.html">cstring</a> &gt; &amp;name=boost::none)</td></tr>
+static boost::optional&lt; <a class="el" href="struct_p4_1_1_extern_instance.html">ExternInstance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>resolve</b> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_constructor_call_expression">IR::ConstructorCallExpression</a> *constructorCallExpr, <a class="el" href="class_p4_1_1_reference_map.html">ReferenceMap</a> *refMap, <a class="el" href="class_p4_1_1_type_map.html">TypeMap</a> *typeMap, const boost::optional&lt; <a class="el" href="classcstring.html">cstring</a> &gt; &amp;name=boost::none)</td></tr>
 <tr class="separator:aa06870ed744fcc4c31b7cd1bdfc61f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -198,7 +198,7 @@ const <a class="el" href="class_i_r_1_1_type___extern.html">IR::Type_Extern</a> 
         <tr>
           <td class="memname">boost::optional&lt; <a class="el" href="struct_p4_1_1_extern_instance.html">ExternInstance</a> &gt; P4::ExternInstance::resolve </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_i_r_1_1_path_expression.html">IR::PathExpression</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__irdefs.html#class_i_r_1_1_path_expression">IR::PathExpression</a> *&#160;</td>
           <td class="paramname"><em>path</em>, </td>
         </tr>
         <tr>
@@ -236,7 +236,7 @@ const <a class="el" href="class_i_r_1_1_type___extern.html">IR::Type_Extern</a> 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>P4</b></li><li class="navelem"><a class="el" href="struct_p4_1_1_extern_instance.html">ExternInstance</a></li>
-    <li class="footer">Generated on Thu Apr 6 2017 for
+    <li class="footer">Generated on Fri Apr 7 2017 for
     <a href="http://p4.org/spec">
     <img class="footer" src="p4-logo.png" alt="P4 Org" /></a></li>
   </ul>

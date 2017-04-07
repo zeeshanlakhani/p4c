@@ -101,13 +101,13 @@ $(document).ready(function(){initNavTree('md___users_cascaval__barefoot__project
 <ul>
 <li>the P4_14 (P4 v1.0) language is described in the P4 spec: <a href="http://p4.org/wp-content/uploads/2015/04/p4-latest.pdf">http://p4.org/wp-content/uploads/2015/04/p4-latest.pdf</a></li>
 <li>the P4_16 draft language is described in <a href="http://p4.org/wp-content/uploads/2016/12/P4_16-prerelease-Dec_16.pdf">this pdf document</a>. This language is still under revision.</li>
-<li>the core design of the compiler intermediate representation (<a class="el" href="namespace_i_r.html" title="a value that can be evaluated at compile-time ">IR</a>) and the visitor patterns are briefly described in IR</li>
+<li>the core design of the compiler intermediate representation (<a class="el" href="namespace_i_r.html" title="A general namespace can have multiple declarations with the same name. ">IR</a>) and the visitor patterns are briefly described in IR</li>
 <li>The <a href="migration-guide.pptx">migration guide</a> describes how P4_14 (v1.0) programs are translated into P4_16 programs</li>
 <li>The <a href="compiler-design.pptx">compiler design</a> describes the salient features of the compiler design and implementation; this document has several subsections:<ul>
 <li>Compiler goals</li>
 <li>Compiler architecture</li>
 <li>Source code organization</li>
-<li><a class="el" href="namespace_i_r.html" title="a value that can be evaluated at compile-time ">IR</a> and visitors; recipes</li>
+<li><a class="el" href="namespace_i_r.html" title="A general namespace can have multiple declarations with the same name. ">IR</a> and visitors; recipes</li>
 <li>A guide to the existing passes</li>
 <li>Discussion of the three sample back-ends</li>
 </ul>
@@ -185,7 +185,7 @@ $(document).ready(function(){initNavTree('md___users_cascaval__barefoot__project
 <li>use the <code>BUG()</code> macro to signal an exception. This macro is guaranteed to throw an exception.</li>
 <li>use <code>CHECK_NULL()</code> to validate that pointers are not nullptr</li>
 <li>use <code>BUG_CHECK()</code> instead of <code>assert</code>, and always supply an informative error message</li>
-<li>use <code>::error()</code> and <code>::warning()</code> for error reporting. They use the <code>boost::format</code> for the format argument, which has some compatibility for <code>printf</code> arguments. These functions handle <a class="el" href="namespace_i_r.html" title="a value that can be evaluated at compile-time ">IR</a> and SourceInfo objects smartly. Here is an example:</li>
+<li>use <code>::error()</code> and <code>::warning()</code> for error reporting. They use the <code>boost::format</code> for the format argument, which has some compatibility for <code>printf</code> arguments. These functions handle <a class="el" href="namespace_i_r.html" title="A general namespace can have multiple declarations with the same name. ">IR</a> and SourceInfo objects smartly. Here is an example:</li>
 </ul>
 </li>
 </ul>
@@ -207,7 +207,7 @@ $(document).ready(function(){initNavTree('md___users_cascaval__barefoot__project
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 6 2017 for
+    <li class="footer">Generated on Fri Apr 7 2017 for
     <a href="http://p4.org/spec">
     <img class="footer" src="p4-logo.png" alt="P4 Org" /></a></li>
   </ul>

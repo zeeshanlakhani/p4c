@@ -10,7 +10,7 @@ var class_p4_v1_1_1_v1_model =
     [ "counterOrMeter", "class_p4_v1_1_1_v1_model.html#adbc72015897bb05726bec17344777e78", null ],
     [ "deparser", "class_p4_v1_1_1_v1_model.html#a481c895d3121828ac3bca1b1dba8db22", null ],
     [ "digest_receiver", "class_p4_v1_1_1_v1_model.html#a14e6853da9a48f0626d2b003adf81ab7", null ],
-    [ "directCounter", "class_p4_v1_1_1_v1_model.html#a12725400164691938c70a76c71418d6f", null ],
+    [ "directCounter", "class_p4_v1_1_1_v1_model.html#ab4166bbde2ec90ba4430b8d34bfa12ff", null ],
     [ "directMeter", "class_p4_v1_1_1_v1_model.html#a2ab1a2680ab66988c24e6d0325f1f91d", null ],
     [ "drop", "class_p4_v1_1_1_v1_model.html#aa4979953e95eee3059b57ffb5c37afcc", null ],
     [ "egress", "class_p4_v1_1_1_v1_model.html#a3fad0afdc87b8b41e65e7ded9e77169d", null ],

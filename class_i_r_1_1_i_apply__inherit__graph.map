@@ -1,7 +1,7 @@
 <map id="IR::IApply" name="IR::IApply">
-<area shape="rect" id="node5" href="$class_i_r_1_1_p4_control.html" title="IR::P4Control" alt="" coords="456,5,557,31"/>
-<area shape="rect" id="node6" href="$class_i_r_1_1_p4_parser.html" title="IR::P4Parser" alt="" coords="458,55,556,80"/>
-<area shape="rect" id="node7" href="$class_i_r_1_1_p4_table.html" title="IR::P4Table" alt="" coords="462,104,552,129"/>
+<area shape="rect" id="node5" href="$group__irdefs.html#class_i_r_1_1_p4_control" title="IR::P4Control" alt="" coords="456,5,557,31"/>
+<area shape="rect" id="node6" href="$group__irdefs.html#class_i_r_1_1_p4_parser" title="IR::P4Parser" alt="" coords="458,55,556,80"/>
+<area shape="rect" id="node7" href="$group__irdefs.html#class_i_r_1_1_p4_table" title="IR::P4Table" alt="" coords="462,104,552,129"/>
 <area shape="rect" id="node8" href="$class_i_r_1_1_type___control.html" title="IR::Type_Control" alt="" coords="446,153,567,179"/>
 <area shape="rect" id="node9" href="$class_i_r_1_1_type___parser.html" title="IR::Type_Parser" alt="" coords="448,203,566,228"/>
 <area shape="rect" id="node10" href="$class_i_r_1_1_type___table.html" title="IR::Type_Table" alt="" coords="452,252,562,277"/>

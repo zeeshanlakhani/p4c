@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['fieldlist',['FieldList',['../class_i_r_1_1_field_list.html',1,'IR']]],
-  ['fieldlistcalculation',['FieldListCalculation',['../class_i_r_1_1_field_list_calculation.html',1,'IR']]],
+  ['fieldlist',['FieldList',['../group__irdefs.html#class_i_r_1_1_field_list',1,'IR']]],
+  ['fieldlistcalculation',['FieldListCalculation',['../group__irdefs.html#class_i_r_1_1_field_list_calculation',1,'IR']]],
   ['fieldsmap',['FieldsMap',['../struct_p4_1_1_complex_values_1_1_fields_map.html',1,'P4::ComplexValues']]],
   ['filter_5fmodel',['Filter_Model',['../struct_e_b_p_f_1_1_filter___model.html',1,'EBPF']]],
   ['filterenumerator',['FilterEnumerator',['../class_util_1_1_filter_enumerator.html',1,'Util']]],
@@ -18,5 +18,5 @@ var searchData=
   ['fromdirect',['fromDirect',['../struct_p4_1_1_control_plane_a_p_i_1_1_counterlike.html#acac62e2ec8720a3d6c8f71cffa280e85',1,'P4::ControlPlaneAPI::Counterlike']]],
   ['frontend',['FrontEnd',['../class_p4_1_1_front_end.html',1,'P4']]],
   ['frontendlast',['FrontEndLast',['../class_p4_1_1_front_end_last.html',1,'P4']]],
-  ['function',['Function',['../class_i_r_1_1_function.html',1,'IR']]]
+  ['function',['Function',['../group__irdefs.html#class_i_r_1_1_function',1,'IR']]]
 ];

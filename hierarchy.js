@@ -79,34 +79,34 @@ var hierarchy =
       [ "BMV2::CFG", "class_b_m_v2_1_1_c_f_g.html", null ],
       [ "IR::INode", "class_i_r_1_1_i_node.html", [
         [ "IR::CompileTimeValue", "class_i_r_1_1_compile_time_value.html", [
-          [ "IR::Block", "class_i_r_1_1_block.html", [
-            [ "IR::InstantiatedBlock", "class_i_r_1_1_instantiated_block.html", [
-              [ "IR::ControlBlock", "class_i_r_1_1_control_block.html", null ],
-              [ "IR::ExternBlock", "class_i_r_1_1_extern_block.html", null ],
-              [ "IR::PackageBlock", "class_i_r_1_1_package_block.html", null ],
-              [ "IR::ParserBlock", "class_i_r_1_1_parser_block.html", null ]
+          [ "IR::Block", "group__irdefs.html#class_i_r_1_1_block", [
+            [ "IR::InstantiatedBlock", "group__irdefs.html#class_i_r_1_1_instantiated_block", [
+              [ "IR::ControlBlock", "group__irdefs.html#class_i_r_1_1_control_block", null ],
+              [ "IR::ExternBlock", "group__irdefs.html#class_i_r_1_1_extern_block", null ],
+              [ "IR::PackageBlock", "group__irdefs.html#class_i_r_1_1_package_block", null ],
+              [ "IR::ParserBlock", "group__irdefs.html#class_i_r_1_1_parser_block", null ]
             ] ],
-            [ "IR::TableBlock", "class_i_r_1_1_table_block.html", null ],
-            [ "IR::ToplevelBlock", "class_i_r_1_1_toplevel_block.html", null ]
+            [ "IR::TableBlock", "group__irdefs.html#class_i_r_1_1_table_block", null ],
+            [ "IR::ToplevelBlock", "group__irdefs.html#class_i_r_1_1_toplevel_block", null ]
           ] ],
           [ "IR::Declaration_ID", "class_i_r_1_1_declaration___i_d.html", null ],
-          [ "IR::Literal", "class_i_r_1_1_literal.html", [
-            [ "IR::BoolLiteral", "class_i_r_1_1_bool_literal.html", null ],
-            [ "IR::Constant", "class_i_r_1_1_constant.html", null ],
-            [ "IR::StringLiteral", "class_i_r_1_1_string_literal.html", null ]
+          [ "IR::Literal", "group__irdefs.html#class_i_r_1_1_literal", [
+            [ "IR::BoolLiteral", "group__irdefs.html#class_i_r_1_1_bool_literal", null ],
+            [ "IR::Constant", "group__irdefs.html#class_i_r_1_1_constant", null ],
+            [ "IR::StringLiteral", "group__irdefs.html#class_i_r_1_1_string_literal", null ]
           ] ]
         ] ],
         [ "IR::IAnnotated", "class_i_r_1_1_i_annotated.html", [
-          [ "IR::ActionListElement", "class_i_r_1_1_action_list_element.html", null ],
-          [ "IR::Declaration_Constant", "class_i_r_1_1_declaration___constant.html", null ],
-          [ "IR::Declaration_Instance", "class_i_r_1_1_declaration___instance.html", null ],
-          [ "IR::Declaration_Variable", "class_i_r_1_1_declaration___variable.html", null ],
-          [ "IR::Entry", "class_i_r_1_1_entry.html", null ],
-          [ "IR::P4Action", "class_i_r_1_1_p4_action.html", null ],
-          [ "IR::P4Table", "class_i_r_1_1_p4_table.html", null ],
+          [ "IR::ActionListElement", "group__irdefs.html#class_i_r_1_1_action_list_element", null ],
+          [ "IR::Declaration_Constant", "group__irdefs.html#class_i_r_1_1_declaration___constant", null ],
+          [ "IR::Declaration_Instance", "group__irdefs.html#class_i_r_1_1_declaration___instance", null ],
+          [ "IR::Declaration_Variable", "group__irdefs.html#class_i_r_1_1_declaration___variable", null ],
+          [ "IR::Entry", "group__irdefs.html#class_i_r_1_1_entry", null ],
+          [ "IR::P4Action", "group__irdefs.html#class_i_r_1_1_p4_action", null ],
+          [ "IR::P4Table", "group__irdefs.html#class_i_r_1_1_p4_table", null ],
           [ "IR::Parameter", "class_i_r_1_1_parameter.html", null ],
-          [ "IR::ParserState", "class_i_r_1_1_parser_state.html", null ],
-          [ "IR::Property", "class_i_r_1_1_property.html", null ],
+          [ "IR::ParserState", "group__irdefs.html#class_i_r_1_1_parser_state", null ],
+          [ "IR::Property", "group__irdefs.html#class_i_r_1_1_property", null ],
           [ "IR::StructField", "class_i_r_1_1_struct_field.html", null ],
           [ "IR::Type_ArchBlock", "class_i_r_1_1_type___arch_block.html", [
             [ "IR::Type_Control", "class_i_r_1_1_type___control.html", null ],
@@ -121,43 +121,43 @@ var hierarchy =
           [ "IR::Type_Typedef", "class_i_r_1_1_type___typedef.html", null ]
         ] ],
         [ "IR::IApply", "class_i_r_1_1_i_apply.html", [
-          [ "IR::P4Control", "class_i_r_1_1_p4_control.html", null ],
-          [ "IR::P4Parser", "class_i_r_1_1_p4_parser.html", null ],
-          [ "IR::P4Table", "class_i_r_1_1_p4_table.html", null ],
+          [ "IR::P4Control", "group__irdefs.html#class_i_r_1_1_p4_control", null ],
+          [ "IR::P4Parser", "group__irdefs.html#class_i_r_1_1_p4_parser", null ],
+          [ "IR::P4Table", "group__irdefs.html#class_i_r_1_1_p4_table", null ],
           [ "IR::Type_Control", "class_i_r_1_1_type___control.html", null ],
           [ "IR::Type_Parser", "class_i_r_1_1_type___parser.html", null ],
           [ "IR::Type_Table", "class_i_r_1_1_type___table.html", null ]
         ] ],
         [ "IR::IContainer", "class_i_r_1_1_i_container.html", [
-          [ "IR::P4Control", "class_i_r_1_1_p4_control.html", null ],
-          [ "IR::P4Parser", "class_i_r_1_1_p4_parser.html", null ],
+          [ "IR::P4Control", "group__irdefs.html#class_i_r_1_1_p4_control", null ],
+          [ "IR::P4Parser", "group__irdefs.html#class_i_r_1_1_p4_parser", null ],
           [ "IR::Type_Package", "class_i_r_1_1_type___package.html", null ]
         ] ],
         [ "IR::IDeclaration", "class_i_r_1_1_i_declaration.html", [
-          [ "IR::ActionListElement", "class_i_r_1_1_action_list_element.html", null ],
-          [ "IR::AttribLocal", "class_i_r_1_1_attrib_local.html", null ],
+          [ "IR::ActionListElement", "group__irdefs.html#class_i_r_1_1_action_list_element", null ],
+          [ "IR::AttribLocal", "group__irdefs.html#class_i_r_1_1_attrib_local", null ],
           [ "IR::Declaration", "class_i_r_1_1_declaration.html", [
-            [ "IR::Attribute", "class_i_r_1_1_attribute.html", null ],
-            [ "IR::Declaration_Constant", "class_i_r_1_1_declaration___constant.html", null ],
+            [ "IR::Attribute", "group__irdefs.html#class_i_r_1_1_attribute", null ],
+            [ "IR::Declaration_Constant", "group__irdefs.html#class_i_r_1_1_declaration___constant", null ],
             [ "IR::Declaration_ID", "class_i_r_1_1_declaration___i_d.html", null ],
-            [ "IR::Declaration_Instance", "class_i_r_1_1_declaration___instance.html", null ],
-            [ "IR::Declaration_Variable", "class_i_r_1_1_declaration___variable.html", null ],
-            [ "IR::Function", "class_i_r_1_1_function.html", null ],
+            [ "IR::Declaration_Instance", "group__irdefs.html#class_i_r_1_1_declaration___instance", null ],
+            [ "IR::Declaration_Variable", "group__irdefs.html#class_i_r_1_1_declaration___variable", null ],
+            [ "IR::Function", "group__irdefs.html#class_i_r_1_1_function", null ],
             [ "IR::Method", "class_i_r_1_1_method.html", null ],
-            [ "IR::P4Action", "class_i_r_1_1_p4_action.html", null ],
-            [ "IR::P4Table", "class_i_r_1_1_p4_table.html", null ],
+            [ "IR::P4Action", "group__irdefs.html#class_i_r_1_1_p4_action", null ],
+            [ "IR::P4Table", "group__irdefs.html#class_i_r_1_1_p4_table", null ],
             [ "IR::Parameter", "class_i_r_1_1_parameter.html", null ],
-            [ "IR::ParserState", "class_i_r_1_1_parser_state.html", null ],
-            [ "IR::Property", "class_i_r_1_1_property.html", null ],
+            [ "IR::ParserState", "group__irdefs.html#class_i_r_1_1_parser_state", null ],
+            [ "IR::Property", "group__irdefs.html#class_i_r_1_1_property", null ],
             [ "IR::StructField", "class_i_r_1_1_struct_field.html", null ]
           ] ],
           [ "IR::IContainer", "class_i_r_1_1_i_container.html", null ],
           [ "IR::Type_Declaration", "class_i_r_1_1_type___declaration.html", [
-            [ "IR::P4Control", "class_i_r_1_1_p4_control.html", null ],
-            [ "IR::P4Parser", "class_i_r_1_1_p4_parser.html", null ],
+            [ "IR::P4Control", "group__irdefs.html#class_i_r_1_1_p4_control", null ],
+            [ "IR::P4Parser", "group__irdefs.html#class_i_r_1_1_p4_parser", null ],
             [ "IR::Type_ArchBlock", "class_i_r_1_1_type___arch_block.html", null ],
             [ "IR::Type_Enum", "class_i_r_1_1_type___enum.html", null ],
-            [ "IR::Type_Error", "class_i_r_1_1_type___error.html", null ],
+            [ "IR::Type_Error", "group__irdefs.html#class_i_r_1_1_type___error", null ],
             [ "IR::Type_Extern", "class_i_r_1_1_type___extern.html", null ],
             [ "IR::Type_StructLike", "class_i_r_1_1_type___struct_like.html", null ],
             [ "IR::Type_Typedef", "class_i_r_1_1_type___typedef.html", null ],
@@ -168,18 +168,18 @@ var hierarchy =
           [ "IR::Type_Extern", "class_i_r_1_1_type___extern.html", null ]
         ] ],
         [ "IR::IInstance", "class_i_r_1_1_i_instance.html", [
-          [ "IR::Attached", "class_i_r_1_1_attached.html", [
-            [ "IR::ActionProfile", "class_i_r_1_1_action_profile.html", null ],
-            [ "IR::ActionSelector", "class_i_r_1_1_action_selector.html", null ],
-            [ "IR::Stateful", "class_i_r_1_1_stateful.html", [
-              [ "IR::CounterOrMeter", "class_i_r_1_1_counter_or_meter.html", [
-                [ "IR::Counter", "class_i_r_1_1_counter.html", null ],
-                [ "IR::Meter", "class_i_r_1_1_meter.html", null ]
+          [ "IR::Attached", "group__irdefs.html#class_i_r_1_1_attached", [
+            [ "IR::ActionProfile", "group__irdefs.html#class_i_r_1_1_action_profile", null ],
+            [ "IR::ActionSelector", "group__irdefs.html#class_i_r_1_1_action_selector", null ],
+            [ "IR::Stateful", "group__irdefs.html#class_i_r_1_1_stateful", [
+              [ "IR::CounterOrMeter", "group__irdefs.html#class_i_r_1_1_counter_or_meter", [
+                [ "IR::Counter", "group__irdefs.html#class_i_r_1_1_counter", null ],
+                [ "IR::Meter", "group__irdefs.html#class_i_r_1_1_meter", null ]
               ] ],
-              [ "IR::Register", "class_i_r_1_1_register.html", null ]
+              [ "IR::Register", "group__irdefs.html#class_i_r_1_1_register", null ]
             ] ]
           ] ],
-          [ "IR::Declaration_Instance", "class_i_r_1_1_declaration___instance.html", null ]
+          [ "IR::Declaration_Instance", "group__irdefs.html#class_i_r_1_1_declaration___instance", null ]
         ] ],
         [ "IR::IMayBeGenericType", "class_i_r_1_1_i_may_be_generic_type.html", [
           [ "IR::IContainer", "class_i_r_1_1_i_container.html", null ],
@@ -193,18 +193,18 @@ var hierarchy =
         [ "IR::INamespace", "class_i_r_1_1_i_namespace.html", [
           [ "IR::IGeneralNamespace", "class_i_r_1_1_i_general_namespace.html", null ],
           [ "IR::ISimpleNamespace", "class_i_r_1_1_i_simple_namespace.html", [
-            [ "IR::AttribLocals", "class_i_r_1_1_attrib_locals.html", null ],
-            [ "IR::BlockStatement", "class_i_r_1_1_block_statement.html", null ],
-            [ "IR::Declaration_MatchKind", "class_i_r_1_1_declaration___match_kind.html", null ],
-            [ "IR::P4Action", "class_i_r_1_1_p4_action.html", null ],
-            [ "IR::P4Control", "class_i_r_1_1_p4_control.html", null ],
-            [ "IR::P4Parser", "class_i_r_1_1_p4_parser.html", null ],
-            [ "IR::P4Program", "class_i_r_1_1_p4_program.html", null ],
+            [ "IR::AttribLocals", "group__irdefs.html#class_i_r_1_1_attrib_locals", null ],
+            [ "IR::BlockStatement", "group__irdefs.html#class_i_r_1_1_block_statement", null ],
+            [ "IR::Declaration_MatchKind", "group__irdefs.html#class_i_r_1_1_declaration___match_kind", null ],
+            [ "IR::P4Action", "group__irdefs.html#class_i_r_1_1_p4_action", null ],
+            [ "IR::P4Control", "group__irdefs.html#class_i_r_1_1_p4_control", null ],
+            [ "IR::P4Parser", "group__irdefs.html#class_i_r_1_1_p4_parser", null ],
+            [ "IR::P4Program", "group__irdefs.html#class_i_r_1_1_p4_program", null ],
             [ "IR::ParameterList", "class_i_r_1_1_parameter_list.html", null ],
-            [ "IR::ParserState", "class_i_r_1_1_parser_state.html", null ],
-            [ "IR::TableProperties", "class_i_r_1_1_table_properties.html", null ],
+            [ "IR::ParserState", "group__irdefs.html#class_i_r_1_1_parser_state", null ],
+            [ "IR::TableProperties", "group__irdefs.html#class_i_r_1_1_table_properties", null ],
             [ "IR::Type_Enum", "class_i_r_1_1_type___enum.html", null ],
-            [ "IR::Type_Error", "class_i_r_1_1_type___error.html", null ],
+            [ "IR::Type_Error", "group__irdefs.html#class_i_r_1_1_type___error", null ],
             [ "IR::Type_StructLike", "class_i_r_1_1_type___struct_like.html", null ],
             [ "IR::TypeParameters", "class_i_r_1_1_type_parameters.html", null ]
           ] ]
@@ -215,135 +215,135 @@ var hierarchy =
           [ "IR::Type_Var", "class_i_r_1_1_type___var.html", null ]
         ] ],
         [ "IR::Node", "class_i_r_1_1_node.html", [
-          [ "IR::ActionFunction", "class_i_r_1_1_action_function.html", null ],
-          [ "IR::ActionListElement", "class_i_r_1_1_action_list_element.html", null ],
+          [ "IR::ActionFunction", "group__irdefs.html#class_i_r_1_1_action_function", null ],
+          [ "IR::ActionListElement", "group__irdefs.html#class_i_r_1_1_action_list_element", null ],
           [ "IR::Annotation", "class_i_r_1_1_annotation.html", null ],
           [ "IR::Annotations", "class_i_r_1_1_annotations.html", null ],
           [ "IR::ArgumentInfo", "class_i_r_1_1_argument_info.html", null ],
-          [ "IR::Attached", "class_i_r_1_1_attached.html", null ],
-          [ "IR::AttribLocals", "class_i_r_1_1_attrib_locals.html", null ],
-          [ "IR::Block", "class_i_r_1_1_block.html", null ],
-          [ "IR::CalculatedField", "class_i_r_1_1_calculated_field.html", null ],
-          [ "IR::CaseEntry", "class_i_r_1_1_case_entry.html", null ],
-          [ "IR::Declaration_MatchKind", "class_i_r_1_1_declaration___match_kind.html", null ],
-          [ "IR::Entry", "class_i_r_1_1_entry.html", null ],
+          [ "IR::Attached", "group__irdefs.html#class_i_r_1_1_attached", null ],
+          [ "IR::AttribLocals", "group__irdefs.html#class_i_r_1_1_attrib_locals", null ],
+          [ "IR::Block", "group__irdefs.html#class_i_r_1_1_block", null ],
+          [ "IR::CalculatedField", "group__irdefs.html#class_i_r_1_1_calculated_field", null ],
+          [ "IR::CaseEntry", "group__irdefs.html#class_i_r_1_1_case_entry", null ],
+          [ "IR::Declaration_MatchKind", "group__irdefs.html#class_i_r_1_1_declaration___match_kind", null ],
+          [ "IR::Entry", "group__irdefs.html#class_i_r_1_1_entry", null ],
           [ "IR::Expression", "class_i_r_1_1_expression.html", [
-            [ "IR::ActionArg", "class_i_r_1_1_action_arg.html", null ],
-            [ "IR::Apply", "class_i_r_1_1_apply.html", null ],
-            [ "IR::AttribLocal", "class_i_r_1_1_attrib_local.html", null ],
-            [ "IR::AttributeRef", "class_i_r_1_1_attribute_ref.html", null ],
-            [ "IR::ConstructorCallExpression", "class_i_r_1_1_constructor_call_expression.html", null ],
-            [ "IR::DefaultExpression", "class_i_r_1_1_default_expression.html", null ],
-            [ "IR::GlobalRef", "class_i_r_1_1_global_ref.html", null ],
-            [ "IR::HeaderRef", "class_i_r_1_1_header_ref.html", [
-              [ "IR::ConcreteHeaderRef", "class_i_r_1_1_concrete_header_ref.html", null ],
-              [ "IR::HeaderStackItemRef", "class_i_r_1_1_header_stack_item_ref.html", null ]
+            [ "IR::ActionArg", "group__irdefs.html#class_i_r_1_1_action_arg", null ],
+            [ "IR::Apply", "group__irdefs.html#class_i_r_1_1_apply", null ],
+            [ "IR::AttribLocal", "group__irdefs.html#class_i_r_1_1_attrib_local", null ],
+            [ "IR::AttributeRef", "group__irdefs.html#class_i_r_1_1_attribute_ref", null ],
+            [ "IR::ConstructorCallExpression", "group__irdefs.html#class_i_r_1_1_constructor_call_expression", null ],
+            [ "IR::DefaultExpression", "group__irdefs.html#class_i_r_1_1_default_expression", null ],
+            [ "IR::GlobalRef", "group__irdefs.html#class_i_r_1_1_global_ref", null ],
+            [ "IR::HeaderRef", "group__irdefs.html#class_i_r_1_1_header_ref", [
+              [ "IR::ConcreteHeaderRef", "group__irdefs.html#class_i_r_1_1_concrete_header_ref", null ],
+              [ "IR::HeaderStackItemRef", "group__irdefs.html#class_i_r_1_1_header_stack_item_ref", null ]
             ] ],
-            [ "IR::If", "class_i_r_1_1_if.html", [
-              [ "IR::NamedCond", "class_i_r_1_1_named_cond.html", null ]
+            [ "IR::If", "group__irdefs.html#class_i_r_1_1_if", [
+              [ "IR::NamedCond", "group__irdefs.html#class_i_r_1_1_named_cond", null ]
             ] ],
-            [ "IR::ListExpression", "class_i_r_1_1_list_expression.html", null ],
-            [ "IR::Literal", "class_i_r_1_1_literal.html", null ],
-            [ "IR::MethodCallExpression", "class_i_r_1_1_method_call_expression.html", null ],
+            [ "IR::ListExpression", "group__irdefs.html#class_i_r_1_1_list_expression", null ],
+            [ "IR::Literal", "group__irdefs.html#class_i_r_1_1_literal", null ],
+            [ "IR::MethodCallExpression", "group__irdefs.html#class_i_r_1_1_method_call_expression", null ],
             [ "IR::Operation", "class_i_r_1_1_operation.html", [
-              [ "IR::Operation_Binary", "class_i_r_1_1_operation___binary.html", [
-                [ "IR::Add", "class_i_r_1_1_add.html", null ],
-                [ "IR::ArrayIndex", "class_i_r_1_1_array_index.html", null ],
-                [ "IR::BAnd", "class_i_r_1_1_b_and.html", null ],
-                [ "IR::BOr", "class_i_r_1_1_b_or.html", null ],
-                [ "IR::BXor", "class_i_r_1_1_b_xor.html", null ],
-                [ "IR::Concat", "class_i_r_1_1_concat.html", null ],
-                [ "IR::Div", "class_i_r_1_1_div.html", null ],
-                [ "IR::LAnd", "class_i_r_1_1_l_and.html", null ],
-                [ "IR::LOr", "class_i_r_1_1_l_or.html", null ],
-                [ "IR::Mask", "class_i_r_1_1_mask.html", null ],
-                [ "IR::Mod", "class_i_r_1_1_mod.html", null ],
-                [ "IR::Mul", "class_i_r_1_1_mul.html", null ],
-                [ "IR::Operation_Relation", "class_i_r_1_1_operation___relation.html", [
-                  [ "IR::Equ", "class_i_r_1_1_equ.html", null ],
-                  [ "IR::Geq", "class_i_r_1_1_geq.html", null ],
-                  [ "IR::Grt", "class_i_r_1_1_grt.html", null ],
-                  [ "IR::Leq", "class_i_r_1_1_leq.html", null ],
-                  [ "IR::Lss", "class_i_r_1_1_lss.html", null ],
-                  [ "IR::Neq", "class_i_r_1_1_neq.html", null ]
+              [ "IR::Operation_Binary", "group__irdefs.html#class_i_r_1_1_operation___binary", [
+                [ "IR::Add", "group__irdefs.html#class_i_r_1_1_add", null ],
+                [ "IR::ArrayIndex", "group__irdefs.html#class_i_r_1_1_array_index", null ],
+                [ "IR::BAnd", "group__irdefs.html#class_i_r_1_1_b_and", null ],
+                [ "IR::BOr", "group__irdefs.html#class_i_r_1_1_b_or", null ],
+                [ "IR::BXor", "group__irdefs.html#class_i_r_1_1_b_xor", null ],
+                [ "IR::Concat", "group__irdefs.html#class_i_r_1_1_concat", null ],
+                [ "IR::Div", "group__irdefs.html#class_i_r_1_1_div", null ],
+                [ "IR::LAnd", "group__irdefs.html#class_i_r_1_1_l_and", null ],
+                [ "IR::LOr", "group__irdefs.html#class_i_r_1_1_l_or", null ],
+                [ "IR::Mask", "group__irdefs.html#class_i_r_1_1_mask", null ],
+                [ "IR::Mod", "group__irdefs.html#class_i_r_1_1_mod", null ],
+                [ "IR::Mul", "group__irdefs.html#class_i_r_1_1_mul", null ],
+                [ "IR::Operation_Relation", "group__irdefs.html#class_i_r_1_1_operation___relation", [
+                  [ "IR::Equ", "group__irdefs.html#class_i_r_1_1_equ", null ],
+                  [ "IR::Geq", "group__irdefs.html#class_i_r_1_1_geq", null ],
+                  [ "IR::Grt", "group__irdefs.html#class_i_r_1_1_grt", null ],
+                  [ "IR::Leq", "group__irdefs.html#class_i_r_1_1_leq", null ],
+                  [ "IR::Lss", "group__irdefs.html#class_i_r_1_1_lss", null ],
+                  [ "IR::Neq", "group__irdefs.html#class_i_r_1_1_neq", null ]
                 ] ],
-                [ "IR::Range", "class_i_r_1_1_range.html", null ],
-                [ "IR::Shl", "class_i_r_1_1_shl.html", null ],
-                [ "IR::Shr", "class_i_r_1_1_shr.html", null ],
-                [ "IR::Sub", "class_i_r_1_1_sub.html", null ]
+                [ "IR::Range", "group__irdefs.html#class_i_r_1_1_range", null ],
+                [ "IR::Shl", "group__irdefs.html#class_i_r_1_1_shl", null ],
+                [ "IR::Shr", "group__irdefs.html#class_i_r_1_1_shr", null ],
+                [ "IR::Sub", "group__irdefs.html#class_i_r_1_1_sub", null ]
               ] ],
-              [ "IR::Operation_Ternary", "class_i_r_1_1_operation___ternary.html", [
-                [ "IR::Mux", "class_i_r_1_1_mux.html", null ],
-                [ "IR::Slice", "class_i_r_1_1_slice.html", null ]
+              [ "IR::Operation_Ternary", "group__irdefs.html#class_i_r_1_1_operation___ternary", [
+                [ "IR::Mux", "group__irdefs.html#class_i_r_1_1_mux", null ],
+                [ "IR::Slice", "group__irdefs.html#class_i_r_1_1_slice", null ]
               ] ],
-              [ "IR::Operation_Unary", "class_i_r_1_1_operation___unary.html", [
-                [ "IR::Cast", "class_i_r_1_1_cast.html", null ],
-                [ "IR::Cmpl", "class_i_r_1_1_cmpl.html", null ],
-                [ "IR::IntMod", "class_i_r_1_1_int_mod.html", null ],
-                [ "IR::LNot", "class_i_r_1_1_l_not.html", null ],
-                [ "IR::Member", "class_i_r_1_1_member.html", null ],
-                [ "IR::Neg", "class_i_r_1_1_neg.html", null ]
+              [ "IR::Operation_Unary", "group__irdefs.html#class_i_r_1_1_operation___unary", [
+                [ "IR::Cast", "group__irdefs.html#class_i_r_1_1_cast", null ],
+                [ "IR::Cmpl", "group__irdefs.html#class_i_r_1_1_cmpl", null ],
+                [ "IR::IntMod", "group__irdefs.html#class_i_r_1_1_int_mod", null ],
+                [ "IR::LNot", "group__irdefs.html#class_i_r_1_1_l_not", null ],
+                [ "IR::Member", "group__irdefs.html#class_i_r_1_1_member", null ],
+                [ "IR::Neg", "group__irdefs.html#class_i_r_1_1_neg", null ]
               ] ],
-              [ "IR::Primitive", "class_i_r_1_1_primitive.html", null ]
+              [ "IR::Primitive", "group__irdefs.html#class_i_r_1_1_primitive", null ]
             ] ],
-            [ "IR::PathExpression", "class_i_r_1_1_path_expression.html", null ],
-            [ "IR::SelectExpression", "class_i_r_1_1_select_expression.html", null ],
-            [ "IR::This", "class_i_r_1_1_this.html", null ],
-            [ "IR::TypeNameExpression", "class_i_r_1_1_type_name_expression.html", null ]
+            [ "IR::PathExpression", "group__irdefs.html#class_i_r_1_1_path_expression", null ],
+            [ "IR::SelectExpression", "group__irdefs.html#class_i_r_1_1_select_expression", null ],
+            [ "IR::This", "group__irdefs.html#class_i_r_1_1_this", null ],
+            [ "IR::TypeNameExpression", "group__irdefs.html#class_i_r_1_1_type_name_expression", null ]
           ] ],
-          [ "IR::FieldList", "class_i_r_1_1_field_list.html", null ],
-          [ "IR::FieldListCalculation", "class_i_r_1_1_field_list_calculation.html", null ],
-          [ "IR::HeaderOrMetadata", "class_i_r_1_1_header_or_metadata.html", [
-            [ "IR::Header", "class_i_r_1_1_header.html", null ],
-            [ "IR::HeaderStack", "class_i_r_1_1_header_stack.html", null ],
-            [ "IR::Metadata", "class_i_r_1_1_metadata.html", null ]
+          [ "IR::FieldList", "group__irdefs.html#class_i_r_1_1_field_list", null ],
+          [ "IR::FieldListCalculation", "group__irdefs.html#class_i_r_1_1_field_list_calculation", null ],
+          [ "IR::HeaderOrMetadata", "group__irdefs.html#class_i_r_1_1_header_or_metadata", [
+            [ "IR::Header", "group__irdefs.html#class_i_r_1_1_header", null ],
+            [ "IR::HeaderStack", "group__irdefs.html#class_i_r_1_1_header_stack", null ],
+            [ "IR::Metadata", "group__irdefs.html#class_i_r_1_1_metadata", null ]
           ] ],
-          [ "IR::KeyElement", "class_i_r_1_1_key_element.html", null ],
-          [ "IR::NameList", "class_i_r_1_1_name_list.html", null ],
+          [ "IR::KeyElement", "group__irdefs.html#class_i_r_1_1_key_element", null ],
+          [ "IR::NameList", "group__irdefs.html#class_i_r_1_1_name_list", null ],
           [ "IR::NameMap< T, MAP, COMP, ALLOC >", "class_i_r_1_1_name_map.html", null ],
           [ "IR::NodeMap< KEY, VALUE, MAP, COMP, ALLOC >", "class_i_r_1_1_node_map.html", null ],
-          [ "IR::P4Program", "class_i_r_1_1_p4_program.html", null ],
+          [ "IR::P4Program", "group__irdefs.html#class_i_r_1_1_p4_program", null ],
           [ "IR::ParameterList", "class_i_r_1_1_parameter_list.html", null ],
-          [ "IR::ParserException", "class_i_r_1_1_parser_exception.html", null ],
+          [ "IR::ParserException", "group__irdefs.html#class_i_r_1_1_parser_exception", null ],
           [ "IR::Path", "class_i_r_1_1_path.html", null ],
-          [ "IR::PrimitiveAction", "class_i_r_1_1_primitive_action.html", null ],
-          [ "IR::PropertyValue", "class_i_r_1_1_property_value.html", [
-            [ "IR::ActionList", "class_i_r_1_1_action_list.html", null ],
-            [ "IR::EntriesList", "class_i_r_1_1_entries_list.html", null ],
-            [ "IR::ExpressionListValue", "class_i_r_1_1_expression_list_value.html", null ],
-            [ "IR::ExpressionValue", "class_i_r_1_1_expression_value.html", null ],
-            [ "IR::Key", "class_i_r_1_1_key.html", null ]
+          [ "IR::PrimitiveAction", "group__irdefs.html#class_i_r_1_1_primitive_action", null ],
+          [ "IR::PropertyValue", "group__irdefs.html#class_i_r_1_1_property_value", [
+            [ "IR::ActionList", "group__irdefs.html#class_i_r_1_1_action_list", null ],
+            [ "IR::EntriesList", "group__irdefs.html#class_i_r_1_1_entries_list", null ],
+            [ "IR::ExpressionListValue", "group__irdefs.html#class_i_r_1_1_expression_list_value", null ],
+            [ "IR::ExpressionValue", "group__irdefs.html#class_i_r_1_1_expression_value", null ],
+            [ "IR::Key", "group__irdefs.html#class_i_r_1_1_key", null ]
           ] ],
-          [ "IR::SelectCase", "class_i_r_1_1_select_case.html", null ],
+          [ "IR::SelectCase", "group__irdefs.html#class_i_r_1_1_select_case", null ],
           [ "IR::StatOrDecl", "class_i_r_1_1_stat_or_decl.html", [
             [ "IR::Declaration", "class_i_r_1_1_declaration.html", null ],
-            [ "IR::Statement", "class_i_r_1_1_statement.html", [
-              [ "IR::AssignmentStatement", "class_i_r_1_1_assignment_statement.html", null ],
-              [ "IR::BlockStatement", "class_i_r_1_1_block_statement.html", null ],
-              [ "IR::EmptyStatement", "class_i_r_1_1_empty_statement.html", null ],
-              [ "IR::ExitStatement", "class_i_r_1_1_exit_statement.html", null ],
-              [ "IR::IfStatement", "class_i_r_1_1_if_statement.html", null ],
-              [ "IR::MethodCallStatement", "class_i_r_1_1_method_call_statement.html", null ],
-              [ "IR::ReturnStatement", "class_i_r_1_1_return_statement.html", null ],
-              [ "IR::SwitchStatement", "class_i_r_1_1_switch_statement.html", null ]
+            [ "IR::Statement", "group__irdefs.html#class_i_r_1_1_statement", [
+              [ "IR::AssignmentStatement", "group__irdefs.html#class_i_r_1_1_assignment_statement", null ],
+              [ "IR::BlockStatement", "group__irdefs.html#class_i_r_1_1_block_statement", null ],
+              [ "IR::EmptyStatement", "group__irdefs.html#class_i_r_1_1_empty_statement", null ],
+              [ "IR::ExitStatement", "group__irdefs.html#class_i_r_1_1_exit_statement", null ],
+              [ "IR::IfStatement", "group__irdefs.html#class_i_r_1_1_if_statement", null ],
+              [ "IR::MethodCallStatement", "group__irdefs.html#class_i_r_1_1_method_call_statement", null ],
+              [ "IR::ReturnStatement", "group__irdefs.html#class_i_r_1_1_return_statement", null ],
+              [ "IR::SwitchStatement", "group__irdefs.html#class_i_r_1_1_switch_statement", null ]
             ] ]
           ] ],
-          [ "IR::SwitchCase", "class_i_r_1_1_switch_case.html", null ],
-          [ "IR::TableProperties", "class_i_r_1_1_table_properties.html", null ],
+          [ "IR::SwitchCase", "group__irdefs.html#class_i_r_1_1_switch_case", null ],
+          [ "IR::TableProperties", "group__irdefs.html#class_i_r_1_1_table_properties", null ],
           [ "IR::Type", "class_i_r_1_1_type.html", [
             [ "IR::Type_ActionEnum", "class_i_r_1_1_type___action_enum.html", null ],
             [ "IR::Type_Base", "class_i_r_1_1_type___base.html", [
-              [ "IR::Type_AnyTable", "class_i_r_1_1_type___any_table.html", null ],
+              [ "IR::Type_AnyTable", "group__irdefs.html#class_i_r_1_1_type___any_table", null ],
               [ "IR::Type_Bits", "class_i_r_1_1_type___bits.html", null ],
-              [ "IR::Type_Block", "class_i_r_1_1_type___block.html", null ],
+              [ "IR::Type_Block", "group__irdefs.html#class_i_r_1_1_type___block", null ],
               [ "IR::Type_Boolean", "class_i_r_1_1_type___boolean.html", null ],
-              [ "IR::Type_Counter", "class_i_r_1_1_type___counter.html", null ],
+              [ "IR::Type_Counter", "group__irdefs.html#class_i_r_1_1_type___counter", null ],
               [ "IR::Type_Dontcare", "class_i_r_1_1_type___dontcare.html", null ],
-              [ "IR::Type_Expression", "class_i_r_1_1_type___expression.html", null ],
-              [ "IR::Type_FieldListCalculation", "class_i_r_1_1_type___field_list_calculation.html", null ],
+              [ "IR::Type_Expression", "group__irdefs.html#class_i_r_1_1_type___expression", null ],
+              [ "IR::Type_FieldListCalculation", "group__irdefs.html#class_i_r_1_1_type___field_list_calculation", null ],
               [ "IR::Type_MatchKind", "class_i_r_1_1_type___match_kind.html", null ],
-              [ "IR::Type_Meter", "class_i_r_1_1_type___meter.html", null ],
-              [ "IR::Type_Register", "class_i_r_1_1_type___register.html", null ],
+              [ "IR::Type_Meter", "group__irdefs.html#class_i_r_1_1_type___meter", null ],
+              [ "IR::Type_Register", "group__irdefs.html#class_i_r_1_1_type___register", null ],
               [ "IR::Type_State", "class_i_r_1_1_type___state.html", null ],
               [ "IR::Type_String", "class_i_r_1_1_type___string.html", null ],
               [ "IR::Type_Unknown", "class_i_r_1_1_type___unknown.html", null ],
@@ -364,11 +364,11 @@ var hierarchy =
             [ "IR::Type_Type", "class_i_r_1_1_type___type.html", null ]
           ] ],
           [ "IR::TypeParameters", "class_i_r_1_1_type_parameters.html", null ],
-          [ "IR::V1Control", "class_i_r_1_1_v1_control.html", null ],
-          [ "IR::v1HeaderType", "class_i_r_1_1v1_header_type.html", null ],
-          [ "IR::V1Parser", "class_i_r_1_1_v1_parser.html", null ],
-          [ "IR::V1Program", "class_i_r_1_1_v1_program.html", null ],
-          [ "IR::V1Table", "class_i_r_1_1_v1_table.html", null ],
+          [ "IR::V1Control", "group__irdefs.html#class_i_r_1_1_v1_control", null ],
+          [ "IR::v1HeaderType", "group__irdefs.html#class_i_r_1_1v1_header_type", null ],
+          [ "IR::V1Parser", "group__irdefs.html#class_i_r_1_1_v1_parser", null ],
+          [ "IR::V1Program", "group__irdefs.html#class_i_r_1_1_v1_program", null ],
+          [ "IR::V1Table", "group__irdefs.html#class_i_r_1_1_v1_table", null ],
           [ "IR::VectorBase", "class_i_r_1_1_vector_base.html", [
             [ "IR::Vector< T >", "class_i_r_1_1_vector.html", [
               [ "IR::IndexedVector< IR::ActionListElement >", "class_i_r_1_1_indexed_vector.html", null ],
@@ -434,7 +434,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "indent_t", "classindent__t.html", null ],
-    [ "IR::CalculatedField::update_or_verify", "class_i_r_1_1_calculated_field_1_1update__or__verify.html", null ],
+    [ "IR::CalculatedField::update_or_verify", "group__irdefs.html#class_i_r_1_1_calculated_field_1_1update__or__verify", null ],
     [ "IterValues< PairIter >", "class_iter_values.html", null ],
     [ "JsonData", "class_json_data.html", [
       [ "JsonBoolean", "class_json_boolean.html", null ],
@@ -469,6 +469,7 @@ var hierarchy =
           [ "P4V1::Cloner_Model", "struct_p4_v1_1_1_cloner___model.html", null ],
           [ "P4V1::CounterOrMeter_Model", "struct_p4_v1_1_1_counter_or_meter___model.html", [
             [ "P4V1::Counter_Model", "struct_p4_v1_1_1_counter___model.html", null ],
+            [ "P4V1::DirectCounter_Model", "struct_p4_v1_1_1_direct_counter___model.html", null ],
             [ "P4V1::DirectMeter_Model", "struct_p4_v1_1_1_direct_meter___model.html", null ],
             [ "P4V1::Meter_Model", "struct_p4_v1_1_1_meter___model.html", null ]
           ] ],
@@ -747,6 +748,7 @@ var hierarchy =
           [ "P4::RemoveExits", "class_p4_1_1_remove_exits.html", null ],
           [ "P4::RemoveLeftSlices", "class_p4_1_1_remove_left_slices.html", null ],
           [ "P4::RemoveReturns", "class_p4_1_1_remove_returns.html", null ],
+          [ "P4::RemoveSelectBooleans", "class_p4_1_1_remove_select_booleans.html", null ],
           [ "P4::ResetHeaders", "class_p4_1_1_reset_headers.html", null ],
           [ "P4::SideEffectOrdering", "class_p4_1_1_side_effect_ordering.html", null ],
           [ "P4::SimplifyDefUse", "class_p4_1_1_simplify_def_use.html", null ],
@@ -760,6 +762,7 @@ var hierarchy =
           [ "P4::TypeChecking", "class_p4_1_1_type_checking.html", null ],
           [ "P4::UniqueNames", "class_p4_1_1_unique_names.html", null ],
           [ "P4::UniqueParameters", "class_p4_1_1_unique_parameters.html", null ],
+          [ "P4::UselessCasts", "class_p4_1_1_useless_casts.html", null ],
           [ "P4Test::MidEnd", "class_p4_test_1_1_mid_end.html", null ],
           [ "P4V1::Converter", "class_p4_v1_1_1_converter.html", null ],
           [ "PassRepeated", "class_pass_repeated.html", [
@@ -826,7 +829,7 @@ var hierarchy =
       [ "Transform", "class_transform.html", [
         [ "BMV2::FixupChecksum", "class_b_m_v2_1_1_fixup_checksum.html", null ],
         [ "BMV2::LowerExpressions", "class_b_m_v2_1_1_lower_expressions.html", null ],
-        [ "BMV2::RemoveExpressionsFromSelects", "class_b_m_v2_1_1_remove_expressions_from_selects.html", null ],
+        [ "BMV2::RemoveComplexExpressions", "class_b_m_v2_1_1_remove_complex_expressions.html", null ],
         [ "InlineControlFlow", "class_inline_control_flow.html", null ],
         [ "NameGateways", "class_name_gateways.html", null ],
         [ "P4::AbstractActionInliner", "class_p4_1_1_abstract_action_inliner.html", [
@@ -855,6 +858,7 @@ var hierarchy =
         [ "P4::DoRemoveReturns", "class_p4_1_1_do_remove_returns.html", [
           [ "P4::DoRemoveExits", "class_p4_1_1_do_remove_exits.html", null ]
         ] ],
+        [ "P4::DoRemoveSelectBooleans", "class_p4_1_1_do_remove_select_booleans.html", null ],
         [ "P4::DoReplaceTuples", "class_p4_1_1_do_replace_tuples.html", null ],
         [ "P4::DoResetHeaders", "class_p4_1_1_do_reset_headers.html", null ],
         [ "P4::DoSimplifyControlFlow", "class_p4_1_1_do_simplify_control_flow.html", null ],
@@ -875,6 +879,7 @@ var hierarchy =
         [ "P4::Predication", "class_p4_1_1_predication.html", null ],
         [ "P4::RemoveNestedStructs", "class_p4_1_1_remove_nested_structs.html", null ],
         [ "P4::RemoveUnusedDeclarations", "class_p4_1_1_remove_unused_declarations.html", null ],
+        [ "P4::RemoveUselessCasts", "class_p4_1_1_remove_useless_casts.html", null ],
         [ "P4::RenameSymbols", "class_p4_1_1_rename_symbols.html", null ],
         [ "P4::RewriteAllParsers", "class_p4_1_1_rewrite_all_parsers.html", null ],
         [ "P4::Specialize", "class_p4_1_1_specialize.html", null ],

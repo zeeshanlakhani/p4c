@@ -105,22 +105,22 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>P4RuntimeSerializer</b> (const <a class="el" href="class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_symbol_table.html">P4RuntimeSymbolTable</a> &amp;symbols, <a class="el" href="class_p4_1_1_type_map.html">TypeMap</a> *typeMap)</td></tr>
 <tr class="separator:af19ce95a0da442e245426868814f527c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae21b80000524223d669a2543493cfcc7"><td class="memItemLeft" align="right" valign="top"><a id="ae21b80000524223d669a2543493cfcc7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addAction</b> (const <a class="el" href="class_i_r_1_1_p4_action.html">IR::P4Action</a> *actionDeclaration)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addAction</b> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_p4_action">IR::P4Action</a> *actionDeclaration)</td></tr>
 <tr class="separator:ae21b80000524223d669a2543493cfcc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5950a833996b68b450c1d46e558e3819"><td class="memItemLeft" align="right" valign="top"><a id="a5950a833996b68b450c1d46e558e3819"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>addActionProfile</b> (const <a class="el" href="struct_p4_1_1_control_plane_a_p_i_1_1_action_profile.html">ActionProfile</a> &amp;actionProfile, const std::set&lt; <a class="el" href="classcstring.html">cstring</a> &gt; &amp;tables)</td></tr>
 <tr class="separator:a5950a833996b68b450c1d46e558e3819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ff4edd92111598c322e226e2d3f27b5"><td class="memItemLeft" align="right" valign="top"><a id="a1ff4edd92111598c322e226e2d3f27b5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addCounter</b> (const <a class="el" href="struct_p4_1_1_control_plane_a_p_i_1_1_counterlike.html">Counterlike</a>&lt; <a class="el" href="class_i_r_1_1_counter.html">IR::Counter</a> &gt; &amp;counterInstance)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addCounter</b> (const <a class="el" href="struct_p4_1_1_control_plane_a_p_i_1_1_counterlike.html">Counterlike</a>&lt; <a class="el" href="group__irdefs.html#class_i_r_1_1_counter">IR::Counter</a> &gt; &amp;counterInstance)</td></tr>
 <tr class="separator:a1ff4edd92111598c322e226e2d3f27b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab06236320af649e10593f09fd7ca45c8"><td class="memItemLeft" align="right" valign="top"><a id="ab06236320af649e10593f09fd7ca45c8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addMeter</b> (const <a class="el" href="struct_p4_1_1_control_plane_a_p_i_1_1_counterlike.html">Counterlike</a>&lt; <a class="el" href="class_i_r_1_1_meter.html">IR::Meter</a> &gt; &amp;meterInstance)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addMeter</b> (const <a class="el" href="struct_p4_1_1_control_plane_a_p_i_1_1_counterlike.html">Counterlike</a>&lt; <a class="el" href="group__irdefs.html#class_i_r_1_1_meter">IR::Meter</a> &gt; &amp;meterInstance)</td></tr>
 <tr class="separator:ab06236320af649e10593f09fd7ca45c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11ff5ec369496fb2b4a3e3ac1c8eb59d"><td class="memItemLeft" align="right" valign="top"><a id="a11ff5ec369496fb2b4a3e3ac1c8eb59d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>addSynthesizedAction</b> (const <a class="el" href="classcstring.html">cstring</a> &amp;name)</td></tr>
 <tr class="separator:a11ff5ec369496fb2b4a3e3ac1c8eb59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cf5e7c8999f7ae5fd7e75820b673f07"><td class="memItemLeft" align="right" valign="top"><a id="a8cf5e7c8999f7ae5fd7e75820b673f07"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>addTable</b> (const <a class="el" href="class_i_r_1_1_p4_table.html">IR::P4Table</a> *tableDeclaration, uint64_t tableSize, const boost::optional&lt; <a class="el" href="classcstring.html">cstring</a> &gt; &amp;implementation, const boost::optional&lt; <a class="el" href="struct_p4_1_1_control_plane_a_p_i_1_1_counterlike.html">Counterlike</a>&lt; <a class="el" href="class_i_r_1_1_counter.html">IR::Counter</a> &gt;&gt; &amp;directCounter, const boost::optional&lt; <a class="el" href="struct_p4_1_1_control_plane_a_p_i_1_1_counterlike.html">Counterlike</a>&lt; <a class="el" href="class_i_r_1_1_meter.html">IR::Meter</a> &gt;&gt; &amp;directMeter, const boost::optional&lt; <a class="el" href="namespace_p4_1_1_control_plane_a_p_i.html#struct_p4_1_1_control_plane_a_p_i_1_1_default_action">DefaultAction</a> &gt; &amp;defaultAction, const std::vector&lt; <a class="el" href="classcstring.html">cstring</a> &gt; &amp;actions, const std::vector&lt; <a class="el" href="namespace_p4_1_1_control_plane_a_p_i.html#struct_p4_1_1_control_plane_a_p_i_1_1_match_field">MatchField</a> &gt; &amp;matchFields, bool supportsTimeout)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>addTable</b> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_p4_table">IR::P4Table</a> *tableDeclaration, uint64_t tableSize, const boost::optional&lt; <a class="el" href="classcstring.html">cstring</a> &gt; &amp;implementation, const boost::optional&lt; <a class="el" href="struct_p4_1_1_control_plane_a_p_i_1_1_counterlike.html">Counterlike</a>&lt; <a class="el" href="group__irdefs.html#class_i_r_1_1_counter">IR::Counter</a> &gt;&gt; &amp;directCounter, const boost::optional&lt; <a class="el" href="struct_p4_1_1_control_plane_a_p_i_1_1_counterlike.html">Counterlike</a>&lt; <a class="el" href="group__irdefs.html#class_i_r_1_1_meter">IR::Meter</a> &gt;&gt; &amp;directMeter, const boost::optional&lt; <a class="el" href="namespace_p4_1_1_control_plane_a_p_i.html#struct_p4_1_1_control_plane_a_p_i_1_1_default_action">DefaultAction</a> &gt; &amp;defaultAction, const std::vector&lt; <a class="el" href="classcstring.html">cstring</a> &gt; &amp;actions, const std::vector&lt; <a class="el" href="namespace_p4_1_1_control_plane_a_p_i.html#struct_p4_1_1_control_plane_a_p_i_1_1_match_field">MatchField</a> &gt; &amp;matchFields, bool supportsTimeout)</td></tr>
 <tr class="separator:a8cf5e7c8999f7ae5fd7e75820b673f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a501dead6ec9f4bfd5add1799ae6cec32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_serializer.html#a501dead6ec9f4bfd5add1799ae6cec32">writeJsonTo</a> (std::ostream *destination)</td></tr>
 <tr class="separator:a501dead6ec9f4bfd5add1799ae6cec32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,7 +128,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addTable</b> (const <
 <tr class="separator:a15c9044a0ce62982f9edfac9857de523"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A serializer which translates the information available in the P4 <a class="el" href="namespace_i_r.html" title="a value that can be evaluated at compile-time ">IR</a> into a representation of the control plane API which is consumed by P4Runtime. </p>
+<div class="textblock"><p>A serializer which translates the information available in the P4 <a class="el" href="namespace_i_r.html" title="A general namespace can have multiple declarations with the same name. ">IR</a> into a representation of the control plane API which is consumed by P4Runtime. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a501dead6ec9f4bfd5add1799ae6cec32"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a501dead6ec9f4bfd5add1799ae6cec32">&sect;&nbsp;</a></span>writeJsonTo()</h2>
@@ -191,7 +191,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addTable</b> (const <
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>P4</b></li><li class="navelem"><a class="el" href="namespace_p4_1_1_control_plane_a_p_i.html">ControlPlaneAPI</a></li><li class="navelem"><a class="el" href="class_p4_1_1_control_plane_a_p_i_1_1_p4_runtime_serializer.html">P4RuntimeSerializer</a></li>
-    <li class="footer">Generated on Thu Apr 6 2017 for
+    <li class="footer">Generated on Fri Apr 7 2017 for
     <a href="http://p4.org/spec">
     <img class="footer" src="p4-logo.png" alt="P4 Org" /></a></li>
   </ul>

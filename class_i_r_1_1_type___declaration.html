@@ -101,21 +101,24 @@ $(document).ready(function(){initNavTree('class_i_r_1_1_type___declaration.html'
 <div class="title">IR::Type_Declaration Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>inherit both <a class="el" href="class_i_r_1_1_type.html" title="Base class for P4 types. ">Type</a> and <a class="el" href="class_i_r_1_1_declaration.html" title="That&#39;s why declid is used to distinguish them. ">Declaration</a>.)  
+ <a href="class_i_r_1_1_type___declaration.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for IR::Type_Declaration:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_i_r_1_1_type___declaration__inherit__graph.png" border="0" usemap="#_i_r_1_1_type___declaration_inherit__map" alt="Inheritance graph"/></div>
 <map name="_i_r_1_1_type___declaration_inherit__map" id="_i_r_1_1_type___declaration_inherit__map">
-<area shape="rect" id="node8" href="class_i_r_1_1_p4_control.html" title="IR::P4Control" alt="" coords="814,5,916,31"/>
-<area shape="rect" id="node9" href="class_i_r_1_1_p4_parser.html" title="IR::P4Parser" alt="" coords="816,55,914,80"/>
-<area shape="rect" id="node10" href="class_i_r_1_1_type___arch_block.html" title="IR::Type_ArchBlock" alt="" coords="796,104,934,129"/>
+<area shape="rect" id="node8" href="group__irdefs.html#class_i_r_1_1_p4_control" title="IR::P4Control" alt="" coords="814,5,916,31"/>
+<area shape="rect" id="node9" href="group__irdefs.html#class_i_r_1_1_p4_parser" title="IR::P4Parser" alt="" coords="816,55,914,80"/>
+<area shape="rect" id="node10" href="class_i_r_1_1_type___arch_block.html" title="Abstract base for Type_Control, Type_Parser and Type_Package. " alt="" coords="796,104,934,129"/>
 <area shape="rect" id="node14" href="class_i_r_1_1_type___enum.html" title="IR::Type_Enum" alt="" coords="809,153,922,179"/>
-<area shape="rect" id="node15" href="class_i_r_1_1_type___error.html" title="IR::Type_Error" alt="" coords="811,203,919,228"/>
-<area shape="rect" id="node16" href="class_i_r_1_1_type___extern.html" title="IR::Type_Extern" alt="" coords="807,252,924,277"/>
+<area shape="rect" id="node15" href="group__irdefs.html#class_i_r_1_1_type___error" title="IR::Type_Error" alt="" coords="811,203,919,228"/>
+<area shape="rect" id="node16" href="class_i_r_1_1_type___extern.html" title="An &#39;extern&#39; black&#45;box (not a function) " alt="" coords="807,252,924,277"/>
 <area shape="rect" id="node17" href="class_i_r_1_1_type___struct_like.html" title="IR::Type_StructLike" alt="" coords="796,301,934,327"/>
 <area shape="rect" id="node21" href="class_i_r_1_1_type___typedef.html" title="IR::Type_Typedef" alt="" coords="802,351,928,376"/>
-<area shape="rect" id="node22" href="class_i_r_1_1_type___var.html" title="IR::Type_Var" alt="" coords="816,400,914,425"/>
-<area shape="rect" id="node2" href="class_i_r_1_1_type.html" title="IR::Type" alt="" coords="462,177,533,203"/>
+<area shape="rect" id="node22" href="class_i_r_1_1_type___var.html" title="Represents a type variable written by the user. " alt="" coords="816,400,914,425"/>
+<area shape="rect" id="node2" href="class_i_r_1_1_type.html" title="Base class for P4 types. " alt="" coords="462,177,533,203"/>
 <area shape="rect" id="node3" href="class_i_r_1_1_node.html" title="IR::Node" alt="" coords="319,176,393,201"/>
 <area shape="rect" id="node4" href="class_i_r_1_1_i_node.html" title="IR::INode" alt="" coords="193,201,271,227"/>
 <area shape="rect" id="node7" href="class_i_r_1_1_i_declaration.html" title="IR::IDeclaration" alt="" coords="441,227,554,252"/>
@@ -355,7 +358,9 @@ typedef <a class="el" href="class_i_r_1_1_type___void.html">Type_Void</a>&#160;<
 static int&#160;</td><td class="memItemRight" valign="bottom"><b>currentId</b> = 0</td></tr>
 <tr class="separator:a88fe7a8cce4f8e1800088ee72fefcfa8 inherit pro_static_attribs_class_i_r_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>inherit both <a class="el" href="class_i_r_1_1_type.html" title="Base class for P4 types. ">Type</a> and <a class="el" href="class_i_r_1_1_declaration.html" title="That&#39;s why declid is used to distinguish them. ">Declaration</a>.) </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a55d8ad2a24e8fd8ba3bd6f993e388815"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a55d8ad2a24e8fd8ba3bd6f993e388815">&sect;&nbsp;</a></span>getP4Type()</h2>
 
@@ -378,7 +383,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>currentId</b> =
   </tr>
 </table>
 </div><div class="memdoc">
-<p>When possible returns the corresponding type that can be inserted in a P4 program; may return a <a class="el" href="class_i_r_1_1_type___name.html">Type_Name</a> </p>
+<p>When possible returns the corresponding type that can be inserted in a P4 program; may return a <a class="el" href="class_i_r_1_1_type___name.html" title="A type referred by name. ">Type_Name</a> </p>
 
 <p>Implements <a class="el" href="class_i_r_1_1_type.html#a3122843696c968b693017d9593a93ada">IR::Type</a>.</p>
 
@@ -391,7 +396,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>currentId</b> =
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_i_r.html">IR</a></li><li class="navelem"><a class="el" href="class_i_r_1_1_type___declaration.html">Type_Declaration</a></li>
-    <li class="footer">Generated on Thu Apr 6 2017 for
+    <li class="footer">Generated on Fri Apr 7 2017 for
     <a href="http://p4.org/spec">
     <img class="footer" src="p4-logo.png" alt="P4 Org" /></a></li>
   </ul>

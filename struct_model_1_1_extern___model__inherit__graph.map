@@ -8,11 +8,12 @@
 <area shape="rect" id="node10" href="$struct_p4_v1_1_1_checksum16___model.html" title="P4V1::Checksum16_Model" alt="" coords="530,341,713,367"/>
 <area shape="rect" id="node11" href="$struct_p4_v1_1_1_cloner___model.html" title="P4V1::Cloner_Model" alt="" coords="549,391,693,416"/>
 <area shape="rect" id="node12" href="$struct_p4_v1_1_1_counter_or_meter___model.html" title="P4V1::CounterOrMeter\l_Model" alt="" coords="542,440,700,479"/>
-<area shape="rect" id="node16" href="$struct_p4_v1_1_1_register___model.html" title="P4V1::Register_Model" alt="" coords="544,503,699,528"/>
-<area shape="rect" id="node17" href="$class_p4_v1_1_1_truncate.html" title="P4V1::Truncate" alt="" coords="564,552,678,577"/>
+<area shape="rect" id="node17" href="$struct_p4_v1_1_1_register___model.html" title="P4V1::Register_Model" alt="" coords="544,503,699,528"/>
+<area shape="rect" id="node18" href="$class_p4_v1_1_1_truncate.html" title="P4V1::Truncate" alt="" coords="564,552,678,577"/>
 <area shape="rect" id="node2" href="$struct_model_1_1_type___model.html" title="Model::Type_Model" alt="" coords="149,285,286,311"/>
 <area shape="rect" id="node3" href="$struct_model_1_1_elem.html" title="Model::Elem" alt="" coords="5,285,101,311"/>
-<area shape="rect" id="node13" href="$struct_p4_v1_1_1_counter___model.html" title="P4V1::Counter_Model" alt="" coords="771,397,924,423"/>
-<area shape="rect" id="node14" href="$struct_p4_v1_1_1_direct_meter___model.html" title="P4V1::DirectMeter_Model" alt="" coords="761,447,935,472"/>
-<area shape="rect" id="node15" href="$struct_p4_v1_1_1_meter___model.html" title="P4V1::Meter_Model" alt="" coords="778,496,917,521"/>
+<area shape="rect" id="node13" href="$struct_p4_v1_1_1_counter___model.html" title="P4V1::Counter_Model" alt="" coords="771,363,924,388"/>
+<area shape="rect" id="node14" href="$struct_p4_v1_1_1_direct_counter___model.html" title="P4V1::DirectCounter\l_Model" alt="" coords="776,412,919,451"/>
+<area shape="rect" id="node15" href="$struct_p4_v1_1_1_direct_meter___model.html" title="P4V1::DirectMeter_Model" alt="" coords="761,475,935,500"/>
+<area shape="rect" id="node16" href="$struct_p4_v1_1_1_meter___model.html" title="P4V1::Meter_Model" alt="" coords="778,524,917,549"/>
 </map>

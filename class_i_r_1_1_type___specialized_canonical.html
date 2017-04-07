@@ -105,7 +105,7 @@ Inheritance diagram for IR::Type_SpecializedCanonical:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_i_r_1_1_type___specialized_canonical__inherit__graph.png" border="0" usemap="#_i_r_1_1_type___specialized_canonical_inherit__map" alt="Inheritance graph"/></div>
 <map name="_i_r_1_1_type___specialized_canonical_inherit__map" id="_i_r_1_1_type___specialized_canonical_inherit__map">
-<area shape="rect" id="node2" href="class_i_r_1_1_type.html" title="IR::Type" alt="" coords="109,225,180,251"/>
+<area shape="rect" id="node2" href="class_i_r_1_1_type.html" title="Base class for P4 types. " alt="" coords="109,225,180,251"/>
 <area shape="rect" id="node3" href="class_i_r_1_1_node.html" title="IR::Node" alt="" coords="108,152,182,177"/>
 <area shape="rect" id="node4" href="class_i_r_1_1_i_node.html" title="IR::INode" alt="" coords="106,79,183,104"/>
 <area shape="rect" id="node5" href="class_util_1_1_i_has_source_info.html" title="Util::IHasSourceInfo" alt="" coords="5,5,145,31"/>
@@ -285,7 +285,7 @@ static <a class="el" href="classcstring.html">cstring</a>&#160;</td><td class="m
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab6286f1f5078c5d5782611e87c70f658"><td class="memItemLeft" align="right" valign="top"><a id="ab6286f1f5078c5d5782611e87c70f658"></a>
 const <a class="el" href="class_i_r_1_1_vector.html">Vector</a>&lt; <a class="el" href="class_i_r_1_1_type.html">Type</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_i_r_1_1_type___specialized_canonical.html#ab6286f1f5078c5d5782611e87c70f658">arguments</a> = nullptr</td></tr>
-<tr class="memdesc:ab6286f1f5078c5d5782611e87c70f658"><td class="mdescLeft">&#160;</td><td class="mdescRight">canonical baseType; always <a class="el" href="class_i_r_1_1_i_may_be_generic_type.html">IMayBeGenericType</a> <br /></td></tr>
+<tr class="memdesc:ab6286f1f5078c5d5782611e87c70f658"><td class="mdescLeft">&#160;</td><td class="mdescRight">canonical baseType; always <a class="el" href="class_i_r_1_1_i_may_be_generic_type.html" title="Implemented by all types that may be generic. ">IMayBeGenericType</a> <br /></td></tr>
 <tr class="separator:ab6286f1f5078c5d5782611e87c70f658"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafec111b8427b6800c6f27a3ce30db0e"><td class="memItemLeft" align="right" valign="top"><a id="aafec111b8427b6800c6f27a3ce30db0e"></a>
 const <a class="el" href="class_i_r_1_1_type.html">Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>baseType</b> = nullptr</td></tr>
@@ -334,7 +334,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>traceVisit</b> (const
 static int&#160;</td><td class="memItemRight" valign="bottom"><b>currentId</b> = 0</td></tr>
 <tr class="separator:a88fe7a8cce4f8e1800088ee72fefcfa8 inherit pro_static_attribs_class_i_r_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Canonical representation of a <a class="el" href="class_i_r_1_1_type___specialized.html">Type_Specialized</a>; only used by the type-checker, never in the <a class="el" href="namespace_i_r.html" title="A general namespace can have multiple declarations with the same name. ">IR</a> tree. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a385834e3b216c4d9b6a46b56ad6bc485"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a385834e3b216c4d9b6a46b56ad6bc485">&sect;&nbsp;</a></span>getP4Type()</h2>
 
@@ -357,7 +359,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>currentId</b> =
   </tr>
 </table>
 </div><div class="memdoc">
-<p>When possible returns the corresponding type that can be inserted in a P4 program; may return a <a class="el" href="class_i_r_1_1_type___name.html">Type_Name</a> </p>
+<p>When possible returns the corresponding type that can be inserted in a P4 program; may return a <a class="el" href="class_i_r_1_1_type___name.html" title="A type referred by name. ">Type_Name</a> </p>
 
 <p>Implements <a class="el" href="class_i_r_1_1_type.html#a3122843696c968b693017d9593a93ada">IR::Type</a>.</p>
 
@@ -386,7 +388,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>currentId</b> =
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_i_r.html">IR</a></li><li class="navelem"><a class="el" href="class_i_r_1_1_type___specialized_canonical.html">Type_SpecializedCanonical</a></li>
-    <li class="footer">Generated on Thu Apr 6 2017 for
+    <li class="footer">Generated on Fri Apr 7 2017 for
     <a href="http://p4.org/spec">
     <img class="footer" src="p4-logo.png" alt="P4 Org" /></a></li>
   </ul>

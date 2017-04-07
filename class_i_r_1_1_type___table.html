@@ -106,10 +106,10 @@ Inheritance diagram for IR::Type_Table:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_i_r_1_1_type___table__inherit__graph.png" border="0" usemap="#_i_r_1_1_type___table_inherit__map" alt="Inheritance graph"/></div>
 <map name="_i_r_1_1_type___table_inherit__map" id="_i_r_1_1_type___table_inherit__map">
-<area shape="rect" id="node2" href="class_i_r_1_1_type.html" title="IR::Type" alt="" coords="66,225,137,251"/>
+<area shape="rect" id="node2" href="class_i_r_1_1_type.html" title="Base class for P4 types. " alt="" coords="66,225,137,251"/>
 <area shape="rect" id="node3" href="class_i_r_1_1_node.html" title="IR::Node" alt="" coords="70,152,144,177"/>
 <area shape="rect" id="node4" href="class_i_r_1_1_i_node.html" title="IR::INode" alt="" coords="106,79,183,104"/>
-<area shape="rect" id="node7" href="class_i_r_1_1_i_apply.html" title="IR::IApply" alt="" coords="161,225,240,251"/>
+<area shape="rect" id="node7" href="class_i_r_1_1_i_apply.html" title="Implemented by objects with an &#39;apply&#39; method. " alt="" coords="161,225,240,251"/>
 <area shape="rect" id="node5" href="class_util_1_1_i_has_source_info.html" title="Util::IHasSourceInfo" alt="" coords="5,5,145,31"/>
 <area shape="rect" id="node6" href="class_i_has_db_print.html" title="IHasDbPrint" alt="" coords="169,5,262,31"/>
 </map>
@@ -121,10 +121,10 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Type_Table</b> (<a class="el" href="class_j_s_o_n_loader.html">JSONLoader</a> &amp;json)</td></tr>
 <tr class="separator:a80cf014c4c940028ae60297d7a5baeed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd92403dffe48b605363617cc4f65aa4"><td class="memItemLeft" align="right" valign="top"><a id="acd92403dffe48b605363617cc4f65aa4"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Type_Table</b> (<a class="el" href="class_util_1_1_source_info.html">Util::SourceInfo</a> srcInfo, const <a class="el" href="class_i_r_1_1_p4_table.html">P4Table</a> *table)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Type_Table</b> (<a class="el" href="class_util_1_1_source_info.html">Util::SourceInfo</a> srcInfo, const <a class="el" href="group__irdefs.html#class_i_r_1_1_p4_table">P4Table</a> *table)</td></tr>
 <tr class="separator:acd92403dffe48b605363617cc4f65aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a000c394ab6c5424a3683748040cf1905"><td class="memItemLeft" align="right" valign="top"><a id="a000c394ab6c5424a3683748040cf1905"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Type_Table</b> (const <a class="el" href="class_i_r_1_1_p4_table.html">P4Table</a> *table)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Type_Table</b> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_p4_table">P4Table</a> *table)</td></tr>
 <tr class="separator:a000c394ab6c5424a3683748040cf1905"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a283d98ca4b1ddb2945273dfe29bffd"><td class="memItemLeft" align="right" valign="top"><a id="a6a283d98ca4b1ddb2945273dfe29bffd"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>dbprint</b> (std::ostream &amp;out) const override</td></tr>
@@ -289,7 +289,7 @@ static <a class="el" href="classcstring.html">cstring</a>&#160;</td><td class="m
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ae57a98bcb9479360abd54c2e5ed644f4"><td class="memItemLeft" align="right" valign="top"><a id="ae57a98bcb9479360abd54c2e5ed644f4"></a>
-const <a class="el" href="class_i_r_1_1_p4_table.html">P4Table</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>table</b> = nullptr</td></tr>
+const <a class="el" href="group__irdefs.html#class_i_r_1_1_p4_table">P4Table</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>table</b> = nullptr</td></tr>
 <tr class="separator:ae57a98bcb9479360abd54c2e5ed644f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_i_r_1_1_node"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_i_r_1_1_node')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_i_r_1_1_node.html">IR::Node</a></td></tr>
 <tr class="memitem:a052e72362cab8e4f0eff066d24566c10 inherit pub_attribs_class_i_r_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a052e72362cab8e4f0eff066d24566c10"></a>
@@ -368,7 +368,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>currentId</b> =
   </tr>
 </table>
 </div><div class="memdoc">
-<p>When possible returns the corresponding type that can be inserted in a P4 program; may return a <a class="el" href="class_i_r_1_1_type___name.html">Type_Name</a> </p>
+<p>When possible returns the corresponding type that can be inserted in a P4 program; may return a <a class="el" href="class_i_r_1_1_type___name.html" title="A type referred by name. ">Type_Name</a> </p>
 
 <p>Implements <a class="el" href="class_i_r_1_1_type.html#a3122843696c968b693017d9593a93ada">IR::Type</a>.</p>
 
@@ -405,7 +405,7 @@ static int&#160;</td><td class="memItemRight" valign="bottom"><b>currentId</b> =
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_i_r.html">IR</a></li><li class="navelem"><a class="el" href="class_i_r_1_1_type___table.html">Type_Table</a></li>
-    <li class="footer">Generated on Thu Apr 6 2017 for
+    <li class="footer">Generated on Fri Apr 7 2017 for
     <a href="http://p4.org/spec">
     <img class="footer" src="p4-logo.png" alt="P4 Org" /></a></li>
   </ul>

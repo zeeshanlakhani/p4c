@@ -1,7 +1,7 @@
 <map id="Model::Type_Model" name="Model::Type_Model">
 <area shape="rect" id="node3" href="$struct_model_1_1_enum___model.html" title="Model::Enum_Model" alt="" coords="363,104,506,129"/>
 <area shape="rect" id="node8" href="$struct_model_1_1_extern___model.html" title="Model::Extern_Model" alt="" coords="361,452,508,477"/>
-<area shape="rect" id="node23" href="$struct_p4_v1_1_1_standard_metadata_type___model.html" title="P4V1::StandardMetadataType\l_Model" alt="" coords="334,501,534,540"/>
+<area shape="rect" id="node24" href="$struct_p4_v1_1_1_standard_metadata_type___model.html" title="P4V1::StandardMetadataType\l_Model" alt="" coords="334,501,534,540"/>
 <area shape="rect" id="node2" href="$struct_model_1_1_elem.html" title="Model::Elem" alt="" coords="5,452,101,477"/>
 <area shape="rect" id="node4" href="$struct_p4_v1_1_1_algorithm___model.html" title="P4V1::Algorithm_Model" alt="" coords="593,5,755,31"/>
 <area shape="rect" id="node5" href="$struct_p4_v1_1_1_clone_type___model.html" title="P4V1::CloneType_Model" alt="" coords="589,55,758,80"/>
@@ -16,9 +16,10 @@
 <area shape="rect" id="node15" href="$struct_p4_v1_1_1_checksum16___model.html" title="P4V1::Checksum16_Model" alt="" coords="582,539,765,564"/>
 <area shape="rect" id="node16" href="$struct_p4_v1_1_1_cloner___model.html" title="P4V1::Cloner_Model" alt="" coords="602,588,746,613"/>
 <area shape="rect" id="node17" href="$struct_p4_v1_1_1_counter_or_meter___model.html" title="P4V1::CounterOrMeter\l_Model" alt="" coords="595,637,753,676"/>
-<area shape="rect" id="node21" href="$struct_p4_v1_1_1_register___model.html" title="P4V1::Register_Model" alt="" coords="597,700,751,725"/>
-<area shape="rect" id="node22" href="$class_p4_v1_1_1_truncate.html" title="P4V1::Truncate" alt="" coords="617,749,731,775"/>
-<area shape="rect" id="node18" href="$struct_p4_v1_1_1_counter___model.html" title="P4V1::Counter_Model" alt="" coords="824,595,977,620"/>
-<area shape="rect" id="node19" href="$struct_p4_v1_1_1_direct_meter___model.html" title="P4V1::DirectMeter_Model" alt="" coords="813,644,987,669"/>
-<area shape="rect" id="node20" href="$struct_p4_v1_1_1_meter___model.html" title="P4V1::Meter_Model" alt="" coords="831,693,970,719"/>
+<area shape="rect" id="node22" href="$struct_p4_v1_1_1_register___model.html" title="P4V1::Register_Model" alt="" coords="597,700,751,725"/>
+<area shape="rect" id="node23" href="$class_p4_v1_1_1_truncate.html" title="P4V1::Truncate" alt="" coords="617,749,731,775"/>
+<area shape="rect" id="node18" href="$struct_p4_v1_1_1_counter___model.html" title="P4V1::Counter_Model" alt="" coords="824,560,977,585"/>
+<area shape="rect" id="node19" href="$struct_p4_v1_1_1_direct_counter___model.html" title="P4V1::DirectCounter\l_Model" alt="" coords="829,609,972,648"/>
+<area shape="rect" id="node20" href="$struct_p4_v1_1_1_direct_meter___model.html" title="P4V1::DirectMeter_Model" alt="" coords="813,672,987,697"/>
+<area shape="rect" id="node21" href="$struct_p4_v1_1_1_meter___model.html" title="P4V1::Meter_Model" alt="" coords="831,721,970,747"/>
 </map>

@@ -114,57 +114,63 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ValidateParsedProgram</b> (bool isv1)</td></tr>
 <tr class="separator:af0f0e3a5c67d6b2ca70ffdc82989f795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a488db09aa21f6b5cfbffdd2f639cfc18"><td class="memItemLeft" align="right" valign="top"><a id="a488db09aa21f6b5cfbffdd2f639cfc18"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_constant.html">IR::Constant</a> *c) override</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#a488db09aa21f6b5cfbffdd2f639cfc18">postorder</a> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_constant">IR::Constant</a> *c) override</td></tr>
+<tr class="memdesc:a488db09aa21f6b5cfbffdd2f639cfc18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that the type of a constant is either bit&lt;&gt;, int&lt;&gt; or int. <br /></td></tr>
 <tr class="separator:a488db09aa21f6b5cfbffdd2f639cfc18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4784b7ea5f4bd05d7809089839bc3657"><td class="memItemLeft" align="right" valign="top"><a id="a4784b7ea5f4bd05d7809089839bc3657"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_switch_statement.html">IR::SwitchStatement</a> *statement) override</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#a4784b7ea5f4bd05d7809089839bc3657">postorder</a> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_switch_statement">IR::SwitchStatement</a> *statement) override</td></tr>
+<tr class="memdesc:a4784b7ea5f4bd05d7809089839bc3657"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch statements are not allowed in actions. <br /></td></tr>
 <tr class="separator:a4784b7ea5f4bd05d7809089839bc3657"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83bf8cd8d7889a8e1f554fcfc7516116"><td class="memItemLeft" align="right" valign="top"><a id="a83bf8cd8d7889a8e1f554fcfc7516116"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_method.html">IR::Method</a> *t) override</td></tr>
+<tr class="memitem:a83bf8cd8d7889a8e1f554fcfc7516116"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#a83bf8cd8d7889a8e1f554fcfc7516116">postorder</a> (const <a class="el" href="class_i_r_1_1_method.html">IR::Method</a> *t) override</td></tr>
 <tr class="separator:a83bf8cd8d7889a8e1f554fcfc7516116"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5ac6819bfbe4fcc142244b5f6ef842b"><td class="memItemLeft" align="right" valign="top"><a id="ab5ac6819bfbe4fcc142244b5f6ef842b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_struct_field.html">IR::StructField</a> *f) override</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#ab5ac6819bfbe4fcc142244b5f6ef842b">postorder</a> (const <a class="el" href="class_i_r_1_1_struct_field.html">IR::StructField</a> *f) override</td></tr>
+<tr class="memdesc:ab5ac6819bfbe4fcc142244b5f6ef842b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct field names cannot be underscore. <br /></td></tr>
 <tr class="separator:ab5ac6819bfbe4fcc142244b5f6ef842b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdcf32135e45bbe08f0f8eb89399a88c"><td class="memItemLeft" align="right" valign="top"><a id="afdcf32135e45bbe08f0f8eb89399a88c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_parser_state.html">IR::ParserState</a> *s) override</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#afdcf32135e45bbe08f0f8eb89399a88c">postorder</a> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_parser_state">IR::ParserState</a> *s) override</td></tr>
+<tr class="memdesc:afdcf32135e45bbe08f0f8eb89399a88c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The accept and reject states cannot be implemented. <br /></td></tr>
 <tr class="separator:afdcf32135e45bbe08f0f8eb89399a88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6fb854a0256cbc9e3383c55e1da3da9"><td class="memItemLeft" align="right" valign="top"><a id="aa6fb854a0256cbc9e3383c55e1da3da9"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_p4_table.html">IR::P4Table</a> *t) override</td></tr>
+<tr class="memitem:aa6fb854a0256cbc9e3383c55e1da3da9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#aa6fb854a0256cbc9e3383c55e1da3da9">postorder</a> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_p4_table">IR::P4Table</a> *t) override</td></tr>
 <tr class="separator:aa6fb854a0256cbc9e3383c55e1da3da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74b82bc36f2c97cf7c1a28e96eee3ced"><td class="memItemLeft" align="right" valign="top"><a id="a74b82bc36f2c97cf7c1a28e96eee3ced"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_type___union.html">IR::Type_Union</a> *type) override</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#a74b82bc36f2c97cf7c1a28e96eee3ced">postorder</a> (const <a class="el" href="class_i_r_1_1_type___union.html">IR::Type_Union</a> *type) override</td></tr>
+<tr class="memdesc:a74b82bc36f2c97cf7c1a28e96eee3ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unions must have at least one field. <br /></td></tr>
 <tr class="separator:a74b82bc36f2c97cf7c1a28e96eee3ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7883440fe5a1f8ee92ebd3493b546cc"><td class="memItemLeft" align="right" valign="top"><a id="af7883440fe5a1f8ee92ebd3493b546cc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_type___bits.html">IR::Type_Bits</a> *type) override</td></tr>
+<tr class="memitem:af7883440fe5a1f8ee92ebd3493b546cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#af7883440fe5a1f8ee92ebd3493b546cc">postorder</a> (const <a class="el" href="class_i_r_1_1_type___bits.html">IR::Type_Bits</a> *type) override</td></tr>
 <tr class="separator:af7883440fe5a1f8ee92ebd3493b546cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8f0f7956dbd23bca127639cb41df7dc"><td class="memItemLeft" align="right" valign="top"><a id="af8f0f7956dbd23bca127639cb41df7dc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_constructor_call_expression.html">IR::ConstructorCallExpression</a> *expression) override</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#af8f0f7956dbd23bca127639cb41df7dc">postorder</a> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_constructor_call_expression">IR::ConstructorCallExpression</a> *expression) override</td></tr>
+<tr class="memdesc:af8f0f7956dbd23bca127639cb41df7dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cannot invoke constructors in actions. <br /></td></tr>
 <tr class="separator:af8f0f7956dbd23bca127639cb41df7dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a80db6dc702f22cdf00401ad10259ff"><td class="memItemLeft" align="right" valign="top"><a id="a4a80db6dc702f22cdf00401ad10259ff"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_declaration___variable.html">IR::Declaration_Variable</a> *decl) override</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#a4a80db6dc702f22cdf00401ad10259ff">postorder</a> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_declaration___variable">IR::Declaration_Variable</a> *decl) override</td></tr>
+<tr class="memdesc:a4a80db6dc702f22cdf00401ad10259ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable names cannot be underscore. <br /></td></tr>
 <tr class="separator:a4a80db6dc702f22cdf00401ad10259ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2f9cf3d60c745bd9d832ba87d8f986e"><td class="memItemLeft" align="right" valign="top"><a id="ab2f9cf3d60c745bd9d832ba87d8f986e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_declaration___instance.html">IR::Declaration_Instance</a> *inst) override</td></tr>
+<tr class="memitem:ab2f9cf3d60c745bd9d832ba87d8f986e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#ab2f9cf3d60c745bd9d832ba87d8f986e">postorder</a> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_declaration___instance">IR::Declaration_Instance</a> *inst) override</td></tr>
 <tr class="separator:ab2f9cf3d60c745bd9d832ba87d8f986e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bcd35cbe149fdd56343d71361ea666c"><td class="memItemLeft" align="right" valign="top"><a id="a4bcd35cbe149fdd56343d71361ea666c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_declaration___constant.html">IR::Declaration_Constant</a> *decl) override</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#a4bcd35cbe149fdd56343d71361ea666c">postorder</a> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_declaration___constant">IR::Declaration_Constant</a> *decl) override</td></tr>
+<tr class="memdesc:a4bcd35cbe149fdd56343d71361ea666c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant names cannot be underscore. <br /></td></tr>
 <tr class="separator:a4bcd35cbe149fdd56343d71361ea666c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5ef59a895d8daf0ac41c2cef404aa41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#ae5ef59a895d8daf0ac41c2cef404aa41">postorder</a> (const <a class="el" href="class_i_r_1_1_entries_list.html">IR::EntriesList</a> *l) override</td></tr>
+<tr class="memitem:ae5ef59a895d8daf0ac41c2cef404aa41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#ae5ef59a895d8daf0ac41c2cef404aa41">postorder</a> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_entries_list">IR::EntriesList</a> *l) override</td></tr>
 <tr class="separator:ae5ef59a895d8daf0ac41c2cef404aa41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51a6bd49c3d304cfe3cabda6dc2d2041"><td class="memItemLeft" align="right" valign="top"><a id="a51a6bd49c3d304cfe3cabda6dc2d2041"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_return_statement.html">IR::ReturnStatement</a> *statement) override</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#a51a6bd49c3d304cfe3cabda6dc2d2041">postorder</a> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_return_statement">IR::ReturnStatement</a> *statement) override</td></tr>
+<tr class="memdesc:a51a6bd49c3d304cfe3cabda6dc2d2041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return statements are not allowed in parsers. <br /></td></tr>
 <tr class="separator:a51a6bd49c3d304cfe3cabda6dc2d2041"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12516c2a621b3264e6cf4824641665bc"><td class="memItemLeft" align="right" valign="top"><a id="a12516c2a621b3264e6cf4824641665bc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_exit_statement.html">IR::ExitStatement</a> *statement) override</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_p4_1_1_validate_parsed_program.html#a12516c2a621b3264e6cf4824641665bc">postorder</a> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_exit_statement">IR::ExitStatement</a> *statement) override</td></tr>
+<tr class="memdesc:a12516c2a621b3264e6cf4824641665bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exit statements are not allowed in parsers. <br /></td></tr>
 <tr class="separator:a12516c2a621b3264e6cf4824641665bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c15aaded5260cf8c3c2fb09f7d40331"><td class="memItemLeft" align="right" valign="top"><a id="a9c15aaded5260cf8c3c2fb09f7d40331"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_type___package.html">IR::Type_Package</a> *package) override</td></tr>
 <tr class="separator:a9c15aaded5260cf8c3c2fb09f7d40331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a44a5c8ae5eefba00ccb68d1f13f483"><td class="memItemLeft" align="right" valign="top"><a id="a1a44a5c8ae5eefba00ccb68d1f13f483"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_p4_control.html">IR::P4Control</a> *control) override</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_p4_control">IR::P4Control</a> *control) override</td></tr>
 <tr class="separator:a1a44a5c8ae5eefba00ccb68d1f13f483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d48d327faacbf044794a535321916b0"><td class="memItemLeft" align="right" valign="top"><a id="a4d48d327faacbf044794a535321916b0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="class_i_r_1_1_p4_parser.html">IR::P4Parser</a> *parser) override</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>postorder</b> (const <a class="el" href="group__irdefs.html#class_i_r_1_1_p4_parser">IR::P4Parser</a> *parser) override</td></tr>
 <tr class="separator:a4d48d327faacbf044794a535321916b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_inspector"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_inspector')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_inspector.html">Inspector</a></td></tr>
 <tr class="memitem:a6b8ae65e8f2f29da879711e4c0455c58 inherit pub_methods_class_inspector"><td class="memItemLeft" align="right" valign="top"><a id="a6b8ae65e8f2f29da879711e4c0455c58"></a>
@@ -295,9 +301,27 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>joinFlows</b> = false
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>visitDagOnce</b> = true</td></tr>
 <tr class="separator:a3eccf99a7f1eb191dd42aa6a3f29d467 inherit pro_attribs_class_visitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae5ef59a895d8daf0ac41c2cef404aa41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5ef59a895d8daf0ac41c2cef404aa41">&sect;&nbsp;</a></span>postorder()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This pass performs some simple semantic checks on the program; since the grammar accepts many programs that are actually illegal, this pass does some additional validation.</p>
+<p>This pass is run immediately after parsing. There is no type information at this point, so it only does simple checks.</p>
+<ul>
+<li>integer constants have valid types</li>
+<li>don't care _ is not used as a name for methods, fields, variables, instances</li>
+<li>unions have at least one field</li>
+<li>width of bit&lt;&gt; types is positive</li>
+<li>width of int&lt;&gt; types is larger than 1</li>
+<li>no parser state is named 'accept' or 'reject'</li>
+<li>constructor parameters are direction-less</li>
+<li>tables have an actions and a default_action properties</li>
+<li>instantiations appear at the top-level only</li>
+<li>switch statements do not occur in actions</li>
+<li>instantiations do not occur in actions</li>
+<li>constructors are not invoked in actions</li>
+<li>extern constructors have the same name as the enclosing extern </li>
+</ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a83bf8cd8d7889a8e1f554fcfc7516116"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83bf8cd8d7889a8e1f554fcfc7516116">&sect;&nbsp;</a></span>postorder() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -308,7 +332,115 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>visitDagOnce</b> = tr
         <tr>
           <td class="memname">void P4::ValidateParsedProgram::postorder </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_i_r_1_1_entries_list.html">IR::EntriesList</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_i_r_1_1_method.html">IR::Method</a> *&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Check that underscore is not a method name Check that constructors do not have a return type Check that extern constructor names match the enclosing extern </p>
+
+</div>
+</div>
+<a id="aa6fb854a0256cbc9e3383c55e1da3da9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6fb854a0256cbc9e3383c55e1da3da9">&sect;&nbsp;</a></span>postorder() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void P4::ValidateParsedProgram::postorder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__irdefs.html#class_i_r_1_1_p4_table">IR::P4Table</a> *&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Tables must have an 'actions' and a 'default_action' properties. The latter is just a warning. </p>
+
+</div>
+</div>
+<a id="af7883440fe5a1f8ee92ebd3493b546cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7883440fe5a1f8ee92ebd3493b546cc">&sect;&nbsp;</a></span>postorder() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void P4::ValidateParsedProgram::postorder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_i_r_1_1_type___bits.html">IR::Type_Bits</a> *&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Width of a bit&lt;&gt; type is at least 0 Width of an int&lt;&gt; type is at least 1 </p>
+
+</div>
+</div>
+<a id="ab2f9cf3d60c745bd9d832ba87d8f986e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2f9cf3d60c745bd9d832ba87d8f986e">&sect;&nbsp;</a></span>postorder() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void P4::ValidateParsedProgram::postorder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__irdefs.html#class_i_r_1_1_declaration___instance">IR::Declaration_Instance</a> *&#160;</td>
+          <td class="paramname"><em>decl</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Instance names cannot be don't care Do not declare instances in apply {} blocks, parser states or actions </p>
+
+</div>
+</div>
+<a id="ae5ef59a895d8daf0ac41c2cef404aa41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5ef59a895d8daf0ac41c2cef404aa41">&sect;&nbsp;</a></span>postorder() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void P4::ValidateParsedProgram::postorder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__irdefs.html#class_i_r_1_1_entries_list">IR::EntriesList</a> *&#160;</td>
           <td class="paramname"><em>l</em></td><td>)</td>
           <td></td>
         </tr>
@@ -330,7 +462,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>visitDagOnce</b> = tr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>P4</b></li><li class="navelem"><a class="el" href="class_p4_1_1_validate_parsed_program.html">ValidateParsedProgram</a></li>
-    <li class="footer">Generated on Thu Apr 6 2017 for
+    <li class="footer">Generated on Fri Apr 7 2017 for
     <a href="http://p4.org/spec">
     <img class="footer" src="p4-logo.png" alt="P4 Org" /></a></li>
   </ul>
