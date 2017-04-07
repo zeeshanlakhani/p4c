@@ -6,3 +6,12 @@
 img.footer {
     background-color: black;
 }
+
+li.footer::before {
+    content: "Generated on Fri Apr  7 15:22:15 PDT 2017 for";
+    vertical-align: top;
+}
+
+address.footer::before {
+    content: "<small>Generated on Fri Apr  7 15:22:15 PDT 2017 for &#160;</small>" ;
+}

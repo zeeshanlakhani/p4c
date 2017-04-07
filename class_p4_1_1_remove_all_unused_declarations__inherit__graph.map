@@ -1,5 +1,5 @@
 <map id="P4::RemoveAllUnusedDeclarations" name="P4::RemoveAllUnusedDeclarations">
-<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="68,152,172,177"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="91,5,149,31"/>
-<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="119,79,199,104"/>
+<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="68,155,171,181"/>
+<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="90,5,149,32"/>
+<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="119,80,200,107"/>
 </map>

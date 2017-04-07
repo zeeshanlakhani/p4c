@@ -1,5 +1,5 @@
 <map id="P4::UselessCasts" name="P4::UselessCasts">
-<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="17,152,120,177"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="40,5,98,31"/>
-<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="67,79,147,104"/>
+<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="19,155,121,181"/>
+<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="41,5,99,32"/>
+<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="69,80,151,107"/>
 </map>

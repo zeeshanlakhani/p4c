@@ -1,10 +1,10 @@
 var class_p4_1_1_evaluator =
 [
     [ "Evaluator", "class_p4_1_1_evaluator.html#a30495f66804f5a1d8392677d3c19e387", null ],
-    [ "currentBlock", "class_p4_1_1_evaluator.html#a52e28b1a5609aca1462f705cae13cb88", null ],
+    [ "currentBlock", "class_p4_1_1_evaluator.html#affcc97f6c652d4c2a46ee37cc0164bc9", null ],
     [ "evaluateArguments", "class_p4_1_1_evaluator.html#a958d31c9604d03bcda8164646e9db2da", null ],
     [ "getToplevelBlock", "class_p4_1_1_evaluator.html#a1fc6a3cc7f7d631e1c36cfe3a1b18737", null ],
-    [ "getValue", "class_p4_1_1_evaluator.html#ac22a37c1c0e0f606a76f12df251ad14d", null ],
+    [ "getValue", "class_p4_1_1_evaluator.html#aaab40f04712854bce579c5becd0b31e6", null ],
     [ "init_apply", "class_p4_1_1_evaluator.html#aff6de5843c6d6bc6cc4f45a181f2532f", null ],
     [ "popBlock", "class_p4_1_1_evaluator.html#a2dc65723aa68970621cac01266167bad", null ],
     [ "preorder", "class_p4_1_1_evaluator.html#a7e4cc4d0544a924faa9554a0e1df4651", null ],

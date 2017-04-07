@@ -1,5 +1,5 @@
 <map id="P4::RemoveExits" name="P4::RemoveExits">
-<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="15,152,119,177"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="38,5,96,31"/>
-<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="66,79,146,104"/>
+<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="17,155,119,181"/>
+<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="39,5,97,32"/>
+<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="67,80,149,107"/>
 </map>

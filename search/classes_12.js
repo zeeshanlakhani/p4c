@@ -76,8 +76,8 @@ var searchData=
   ['typeoccursvisitor',['TypeOccursVisitor',['../class_p4_1_1_type_occurs_visitor.html',1,'P4']]],
   ['typeparameters',['TypeParameters',['../class_i_r_1_1_type_parameters.html',1,'IR']]],
   ['typesubstitution',['TypeSubstitution',['../class_p4_1_1_type_substitution.html',1,'P4']]],
-  ['typesubstitution_3c_20const_20ir_3a_3aitypevar_20_2a_3e',['TypeSubstitution&lt; const IR::ITypeVar *&gt;',['../class_p4_1_1_type_substitution.html',1,'P4']]],
-  ['typesubstitution_3c_20const_20ir_3a_3atype_5fname_20_2a_3e',['TypeSubstitution&lt; const IR::Type_Name *&gt;',['../class_p4_1_1_type_substitution.html',1,'P4']]],
+  ['typesubstitution_3c_20const_20ir_3a_3aitypevar_20_2a_20_3e',['TypeSubstitution&lt; const IR::ITypeVar * &gt;',['../class_p4_1_1_type_substitution.html',1,'P4']]],
+  ['typesubstitution_3c_20const_20ir_3a_3atype_5fname_20_2a_20_3e',['TypeSubstitution&lt; const IR::Type_Name * &gt;',['../class_p4_1_1_type_substitution.html',1,'P4']]],
   ['typeunification',['TypeUnification',['../class_p4_1_1_type_unification.html',1,'P4']]],
   ['typevariablesubstitution',['TypeVariableSubstitution',['../class_p4_1_1_type_variable_substitution.html',1,'P4']]],
   ['typevariablesubstitutionvisitor',['TypeVariableSubstitutionVisitor',['../class_p4_1_1_type_variable_substitution_visitor.html',1,'P4']]]

@@ -1,8 +1,8 @@
 <map id="IR::TableProperties" name="IR::TableProperties">
-<area shape="rect" id="node2" href="$class_i_r_1_1_node.html" title="IR::Node" alt="" coords="57,225,131,251"/>
-<area shape="rect" id="node3" href="$class_i_r_1_1_i_node.html" title="IR::INode" alt="" coords="106,79,183,104"/>
-<area shape="rect" id="node6" href="$class_i_r_1_1_i_simple_namespace.html" title="Does not allow two declarations with the same name. " alt="" coords="155,225,313,251"/>
-<area shape="rect" id="node7" href="$class_i_r_1_1_i_namespace.html" title="IR::INamespace" alt="" coords="182,152,299,177"/>
-<area shape="rect" id="node4" href="$class_util_1_1_i_has_source_info.html" title="Util::IHasSourceInfo" alt="" coords="5,5,145,31"/>
-<area shape="rect" id="node5" href="$class_i_has_db_print.html" title="IHasDbPrint" alt="" coords="169,5,262,31"/>
+<area shape="rect" id="node2" href="$class_i_r_1_1_node.html" title="IR::Node" alt="" coords="59,229,133,256"/>
+<area shape="rect" id="node3" href="$class_i_r_1_1_i_node.html" title="IR::INode" alt="" coords="107,80,186,107"/>
+<area shape="rect" id="node6" href="$class_i_r_1_1_i_simple_namespace.html" title="Does not allow two declarations with the same name. " alt="" coords="158,229,317,256"/>
+<area shape="rect" id="node7" href="$class_i_r_1_1_i_namespace.html" title="IR::INamespace" alt="" coords="185,155,303,181"/>
+<area shape="rect" id="node4" href="$class_util_1_1_i_has_source_info.html" title="Util::IHasSourceInfo" alt="" coords="5,5,147,32"/>
+<area shape="rect" id="node5" href="$class_i_has_db_print.html" title="IHasDbPrint" alt="" coords="171,5,266,32"/>
 </map>

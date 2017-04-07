@@ -1,10 +1,10 @@
 var class_pass_manager =
 [
     [ "PassManager", "class_pass_manager.html#a5e24d7098c9c7c82ab4ead5ecbeb23b6", null ],
-    [ "PassManager", "class_pass_manager.html#a3a9223feadb595d8eb13b28bbf559f1e", null ],
+    [ "PassManager", "class_pass_manager.html#a012d6933ad20dfee9f4c41b735fc0aee", null ],
     [ "addDebugHook", "class_pass_manager.html#aa1843dc86403fdd76bea81eab83eab4f", null ],
     [ "addDebugHooks", "class_pass_manager.html#a2744f71327d0398c5d50cad99feda127", null ],
-    [ "addPasses", "class_pass_manager.html#a3574635caebf961d38c4bb7796c442eb", null ],
+    [ "addPasses", "class_pass_manager.html#acb3254e6f3224db5c80eefb34b9ece85", null ],
     [ "apply_visitor", "class_pass_manager.html#add9ad80e05ee249b54a3ce30fc8bce44", null ],
     [ "backtrack", "class_pass_manager.html#a478ec356f8f9f5b16f4e7bf17ee8fe73", null ],
     [ "early_exit", "class_pass_manager.html#a5e07c16c9987bbaa838caa00863de047", null ],

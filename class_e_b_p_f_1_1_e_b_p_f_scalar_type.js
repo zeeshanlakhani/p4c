@@ -1,8 +1,8 @@
 var class_e_b_p_f_1_1_e_b_p_f_scalar_type =
 [
     [ "EBPFScalarType", "class_e_b_p_f_1_1_e_b_p_f_scalar_type.html#a37388212dde28898a1f7b48ed2829efa", null ],
-    [ "alignment", "class_e_b_p_f_1_1_e_b_p_f_scalar_type.html#ab8cd4021e7f193b8ff35c219722003b2", null ],
-    [ "bytesRequired", "class_e_b_p_f_1_1_e_b_p_f_scalar_type.html#a2849acb7aa2c0810262dfed25f5f38ca", null ],
+    [ "alignment", "class_e_b_p_f_1_1_e_b_p_f_scalar_type.html#ab1cf31425aeebcfe9adb92f8799f0424", null ],
+    [ "bytesRequired", "class_e_b_p_f_1_1_e_b_p_f_scalar_type.html#a1660ba72f671456996a21a09166165ac", null ],
     [ "declare", "class_e_b_p_f_1_1_e_b_p_f_scalar_type.html#a197659270d4051324958d9016e5305c9", null ],
     [ "emit", "class_e_b_p_f_1_1_e_b_p_f_scalar_type.html#acafd57d0ea1e607a0646397e9aa86ee0", null ],
     [ "emitInitializer", "class_e_b_p_f_1_1_e_b_p_f_scalar_type.html#a74608db40810baa20de78530c4d19eaf", null ],

@@ -13,7 +13,7 @@ var class_util_1_1_json_object =
     [ "emplace", "class_util_1_1_json_object.html#a196db368570d1803e31be9b0e9d7fa6b", null ],
     [ "emplace", "class_util_1_1_json_object.html#ab78efe374c960c0fe61c9a34af29071d", null ],
     [ "emplace", "class_util_1_1_json_object.html#ac574c625c120fea3924cf93b7c95fd6a", null ],
-    [ "get", "class_util_1_1_json_object.html#a716dcd095caa24f4e85b9595e720c1cf", null ],
-    [ "serialize", "class_util_1_1_json_object.html#a57ebe6dd13cf18154876f2040a09877b", null ],
+    [ "get", "class_util_1_1_json_object.html#a27ecf4331cfddb6b26c359a5474feee6", null ],
+    [ "serialize", "class_util_1_1_json_object.html#ae69f6fa3894d6e8fb245996c8f27c7e4", null ],
     [ "Test::TestJson", "class_util_1_1_json_object.html#a377100779c8e7c443f6115f1fb920853", null ]
 ];

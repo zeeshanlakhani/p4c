@@ -1,5 +1,5 @@
 <map id="BMV2::SimpleControlsInliner" name="BMV2::SimpleControlsInliner">
-<area shape="rect" id="node2" href="$class_p4_1_1_abstract_inliner.html" title="P4::AbstractInliner" alt="" coords="36,152,166,177"/>
-<area shape="rect" id="node3" href="$class_transform.html" title="Transform" alt="" coords="60,79,142,104"/>
-<area shape="rect" id="node4" href="$class_visitor.html" title="Visitor" alt="" coords="72,5,130,31"/>
+<area shape="rect" id="node2" href="$class_p4_1_1_abstract_inliner.html" title="P4::AbstractInliner" alt="" coords="35,155,166,181"/>
+<area shape="rect" id="node3" href="$class_transform.html" title="Transform" alt="" coords="60,80,141,107"/>
+<area shape="rect" id="node4" href="$class_visitor.html" title="Visitor" alt="" coords="71,5,130,32"/>
 </map>

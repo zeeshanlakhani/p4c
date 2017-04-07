@@ -1,50 +1,50 @@
 <map id="Util::IHasSourceInfo" name="Util::IHasSourceInfo">
-<area shape="rect" id="node2" href="$struct_i_r_1_1_i_d.html" title="IR::ID" alt="" coords="204,820,260,845"/>
-<area shape="rect" id="node3" href="$class_i_r_1_1_i_node.html" title="IR::INode" alt="" coords="193,869,271,895"/>
-<area shape="rect" id="node4" href="$class_i_r_1_1_compile_time_value.html" title="a value that can be evaluated at compile&#45;time " alt="" coords="535,80,689,105"/>
-<area shape="rect" id="node8" href="$class_i_r_1_1_i_annotated.html" title="Implemented by all objects that can have annotations. " alt="" coords="559,745,665,771"/>
-<area shape="rect" id="node26" href="$class_i_r_1_1_i_apply.html" title="Implemented by objects with an &#39;apply&#39; method. " alt="" coords="572,1140,652,1165"/>
-<area shape="rect" id="node30" href="$class_i_r_1_1_i_container.html" title="Implemented by P4Parser, P4Control and Type_Package. " alt="" coords="560,1189,664,1215"/>
-<area shape="rect" id="node31" href="$class_i_r_1_1_i_declaration.html" title="IR::IDeclaration" alt="" coords="344,708,457,733"/>
-<area shape="rect" id="node36" href="$class_i_r_1_1_i_general_namespace.html" title="E.g., an extern can have multiple methods with the same name. " alt="" coords="530,1288,694,1313"/>
-<area shape="rect" id="node37" href="$class_i_r_1_1_i_instance.html" title="IR::IInstance" alt="" coords="564,203,660,228"/>
-<area shape="rect" id="node39" href="$class_i_r_1_1_i_may_be_generic_type.html" title="Implemented by all types that may be generic. " alt="" coords="319,1117,482,1143"/>
-<area shape="rect" id="node41" href="$class_i_r_1_1_i_namespace.html" title="IR::INamespace" alt="" coords="342,996,459,1021"/>
-<area shape="rect" id="node42" href="$class_i_r_1_1_i_simple_namespace.html" title="Does not allow two declarations with the same name. " alt="" coords="533,844,691,869"/>
-<area shape="rect" id="node48" href="$class_i_r_1_1_i_type_var.html" title="Implemented by things that look like type variables. " alt="" coords="353,1219,448,1244"/>
-<area shape="rect" id="node49" href="$class_i_r_1_1_node.html" title="IR::Node" alt="" coords="575,351,649,376"/>
-<area shape="rect" id="node5" href="$group__irdefs.html#class_i_r_1_1_block" title="IR::Block" alt="" coords="795,55,869,80"/>
-<area shape="rect" id="node6" href="$class_i_r_1_1_declaration___i_d.html" title="A declaration that consists of just an identifier, e.g., an enum member. " alt="" coords="767,104,897,129"/>
-<area shape="rect" id="node7" href="$group__irdefs.html#class_i_r_1_1_literal" title="IR::Literal" alt="" coords="793,5,871,31"/>
-<area shape="rect" id="node9" href="$group__irdefs.html#class_i_r_1_1_action_list_element" title="IR::ActionListElement" alt="" coords="758,252,906,277"/>
-<area shape="rect" id="node10" href="$group__irdefs.html#class_i_r_1_1_declaration___constant" title="IR::Declaration_Constant" alt="" coords="747,647,917,672"/>
-<area shape="rect" id="node11" href="$group__irdefs.html#class_i_r_1_1_declaration___instance" title="IR::Declaration_Instance" alt="" coords="748,203,916,228"/>
-<area shape="rect" id="node12" href="$group__irdefs.html#class_i_r_1_1_declaration___variable" title="IR::Declaration_Variable" alt="" coords="750,696,915,721"/>
-<area shape="rect" id="node13" href="$group__irdefs.html#class_i_r_1_1_entry" title="Pre&#45;defined entry in a table. " alt="" coords="795,301,869,327"/>
-<area shape="rect" id="node14" href="$group__irdefs.html#class_i_r_1_1_p4_action" title="IR::P4Action" alt="" coords="784,844,880,869"/>
-<area shape="rect" id="node15" href="$group__irdefs.html#class_i_r_1_1_p4_table" title="IR::P4Table" alt="" coords="787,893,877,919"/>
-<area shape="rect" id="node16" href="$class_i_r_1_1_parameter.html" title="IR::Parameter" alt="" coords="780,548,884,573"/>
-<area shape="rect" id="node17" href="$group__irdefs.html#class_i_r_1_1_parser_state" title="IR::ParserState" alt="" coords="776,795,888,820"/>
-<area shape="rect" id="node18" href="$group__irdefs.html#class_i_r_1_1_property" title="IR::Property" alt="" coords="786,597,878,623"/>
-<area shape="rect" id="node19" href="$class_i_r_1_1_struct_field.html" title="IR::StructField" alt="" coords="779,745,885,771"/>
-<area shape="rect" id="node20" href="$class_i_r_1_1_type___arch_block.html" title="Abstract base for Type_Control, Type_Parser and Type_Package. " alt="" coords="763,1091,901,1116"/>
-<area shape="rect" id="node24" href="$class_i_r_1_1_type___struct_like.html" title="IR::Type_StructLike" alt="" coords="763,992,901,1017"/>
-<area shape="rect" id="node25" href="$class_i_r_1_1_type___typedef.html" title="IR::Type_Typedef" alt="" coords="769,1041,895,1067"/>
-<area shape="rect" id="node21" href="$class_i_r_1_1_type___control.html" title="IR::Type_Control" alt="" coords="975,1253,1096,1279"/>
-<area shape="rect" id="node22" href="$class_i_r_1_1_type___package.html" title="IR::Type_Package" alt="" coords="970,1328,1100,1353"/>
-<area shape="rect" id="node23" href="$class_i_r_1_1_type___parser.html" title="IR::Type_Parser" alt="" coords="976,1165,1094,1191"/>
-<area shape="rect" id="node27" href="$group__irdefs.html#class_i_r_1_1_p4_control" title="IR::P4Control" alt="" coords="781,1140,883,1165"/>
-<area shape="rect" id="node28" href="$group__irdefs.html#class_i_r_1_1_p4_parser" title="IR::P4Parser" alt="" coords="783,1189,881,1215"/>
-<area shape="rect" id="node29" href="$class_i_r_1_1_type___table.html" title="IR::Type_Table" alt="" coords="777,1341,887,1367"/>
-<area shape="rect" id="node32" href="$group__irdefs.html#class_i_r_1_1_attrib_local" title="IR::AttribLocal" alt="" coords="559,647,664,672"/>
-<area shape="rect" id="node33" href="$class_i_r_1_1_declaration.html" title="That&#39;s why declid is used to distinguish them. " alt="" coords="557,696,667,721"/>
-<area shape="rect" id="node34" href="$class_i_r_1_1_type___declaration.html" title="inherit both Type and Declaration.) " alt="" coords="539,1091,685,1116"/>
-<area shape="rect" id="node35" href="$class_i_r_1_1_type___extern.html" title="An &#39;extern&#39; black&#45;box (not a function) " alt="" coords="774,1443,891,1468"/>
-<area shape="rect" id="node38" href="$group__irdefs.html#class_i_r_1_1_attached" title="IR::Attached" alt="" coords="785,153,879,179"/>
-<area shape="rect" id="node40" href="$class_i_r_1_1_type___method_base.html" title="IR::Type_MethodBase" alt="" coords="535,1239,689,1264"/>
-<area shape="rect" id="node43" href="$group__irdefs.html#class_i_r_1_1_attrib_locals" title="IR::AttribLocals" alt="" coords="776,351,888,376"/>
-<area shape="rect" id="node44" href="$group__irdefs.html#class_i_r_1_1_block_statement" title="IR::BlockStatement" alt="" coords="764,943,900,968"/>
-<area shape="rect" id="node45" href="$group__irdefs.html#class_i_r_1_1_declaration___match_kind" title="IR::Declaration_MatchKind" alt="" coords="742,400,922,425"/>
-<area shape="rect" id="node46" href="$group__irdefs.html#class_i_r_1_1_p4_program" title="IR::P4Program" alt="" coords="777,449,887,475"/>
-<area shape="rect" id="node47" href="$class_i_r_1_1_parameter_list.html" title="IR::ParameterList" alt="" coords="770,499,895,524"/>
+<area shape="rect" id="node2" href="$struct_i_r_1_1_i_d.html" title="IR::ID" alt="" coords="205,841,263,868"/>
+<area shape="rect" id="node3" href="$class_i_r_1_1_i_node.html" title="IR::INode" alt="" coords="195,892,273,919"/>
+<area shape="rect" id="node4" href="$class_i_r_1_1_compile_time_value.html" title="a value that can be evaluated at compile&#45;time " alt="" coords="536,81,691,108"/>
+<area shape="rect" id="node8" href="$class_i_r_1_1_i_annotated.html" title="Implemented by all objects that can have annotations. " alt="" coords="560,765,667,792"/>
+<area shape="rect" id="node26" href="$class_i_r_1_1_i_apply.html" title="Implemented by objects with an &#39;apply&#39; method. " alt="" coords="573,1171,654,1197"/>
+<area shape="rect" id="node30" href="$class_i_r_1_1_i_container.html" title="Implemented by P4Parser, P4Control and Type_Package. " alt="" coords="561,1221,665,1248"/>
+<area shape="rect" id="node31" href="$class_i_r_1_1_i_declaration.html" title="IR::IDeclaration" alt="" coords="345,728,460,755"/>
+<area shape="rect" id="node36" href="$class_i_r_1_1_i_general_namespace.html" title="E.g., an extern can have multiple methods with the same name. " alt="" coords="532,1323,695,1349"/>
+<area shape="rect" id="node37" href="$class_i_r_1_1_i_instance.html" title="IR::IInstance" alt="" coords="564,208,663,235"/>
+<area shape="rect" id="node39" href="$class_i_r_1_1_i_may_be_generic_type.html" title="Implemented by all types that may be generic. " alt="" coords="321,1145,484,1172"/>
+<area shape="rect" id="node41" href="$class_i_r_1_1_i_namespace.html" title="IR::INamespace" alt="" coords="343,1019,462,1045"/>
+<area shape="rect" id="node42" href="$class_i_r_1_1_i_simple_namespace.html" title="Does not allow two declarations with the same name. " alt="" coords="534,867,693,893"/>
+<area shape="rect" id="node48" href="$class_i_r_1_1_i_type_var.html" title="Implemented by things that look like type variables. " alt="" coords="354,1247,451,1273"/>
+<area shape="rect" id="node49" href="$class_i_r_1_1_node.html" title="IR::Node" alt="" coords="576,360,651,387"/>
+<area shape="rect" id="node5" href="$group__irdefs.html#class_i_r_1_1_block" title="IR::Block" alt="" coords="793,56,871,83"/>
+<area shape="rect" id="node6" href="$class_i_r_1_1_declaration___i_d.html" title="A declaration that consists of just an identifier, e.g., an enum member. " alt="" coords="767,107,897,133"/>
+<area shape="rect" id="node7" href="$group__irdefs.html#class_i_r_1_1_literal" title="IR::Literal" alt="" coords="793,5,871,32"/>
+<area shape="rect" id="node9" href="$group__irdefs.html#class_i_r_1_1_action_list_element" title="IR::ActionListElement" alt="" coords="757,259,907,285"/>
+<area shape="rect" id="node10" href="$group__irdefs.html#class_i_r_1_1_declaration___constant" title="IR::Declaration_Constant" alt="" coords="747,664,917,691"/>
+<area shape="rect" id="node11" href="$group__irdefs.html#class_i_r_1_1_declaration___instance" title="IR::Declaration_Instance" alt="" coords="749,208,915,235"/>
+<area shape="rect" id="node12" href="$group__irdefs.html#class_i_r_1_1_declaration___variable" title="IR::Declaration_Variable" alt="" coords="750,715,914,741"/>
+<area shape="rect" id="node13" href="$group__irdefs.html#class_i_r_1_1_entry" title="Pre&#45;defined entry in a table. " alt="" coords="795,309,869,336"/>
+<area shape="rect" id="node14" href="$group__irdefs.html#class_i_r_1_1_p4_action" title="IR::P4Action" alt="" coords="783,867,881,893"/>
+<area shape="rect" id="node15" href="$group__irdefs.html#class_i_r_1_1_p4_table" title="IR::P4Table" alt="" coords="786,917,878,944"/>
+<area shape="rect" id="node16" href="$class_i_r_1_1_parameter.html" title="IR::Parameter" alt="" coords="780,563,884,589"/>
+<area shape="rect" id="node17" href="$group__irdefs.html#class_i_r_1_1_parser_state" title="IR::ParserState" alt="" coords="775,816,889,843"/>
+<area shape="rect" id="node18" href="$group__irdefs.html#class_i_r_1_1_property" title="IR::Property" alt="" coords="785,613,879,640"/>
+<area shape="rect" id="node19" href="$class_i_r_1_1_struct_field.html" title="IR::StructField" alt="" coords="779,765,885,792"/>
+<area shape="rect" id="node20" href="$class_i_r_1_1_type___arch_block.html" title="Abstract base for Type_Control, Type_Parser and Type_Package. " alt="" coords="762,1120,902,1147"/>
+<area shape="rect" id="node24" href="$class_i_r_1_1_type___struct_like.html" title="IR::Type_StructLike" alt="" coords="763,1019,901,1045"/>
+<area shape="rect" id="node25" href="$class_i_r_1_1_type___typedef.html" title="IR::Type_Typedef" alt="" coords="769,1069,895,1096"/>
+<area shape="rect" id="node21" href="$class_i_r_1_1_type___control.html" title="IR::Type_Control" alt="" coords="973,1285,1096,1312"/>
+<area shape="rect" id="node22" href="$class_i_r_1_1_type___package.html" title="IR::Type_Package" alt="" coords="969,1361,1100,1388"/>
+<area shape="rect" id="node23" href="$class_i_r_1_1_type___parser.html" title="IR::Type_Parser" alt="" coords="975,1159,1094,1185"/>
+<area shape="rect" id="node27" href="$group__irdefs.html#class_i_r_1_1_p4_control" title="IR::P4Control" alt="" coords="781,1171,883,1197"/>
+<area shape="rect" id="node28" href="$group__irdefs.html#class_i_r_1_1_p4_parser" title="IR::P4Parser" alt="" coords="783,1221,881,1248"/>
+<area shape="rect" id="node29" href="$class_i_r_1_1_type___table.html" title="IR::Type_Table" alt="" coords="776,1373,888,1400"/>
+<area shape="rect" id="node32" href="$group__irdefs.html#class_i_r_1_1_attrib_local" title="IR::AttribLocal" alt="" coords="560,664,667,691"/>
+<area shape="rect" id="node33" href="$class_i_r_1_1_declaration.html" title="That&#39;s why declid is used to distinguish them. " alt="" coords="558,715,669,741"/>
+<area shape="rect" id="node34" href="$class_i_r_1_1_type___declaration.html" title="inherit both Type and Declaration.) " alt="" coords="540,1120,687,1147"/>
+<area shape="rect" id="node35" href="$class_i_r_1_1_type___extern.html" title="An &#39;extern&#39; black&#45;box (not a function) " alt="" coords="773,1475,891,1501"/>
+<area shape="rect" id="node38" href="$group__irdefs.html#class_i_r_1_1_attached" title="IR::Attached" alt="" coords="784,157,880,184"/>
+<area shape="rect" id="node40" href="$class_i_r_1_1_type___method_base.html" title="IR::Type_MethodBase" alt="" coords="537,1272,690,1299"/>
+<area shape="rect" id="node43" href="$group__irdefs.html#class_i_r_1_1_attrib_locals" title="IR::AttribLocals" alt="" coords="775,360,889,387"/>
+<area shape="rect" id="node44" href="$group__irdefs.html#class_i_r_1_1_block_statement" title="IR::BlockStatement" alt="" coords="763,968,901,995"/>
+<area shape="rect" id="node45" href="$group__irdefs.html#class_i_r_1_1_declaration___match_kind" title="IR::Declaration_MatchKind" alt="" coords="743,411,921,437"/>
+<area shape="rect" id="node46" href="$group__irdefs.html#class_i_r_1_1_p4_program" title="IR::P4Program" alt="" coords="777,461,887,488"/>
+<area shape="rect" id="node47" href="$class_i_r_1_1_parameter_list.html" title="IR::ParameterList" alt="" coords="769,512,895,539"/>
 </map>

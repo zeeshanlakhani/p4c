@@ -8,7 +8,7 @@ var group__irdefs_class_i_r_1_1_action_list =
     [ "operator==", "group__irdefs.html#ga5320fe1720b32dfed1945ae8769f7f7d", null ],
     [ "operator==", "group__irdefs.html#ga4c379aa91056c8816faea9085ddeaea6", null ],
     [ "operator==", "group__irdefs.html#ga84fe0ffc781930afde7f04c05da73e97", null ],
-    [ "size", "group__irdefs.html#ga525b13c7d13eee5e920ac497423b0a79", null ],
+    [ "size", "group__irdefs.html#ga82e5c625af114d9e5a6f8aaa7cc61712", null ],
     [ "toJSON", "group__irdefs.html#gac0a70212cdb447451231fd0ec2532b4a", null ],
     [ "validate", "group__irdefs.html#ga604581a5fe7ecf90e494d24a7e14dcc2", null ],
     [ "visit_children", "group__irdefs.html#gac257b9f0226d06bb775397f0121cafb4", null ],

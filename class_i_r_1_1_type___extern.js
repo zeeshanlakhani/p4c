@@ -20,7 +20,7 @@ var class_i_r_1_1_type___extern =
     [ "dbprint", "class_i_r_1_1_type___extern.html#ad429af7013505b2f335f87d1da967fee", null ],
     [ "getDeclarations", "class_i_r_1_1_type___extern.html#ac5c7aeacbae64b3ecd6827e77dca4088", null ],
     [ "getTypeParameters", "class_i_r_1_1_type___extern.html#abe9bb73b33beeb2a31e53265e7eab03c", null ],
-    [ "lookupMethod", "class_i_r_1_1_type___extern.html#a0e67b70d2acfb43c3e19791ebed7c6b7", null ],
+    [ "lookupMethod", "class_i_r_1_1_type___extern.html#a08327e9707a4cae61a8cb61a605dab68", null ],
     [ "node_type_name", "class_i_r_1_1_type___extern.html#aa59d9bf033e114cd03103a86790dc200", null ],
     [ "operator==", "class_i_r_1_1_type___extern.html#a62440cc225bb5533aeddab017d4c7524", null ],
     [ "operator==", "class_i_r_1_1_type___extern.html#a2ff5de0e54fbbec680cdb85ed5be2530", null ],

@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classbitvec.html" title="bitvec" alt="" coords="5,31,61,56"/>
-<area shape="rect" id="node2" href="$class_l_t_bit_matrix.html" title="LTBitMatrix" alt="" coords="116,5,203,31"/>
-<area shape="rect" id="node3" href="$class_sym_bit_matrix.html" title="SymBitMatrix" alt="" coords="109,55,209,80"/>
+<area shape="rect" id="node1" href="$classbitvec.html" title="bitvec" alt="" coords="5,31,63,57"/>
+<area shape="rect" id="node2" href="$class_l_t_bit_matrix.html" title="LTBitMatrix" alt="" coords="117,5,206,32"/>
+<area shape="rect" id="node3" href="$class_sym_bit_matrix.html" title="SymBitMatrix" alt="" coords="111,56,212,83"/>
 </map>

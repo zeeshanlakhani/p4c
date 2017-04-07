@@ -16,8 +16,8 @@ var class_util_1_1_source_code_builder =
     [ "emitIndent", "class_util_1_1_source_code_builder.html#ae99abfec0dacf6cf94aedb4acfacffdd", null ],
     [ "endOfStatement", "class_util_1_1_source_code_builder.html#a15ca9658f0d6d50b2e4f545ff9ac0ead", null ],
     [ "increaseIndent", "class_util_1_1_source_code_builder.html#ae28f9fbb5a9f0ed7050dbfcecf35bc67", null ],
-    [ "lastIsSpace", "class_util_1_1_source_code_builder.html#a96443af3e785afdfd9a177262a19c9dc", null ],
+    [ "lastIsSpace", "class_util_1_1_source_code_builder.html#aaf09d724f47b176de94b7929cfab3131", null ],
     [ "newline", "class_util_1_1_source_code_builder.html#a01f98bd9ded0a97daed70a168816dd1c", null ],
     [ "spc", "class_util_1_1_source_code_builder.html#aadd3ff4894d2d88947a0becb958cde75", null ],
-    [ "toString", "class_util_1_1_source_code_builder.html#a472b1232087ba8be7ae36966e6155d51", null ]
+    [ "toString", "class_util_1_1_source_code_builder.html#a2cb1f611eb482494f4211a0cb43ed62f", null ]
 ];

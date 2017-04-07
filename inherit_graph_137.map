@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_util_1_1_options.html" title="Util::Options" alt="" coords="5,5,99,31"/>
-<area shape="rect" id="node2" href="$class_compiler_options.html" title="CompilerOptions" alt="" coords="147,5,268,31"/>
-<area shape="rect" id="node3" href="$class_ebpf_options.html" title="EbpfOptions" alt="" coords="316,5,411,31"/>
+<area shape="rect" id="node1" href="$class_util_1_1_options.html" title="Util::Options" alt="" coords="5,5,100,32"/>
+<area shape="rect" id="node2" href="$class_compiler_options.html" title="CompilerOptions" alt="" coords="148,5,267,32"/>
+<area shape="rect" id="node3" href="$class_ebpf_options.html" title="EbpfOptions" alt="" coords="315,5,409,32"/>
 </map>

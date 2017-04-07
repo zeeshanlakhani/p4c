@@ -1,5 +1,5 @@
 <map id="P4::SimplifyDefUse" name="P4::SimplifyDefUse">
-<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="22,152,125,177"/>
-<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="44,5,102,31"/>
-<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="72,79,152,104"/>
+<area shape="rect" id="node2" href="$class_pass_manager.html" title="PassManager" alt="" coords="23,155,126,181"/>
+<area shape="rect" id="node3" href="$class_visitor.html" title="Visitor" alt="" coords="45,5,104,32"/>
+<area shape="rect" id="node4" href="$class_backtrack.html" title="Backtrack" alt="" coords="74,80,155,107"/>
 </map>

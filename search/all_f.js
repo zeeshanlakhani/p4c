@@ -1,8 +1,8 @@
 var searchData=
 [
   ['controlplaneapi',['ControlPlaneAPI',['../namespace_p4_1_1_control_plane_a_p_i.html',1,'P4']]],
-  ['p4test_20backend',['P4test Backend',['../md___users_cascaval__barefoot__projects__p4_src_p4c_backends_p4test__r_e_a_d_m_e.html',1,'']]],
-  ['p4_20compiler_20intermediate_20representation',['P4 Compiler Intermediate representation',['../md___users_cascaval__barefoot__projects__p4_src_p4c_docs__i_r.html',1,'']]],
+  ['p4test_20backend',['P4test Backend',['../md__mnt_scratch_Projects_P4_p4c_backends_p4test_README.html',1,'']]],
+  ['p4_20compiler_20intermediate_20representation',['P4 Compiler Intermediate representation',['../md__mnt_scratch_Projects_P4_p4c_docs_IR.html',1,'']]],
   ['p4action',['P4Action',['../group__irdefs.html#class_i_r_1_1_p4_action',1,'IR']]],
   ['p4cexceptionbase',['P4CExceptionBase',['../class_util_1_1_p4_c_exception_base.html',1,'Util']]],
   ['p4control',['P4Control',['../group__irdefs.html#class_i_r_1_1_p4_control',1,'IR']]],

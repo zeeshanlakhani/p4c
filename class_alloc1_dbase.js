@@ -9,5 +9,5 @@ var class_alloc1_dbase =
     [ "clear", "class_alloc1_dbase.html#a802beba9617ddff0d73fca3b20bb87b6", null ],
     [ "end", "class_alloc1_dbase.html#a375995dcf785f8bbeb5ef7108d289110", null ],
     [ "operator[]", "class_alloc1_dbase.html#a5d331750a61be206c5f6a3a86cd99d90", null ],
-    [ "operator[]", "class_alloc1_dbase.html#a5aaf0fbf6e25adea47ed996abe33afcb", null ]
+    [ "operator[]", "class_alloc1_dbase.html#af377f81e0bb2f4a3af336dbaf3fec671", null ]
 ];

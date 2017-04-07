@@ -7,7 +7,7 @@ var group__irdefs_class_i_r_1_1_parser_state =
     [ "getAnnotations", "group__irdefs.html#ga3795faf2489996796fddf6c8f4c39053", null ],
     [ "getDeclarations", "group__irdefs.html#gac28a04e2e9275ba5d210bf467194702a", null ],
     [ "getDeclByName", "group__irdefs.html#ga62dad190c40ac77858322d46613fbfe2", null ],
-    [ "isBuiltin", "group__irdefs.html#ga28e57269a3ecc9d3ed816d82551ea0c5", null ],
+    [ "isBuiltin", "group__irdefs.html#gab770de23ec2299d325c742e1304f328d", null ],
     [ "node_type_name", "group__irdefs.html#gaba8249ab0801ba65da752f02b8eac566", null ],
     [ "operator==", "group__irdefs.html#ga80ad1039978f0cbbb49a0c73cdd9ddbf", null ],
     [ "operator==", "group__irdefs.html#gadd6bac510729d1215fc2504e52128778", null ],

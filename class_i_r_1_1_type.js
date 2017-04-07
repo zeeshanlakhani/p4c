@@ -14,5 +14,5 @@ var class_i_r_1_1_type =
     [ "operator==", "class_i_r_1_1_type.html#a03afd495b2ae9182ace5f17171aa98a2", null ],
     [ "operator==", "class_i_r_1_1_type.html#acdc60f14f0c6bdf0c5653fad3ff40eb7", null ],
     [ "toJSON", "class_i_r_1_1_type.html#a7a953c4f3851e06e147a34d5e2a0b72a", null ],
-    [ "width_bits", "class_i_r_1_1_type.html#a6031a992f0fb9a6caf571be2a9b7189e", null ]
+    [ "width_bits", "class_i_r_1_1_type.html#ab64ceb3543b59dea9ada80f9fc031b4e", null ]
 ];

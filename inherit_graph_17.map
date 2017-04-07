@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_d_b_print_1_1setflags__helper.html" title="DBPrint::setflags_helper" alt="" coords="5,55,170,80"/>
-<area shape="rect" id="node2" href="$struct_d_b_print_1_1clrflag.html" title="DBPrint::clrflag" alt="" coords="223,5,333,31"/>
-<area shape="rect" id="node3" href="$struct_d_b_print_1_1setflag.html" title="DBPrint::setflag" alt="" coords="221,55,335,80"/>
-<area shape="rect" id="node4" href="$struct_d_b_print_1_1setprec.html" title="DBPrint::setprec" alt="" coords="218,104,337,129"/>
+<area shape="rect" id="node1" href="$class_d_b_print_1_1setflags__helper.html" title="DBPrint::setflags_helper" alt="" coords="5,56,169,83"/>
+<area shape="rect" id="node2" href="$struct_d_b_print_1_1clrflag.html" title="DBPrint::clrflag" alt="" coords="221,5,332,32"/>
+<area shape="rect" id="node3" href="$struct_d_b_print_1_1setflag.html" title="DBPrint::setflag" alt="" coords="219,56,334,83"/>
+<area shape="rect" id="node4" href="$struct_d_b_print_1_1setprec.html" title="DBPrint::setprec" alt="" coords="217,107,336,133"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="P4::SymbolicError" name="P4::SymbolicError">
-<area shape="rect" id="node3" href="$class_p4_1_1_symbolic_exception.html" title="P4::SymbolicException" alt="" coords="5,152,163,177"/>
-<area shape="rect" id="node4" href="$class_p4_1_1_symbolic_static_error.html" title="P4::SymbolicStaticError" alt="" coords="187,152,349,177"/>
-<area shape="rect" id="node2" href="$class_p4_1_1_symbolic_value.html" title="P4::SymbolicValue" alt="" coords="110,5,242,31"/>
+<area shape="rect" id="node3" href="$class_p4_1_1_symbolic_exception.html" title="P4::SymbolicException" alt="" coords="5,155,164,181"/>
+<area shape="rect" id="node4" href="$class_p4_1_1_symbolic_static_error.html" title="P4::SymbolicStaticError" alt="" coords="189,155,351,181"/>
+<area shape="rect" id="node2" href="$class_p4_1_1_symbolic_value.html" title="P4::SymbolicValue" alt="" coords="110,5,243,32"/>
 </map>
