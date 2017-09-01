@@ -41,6 +41,8 @@ class Visitor {
         // starts and destroyed when it ends.  Moveable but not copyable.
         Visitor         &v;
         uint64_t        start;
+        uint32_t        signPostCodeName;
+        uint32_t        signPostInstance;
         explicit profile_t(Visitor &);
         profile_t() = delete;
         profile_t(const profile_t &) = delete;

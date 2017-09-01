@@ -14,6 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+#include <sys/kdebug_signpost.h>
 #include <time.h>
 #include "ir.h"
 #include "lib/log.h"
@@ -129,6 +130,26 @@ class Visitor::ChangeTracker {
     }
 };
 
+static uint32_t getSignPostCodeName(const Visitor& visitor) {
+    static std::map<size_t, uint32_t> codeNames;
+    static uint32_t nextCodeName = 0;
+
+    const size_t id = typeid(visitor).hash_code();
+    if (codeNames.find(id) == codeNames.end()) {
+        std::cerr << "[getSignPostCodeName] assigning " << nextCodeName
+                  << " to " << typeid(visitor).name() << std::endl;
+        codeNames[id] = nextCodeName;
+        nextCodeName++;
+    }
+    return codeNames[id];
+}
+
+static uint32_t getSignPostInstance(const Visitor& visitor) {
+    static std::map<size_t, uint32_t> instances;
+    const size_t id = typeid(visitor).hash_code();
+    return instances[id]++;
+}
+
 Visitor::profile_t Visitor::init_apply(const IR::Node *root) {
     if (ctxt) BUG("previous use of visitor did not clean up properly");
     ctxt = nullptr;
@@ -152,6 +173,9 @@ void Visitor::end_apply(const IR::Node*) {}
 
 static indent_t profile_indent;
 Visitor::profile_t::profile_t(Visitor &v_) : v(v_) {
+    signPostCodeName = getSignPostCodeName(v);
+    signPostInstance = getSignPostInstance(v);
+
     struct timespec ts;
 #ifdef CLOCK_MONOTONIC
     clock_gettime(CLOCK_MONOTONIC, &ts);
@@ -160,14 +184,19 @@ Visitor::profile_t::profile_t(Visitor &v_) : v(v_) {
     ts.tv_sec = ts.tv_nsec = 0;
 #endif
     start = ts.tv_sec*1000000000UL + ts.tv_nsec + 1;
+    kdebug_signpost_start(signPostCodeName, signPostInstance, 0, 0, 4);
     assert(start);
     ++profile_indent;
 }
-Visitor::profile_t::profile_t(profile_t &&a) : v(a.v), start(a.start) {
+Visitor::profile_t::profile_t(profile_t &&a)
+        : v(a.v), start(a.start), signPostCodeName(a.signPostCodeName),
+                                  signPostInstance(a.signPostInstance) {
     a.start = 0;
+    a.signPostCodeName = 0;
+    a.signPostInstance = 0;
 }
 Visitor::profile_t::~profile_t() {
-    if (start) {
+    if (start > 0) {
         v.end_apply();
         --profile_indent;
         struct timespec ts;
@@ -178,6 +207,7 @@ Visitor::profile_t::~profile_t() {
         ts.tv_sec = ts.tv_nsec = 0;
 #endif
         uint64_t end = ts.tv_sec*1000000000UL + ts.tv_nsec + 1;
+        kdebug_signpost_end(signPostCodeName, signPostInstance, 0, 0, 4);
         LOG1(profile_indent << v.name() << ' ' << (end-start)/1000.0 << " usec"); }
 }
 
