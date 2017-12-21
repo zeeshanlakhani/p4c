@@ -24,12 +24,15 @@ EBPFType* EBPFTypeFactory::create(const IR::Type* type) {
     CHECK_NULL(type);
     CHECK_NULL(typeMap);
     EBPFType* result = nullptr;
+
     if (type->is<IR::Type_Boolean>()) {
         result = new EBPFBoolType();
     } else if (type->is<IR::Type_Bits>()) {
         result = new EBPFScalarType(type->to<IR::Type_Bits>());
     } else if (type->is<IR::Type_StructLike>()) {
         result = new EBPFStructType(type->to<IR::Type_StructLike>());
+    } else if (type->is<IR::Type_Stack>()) {
+        result = new EBPFStackType(type->to<IR::Type_Stack>());
     } else if (type->is<IR::Type_Typedef>()) {
         auto canon = typeMap->getTypeType(type, true);
         result = create(canon);
@@ -48,8 +51,7 @@ EBPFType* EBPFTypeFactory::create(const IR::Type* type) {
     return result;
 }
 
-void
-EBPFBoolType::declare(CodeBuilder* builder, cstring id, bool asPointer) {
+void EBPFBoolType::declare(CodeBuilder* builder, cstring id, bool asPointer) {
     emit(builder);
     if (asPointer)
         builder->append("*");
@@ -105,8 +107,11 @@ EBPFScalarType::declare(CodeBuilder* builder, cstring id, bool asPointer) {
 
 //////////////////////////////////////////////////////////
 
-EBPFStructType::EBPFStructType(const IR::Type_StructLike* strct) :
-        EBPFType(strct) {
+EBPFStructType::EBPFStructType(const IR::Type_StructLike* strct) : EBPFType(strct) {
+    name = strct->name.name;
+    width = 0;
+    implWidth = 0;
+
     if (strct->is<IR::Type_Struct>())
         kind = "struct";
     else if (strct->is<IR::Type_Header>())
@@ -115,9 +120,6 @@ EBPFStructType::EBPFStructType(const IR::Type_StructLike* strct) :
         kind = "union";
     else
         BUG("Unexpected struct type %1%", strct);
-    name = strct->name.name;
-    width = 0;
-    implWidth = 0;
 
     for (auto f : strct->fields) {
         auto type = EBPFTypeFactory::instance->create(f->type);
@@ -132,8 +134,7 @@ EBPFStructType::EBPFStructType(const IR::Type_StructLike* strct) :
     }
 }
 
-void
-EBPFStructType::declare(CodeBuilder* builder, cstring id, bool asPointer) {
+void EBPFStructType::declare(CodeBuilder* builder, cstring id, bool asPointer) {
     builder->append(kind);
     if (asPointer)
         builder->append("*");
@@ -248,6 +249,34 @@ void EBPFEnumType::emit(EBPF::CodeBuilder* builder) {
         builder->appendLine(",");
     }
     builder->blockEnd(true);
+}
+
+////////////////////////////////////////////////////////////////
+
+EBPFStackType::EBPFStackType(const IR::Type_Stack* stack) : EBPFType(stack) {
+    hdr = stack->elementType;
+    hdrType = EBPFTypeFactory::instance->create(hdr);
+    stackSize = stack->getSize();
+    auto wt = dynamic_cast<IHasWidth*>(hdrType);
+    width = wt->widthInBits() * stackSize;
+    implWidth = wt->implementationWidthInBits() * stackSize;
+}
+
+void EBPFStackType::declare(CodeBuilder* builder, cstring id, bool asPointer) {
+    (void)asPointer;
+    hdrType->declare(builder, id, false);
+    builder->appendFormat("[%d]", stackSize);
+}
+
+void EBPFStackType::emitInitializer(CodeBuilder* builder) {
+    builder->blockStart();
+    for (unsigned i = 0; i < stackSize; i++) {
+        builder->emitIndent();
+        hdrType->emitInitializer(builder);
+        builder->append(",");
+        builder->newline();
+    }
+    builder->blockEnd(false);
 }
 
 }  // namespace EBPF
