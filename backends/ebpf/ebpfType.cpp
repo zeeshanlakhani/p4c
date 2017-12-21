@@ -24,12 +24,15 @@ EBPFType* EBPFTypeFactory::create(const IR::Type* type) {
     CHECK_NULL(type);
     CHECK_NULL(typeMap);
     EBPFType* result = nullptr;
+
     if (type->is<IR::Type_Boolean>()) {
         result = new EBPFBoolType();
     } else if (type->is<IR::Type_Bits>()) {
         result = new EBPFScalarType(type->to<IR::Type_Bits>());
     } else if (type->is<IR::Type_StructLike>()) {
         result = new EBPFStructType(type->to<IR::Type_StructLike>());
+    } else if (type->is<IR::Type_Stack>()) {
+        result = new EBPFStackType(type->to<IR::Type_Stack>());
     } else if (type->is<IR::Type_Typedef>()) {
         auto canon = typeMap->getTypeType(type, true);
         result = create(canon);
@@ -48,8 +51,7 @@ EBPFType* EBPFTypeFactory::create(const IR::Type* type) {
     return result;
 }
 
-void
-EBPFBoolType::declare(CodeBuilder* builder, cstring id, bool asPointer) {
+void EBPFBoolType::declare(CodeBuilder* builder, cstring id, bool asPointer) {
     emit(builder);
     if (asPointer)
         builder->append("*");
@@ -105,8 +107,11 @@ EBPFScalarType::declare(CodeBuilder* builder, cstring id, bool asPointer) {
 
 //////////////////////////////////////////////////////////
 
-EBPFStructType::EBPFStructType(const IR::Type_StructLike* strct) :
-        EBPFType(strct) {
+EBPFStructType::EBPFStructType(const IR::Type_StructLike* strct) : EBPFType(strct) {
+    name = strct->name.name;
+    width = 0;
+    implWidth = 0;
+
     if (strct->is<IR::Type_Struct>())
         kind = "struct";
     else if (strct->is<IR::Type_Header>())
@@ -115,9 +120,6 @@ EBPFStructType::EBPFStructType(const IR::Type_StructLike* strct) :
         kind = "union";
     else
         BUG("Unexpected struct type %1%", strct);
-    name = strct->name.name;
-    width = 0;
-    implWidth = 0;
 
     for (auto f : strct->fields) {
         auto type = EBPFTypeFactory::instance->create(f->type);
@@ -128,12 +130,12 @@ EBPFStructType::EBPFStructType(const IR::Type_StructLike* strct) :
             width += wt->widthInBits();
             implWidth += wt->implementationWidthInBits();
         }
+        LOG1("Struct: " << new EBPFField(type, f) << " " << f);
         fields.push_back(new EBPFField(type, f));
     }
 }
 
-void
-EBPFStructType::declare(CodeBuilder* builder, cstring id, bool asPointer) {
+void EBPFStructType::declare(CodeBuilder* builder, cstring id, bool asPointer) {
     builder->append(kind);
     if (asPointer)
         builder->append("*");
@@ -249,5 +251,36 @@ void EBPFEnumType::emit(EBPF::CodeBuilder* builder) {
     }
     builder->blockEnd(true);
 }
+
+////////////////////////////////////////////////////////////////
+
+EBPFStackType::EBPFStackType(const IR::Type_Stack* stack) : EBPFType(stack) {
+    width = 0;
+    implWidth = 0;
+    auto hdr = stack->elementType;
+    LOG1("TypeStack: " << " HDR \n" << hdr << " IS \n" << hdr->is<IR::Type_Header>());
+
+    for (unsigned i = 0; i < stack->getSize(); i++) {
+        auto type = EBPFTypeFactory::instance->create(hdr);
+        auto wt = dynamic_cast<IHasWidth*>(type);
+        LOG1("TypeStack2: " << " wt " << wt);
+        if (wt == nullptr) {
+            ::error("EBPF: Unsupported type in header stack: %s", hdr);
+        } else {
+            width += wt->widthInBits();
+            implWidth += wt->implementationWidthInBits();
+        }
+        hdrs.push_back(new EBPFHdr(type, type->to<IR::Type_Header>()));
+    }
+}
+
+void EBPFStackType::declare(CodeBuilder* builder, cstring id, bool asPointer) {
+    // builder->append("header stack ");
+
+}
+
+void EBPFStackType::emitInitializer(CodeBuilder* builder) {}
+
+void EBPFStackType::emit(CodeBuilder* builder) {}
 
 }  // namespace EBPF

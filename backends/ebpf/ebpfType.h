@@ -121,7 +121,7 @@ class EBPFStructType : public EBPFType, public IHasWidth {
  public:
     cstring  kind;
     cstring  name;
-    std::vector<EBPFField*>  fields;
+    std::vector<EBPFField*> fields;
     unsigned width;
     unsigned implWidth;
 
@@ -145,6 +145,30 @@ class EBPFEnumType : public EBPFType, public EBPF::IHasWidth {
 
     const IR::Type_Enum* getType() const { return type->to<IR::Type_Enum>(); }
 };
+
+class EBPFStackType : public EBPFType, public IHasWidth {
+    class EBPFHdr {
+     public:
+        cstring comment;
+        EBPFType* type;
+        const IR::Type_Header* hdr;
+
+    EBPFHdr(EBPFType* type, const IR::Type_Header* hdr, cstring comment = nullptr) :
+        comment(comment), type(type), hdr(hdr) {}
+    };
+
+ public:
+     std::vector<EBPFHdr*> hdrs;
+     unsigned width;
+     unsigned implWidth;
+
+     explicit EBPFStackType(const IR::Type_Stack* stack);
+     void declare(CodeBuilder* builder, cstring id, bool asPointer) override;
+     void emitInitializer(CodeBuilder* builder) override;
+     unsigned widthInBits() override { return width; }
+     unsigned implementationWidthInBits() override { return implWidth; }
+     void emit(CodeBuilder* builder) override;
+ };
 
 }  // namespace EBPF
 
