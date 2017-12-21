@@ -147,27 +147,20 @@ class EBPFEnumType : public EBPFType, public EBPF::IHasWidth {
 };
 
 class EBPFStackType : public EBPFType, public IHasWidth {
-    class EBPFHdr {
-     public:
-        cstring comment;
-        EBPFType* type;
-        const IR::Type_Header* hdr;
-
-    EBPFHdr(EBPFType* type, const IR::Type_Header* hdr, cstring comment = nullptr) :
-        comment(comment), type(type), hdr(hdr) {}
-    };
-
  public:
-     std::vector<EBPFHdr*> hdrs;
      unsigned width;
      unsigned implWidth;
+     unsigned stackSize;
+     const IR::Type* hdr;
+     EBPFType* hdrType;
 
      explicit EBPFStackType(const IR::Type_Stack* stack);
      void declare(CodeBuilder* builder, cstring id, bool asPointer) override;
      void emitInitializer(CodeBuilder* builder) override;
      unsigned widthInBits() override { return width; }
      unsigned implementationWidthInBits() override { return implWidth; }
-     void emit(CodeBuilder* builder) override;
+     void emit(CodeBuilder* builder) override
+     { builder->append("0"); };
  };
 
 }  // namespace EBPF

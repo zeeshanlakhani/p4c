@@ -130,7 +130,6 @@ EBPFStructType::EBPFStructType(const IR::Type_StructLike* strct) : EBPFType(strc
             width += wt->widthInBits();
             implWidth += wt->implementationWidthInBits();
         }
-        LOG1("Struct: " << new EBPFField(type, f) << " " << f);
         fields.push_back(new EBPFField(type, f));
     }
 }
@@ -255,32 +254,29 @@ void EBPFEnumType::emit(EBPF::CodeBuilder* builder) {
 ////////////////////////////////////////////////////////////////
 
 EBPFStackType::EBPFStackType(const IR::Type_Stack* stack) : EBPFType(stack) {
-    width = 0;
-    implWidth = 0;
-    auto hdr = stack->elementType;
-    LOG1("TypeStack: " << " HDR \n" << hdr << " IS \n" << hdr->is<IR::Type_Header>());
-
-    for (unsigned i = 0; i < stack->getSize(); i++) {
-        auto type = EBPFTypeFactory::instance->create(hdr);
-        auto wt = dynamic_cast<IHasWidth*>(type);
-        LOG1("TypeStack2: " << " wt " << wt);
-        if (wt == nullptr) {
-            ::error("EBPF: Unsupported type in header stack: %s", hdr);
-        } else {
-            width += wt->widthInBits();
-            implWidth += wt->implementationWidthInBits();
-        }
-        hdrs.push_back(new EBPFHdr(type, type->to<IR::Type_Header>()));
-    }
+    hdr = stack->elementType;
+    hdrType = EBPFTypeFactory::instance->create(hdr);
+    stackSize = stack->getSize();
+    auto wt = dynamic_cast<IHasWidth*>(hdrType);
+    width = wt->widthInBits() * stackSize;
+    implWidth = wt->implementationWidthInBits() * stackSize;
 }
 
 void EBPFStackType::declare(CodeBuilder* builder, cstring id, bool asPointer) {
-    // builder->append("header stack ");
-
+    (void)asPointer;
+    hdrType->declare(builder, id, false);
+    builder->appendFormat("[%d]", stackSize);
 }
 
-void EBPFStackType::emitInitializer(CodeBuilder* builder) {}
-
-void EBPFStackType::emit(CodeBuilder* builder) {}
+void EBPFStackType::emitInitializer(CodeBuilder* builder) {
+    builder->blockStart();
+    for (unsigned i = 0; i < stackSize; i++) {
+        builder->emitIndent();
+        hdrType->emitInitializer(builder);
+        builder->append(",");
+        builder->newline();
+    }
+    builder->blockEnd(false);
+}
 
 }  // namespace EBPF
